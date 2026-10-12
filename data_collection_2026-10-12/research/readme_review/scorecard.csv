@@ -1,0 +1,10 @@
+round,reviewer,section,original_accuracy,original_readability,original_clarity,original_formatting,candidate_accuracy,candidate_readability,candidate_clarity,candidate_formatting,review_record
+1,readme_navigation,1,7,6,6,6,9,9,9,9,navigation_round1.txt
+1,readme_evidence,2,9,7,8,7,9,9,9,9,evidence_round1.txt
+1,readme_repro,3,6,7,6,7,9,9,9,9,repro_round1.txt
+2,readme_navigation,2,8,7,7,7,9,9,9,9,navigation_round2.txt
+2,readme_evidence,3,7,8,7,8,9,9,9,9,evidence_round2.txt
+2,readme_repro,1,7,6,6,7,9,9,9,9,repro_round2.txt
+3,readme_navigation,3,7,8,7,8,9,9,9,9,navigation_round3.txt
+3,readme_evidence,1,8,7,6,7,9,9,9,9,evidence_round3.txt
+3,readme_repro,2,8,7,8,8,9,9,9,9,repro_round3.txt

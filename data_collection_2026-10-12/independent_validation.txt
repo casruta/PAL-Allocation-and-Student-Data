@@ -1,0 +1,22 @@
+Independent research-agent review completed 12 October 2026.
+
+PASS: all 20 downloaded originals exist and match manifest SHA-256 checksums.
+PASS: all 1,675 normalized IRCC year-end records match source cells, years,
+      province labels and suppression status.
+PASS: all 1,430 Alberta institution records match source values and administrative
+      labels. Boundary rows exclude neighbouring provinces.
+PASS: annual columns use published year totals, not summed months; 2026 is labelled
+      January-July. All 363 suppressed institution values remain numerically blank.
+PASS: all 42 provincial-allocation rows and expected-permit values match tables.
+PASS: PAL evidence quotations appear on the stated PDF pages. Calgary PDF text
+      extraction splits the word 'the'; this extraction artifact was normalized.
+PASS: Alberta 2024-25 system headcount 50,164 agrees across institution, age-group
+      and gender worksheets. Institutional rows total 50,606 because students can
+      attend multiple institutions; the system total is deduplicated.
+
+SOURCE ISSUE RETAINED: the 2024 PAL allocation rows sum to 552,094, while the
+published national total is 552,095. The 2025 and 2026 totals reconcile.
+
+No extraction fixes were required. These checks validate faithful extraction;
+they do not prove administrative source accuracy, current residence, or complete
+public coverage of institution-level PAL usage. See README.txt for limitations.

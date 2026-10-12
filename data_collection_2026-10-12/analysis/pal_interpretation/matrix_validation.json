@@ -1,0 +1,13 @@
+{
+  "matrix_rows": 29,
+  "events": 21,
+  "utilization_evidence_rows": 13,
+  "checks": {
+    "baseline_six_years": true,
+    "pre_pal_allocation_missing_not_zero": true,
+    "event_rows_preserved": true,
+    "matrix_numeric_counts_nonnegative": true,
+    "all_source_urls_present": true,
+    "2025_counts_match_senate_and_dli": true
+  }
+}

@@ -1,0 +1,123 @@
+INSTITUTION-SPECIFIC DISCOVERY LOG
+Research date: 2026-10-12 UTC
+Researcher: institution_deep_search agent. Scope: public university institutional, governance, annual-report, enrolment-dashboard, and student-association sources. No university contacted. No private login attempted. This log records discovery, not a claim that every listed document was downloaded.
+
+NEW NUMERIC PAL EVIDENCE VERIFIED BY OPENING OFFICIAL PDFS
+1. University of Lethbridge, GFC approved minutes, February 3, 2025, page 2.
+URL: https://www.ulethbridge.ca/sites/default/files/2025-03/gfc-approved_minutes_feb_3_2025_2.pdf
+Quote: "issued 1,784 PALS last year"
+Interpretation: 2024 PAL issuance reported in February 2025; not number submitted with study-permit applications. The source does not give a precise start/end date for "last year".
+2. MacEwan University, GFC minutes, February 10, 2025, page 2.
+URL: https://www.macewan.ca/c/documents/2025-02-10-gfc-minutes.pdf
+Quote: "this year, the university expects 1,500 letters to support recruitment efforts."
+Interpretation: EXPECTED 2025 allocation; not confirmed issued or used count. Minutes also say a communication issue led to initially insufficient PALs in 2024.
+3. University of Lethbridge proposed fees and rates report, 2025-26, page 54.
+URL: https://www.ulethbridge.ca/sites/default/files/2024-12/2025-2026-proposed-fees-and-rates-report-full-final.pdf
+Quote: "we don’t know how many used them to apply for a study permit"
+This is evidence of a limitation in university-held usage data. The discussed Fall 2024 undergraduate intake ultimately had307 registered students. The "over1000 PALs" wording is explicitly conditional on a hypothetical full cycle; do not treat it as actual issuance. Do not divide307 by1784: populations/periods differ.
+4. University of Lethbridge March1 2024 budget message.
+URL: https://www.ulethbridge.ca/sites/default/files/2024/03/2024-25_budget_message_to_community_mar_1-24_final.pdf
+Confirms previously located2687 allocation for January22 2024-January21 2025; applications permitted, not approved study permits. Comparing1784 to2687 requires checking allocation revisions/reporting windows.
+
+ENROLMENT/RELATED SOURCES LOCATED
+https://www.ulethbridge.ca/analysis/view-facts
+Direct page verified: Fall 2025 international1370; all students8051.
+https://www.ulethbridge.ca/analysis/definitions
+Official international definition includes non-domestic learners outside Canada who do not require study permits. Institutional counts are not equivalent to physical presence in Alberta.
+https://www.ulethbridge.ca/sites/default/files/2025-09/budget-brief_2025-26-intl-tuition-revenues_sept-25_1.pdf
+Direct PDF verified: Fall 2020 actual548; Fall 2024 actual1631; Fall 2025 projected1340 (superseded by facts page1370); Fall 2027 projected900.
+https://www.ulethbridge.ca/unews/node/10805
+Contemporary Fall 2020 news release has551 international students excluding exchange, differing from later548 figure. Preserve source vintage/definition rather than silently reconciling.
+https://www.mtroyal.ca/AboutMountRoyal/OfficesGovernance/_pdfs/pdf_annualreport_2025-2026.pdf
+Direct PDF verified: printedp8/PDFp9 internationalFLE384.1 in2025-26 PRELIMINARY. Not headcount. No attestation text found.
+https://www.macewan.ca/c/documents/annual-report-2025-26.pdf
+Direct PDF verified: printedp38 internationalshare4.9%in2023-24 and5.5%in2024-25 (revises prior preliminary5.3%). No attestation text found.
+https://www.athabascau.ca/_documents/governance/au-annual-report-2025-26.pdf
+Direct PDF verified: p10 totallearners36943; international7.5%. Predominantly online; not a measure of physical presence in Alberta. No exact internationalcount extracted.
+https://www.ualberta.ca/en/registrar/media-library/faculty-staff-resources/2024-25-undergraduate-and-graduate-enrolment-report.pdf
+Search-index official PDF text reports8299 international students(+8yearonyear),18.0%share. Direct web.open failed. Local download must be independently checked.
+https://www.ualberta.ca/en/registrar/media-library/faculty-staff-resources/2024-25-undergraduate-and-graduate-enrolment-report-undergraduate-appendix.pdf
+Search-index official PDF text includes country breakdown and historicalcharts through 2024-25. Direct download not verified by this agent.
+https://www.gsa.ualberta.ca/en/registrar/faculty-and-staff-resources/undergraduate-and-graduate-enrolment-report.html
+Reportcatalogue2019-20 through2025-26; current links point toEDRMS; explicitCCID requirement. No login attempted.
+https://www2.su.ualberta.ca/media/uploads/1143/
+Public student-union directory lists Annual Report on Undergraduate Enrolment2021-22.pdf. Directory verified; PDF not opened by this agent.
+https://www.auarts.ca/sites/default/files/2025-12/AUArts%202024-25%20Annual%20Report%20-%20Signed.pdf
+Official2024-25 annualreport located insearchindex.
+
+DASHBOARD SURFACES AND ACCESS LIMITS
+Official Calgary OIA landing page: https://www.ucalgary.ca/provost/oia/about-oia
+Its current "Explore the Fact Book" link opens:
+https://app.powerbi.com/view?r=eyJrIjoiNmM1Y2Q4M2YtNzlhZC00OTc5LWJhZjMtNDc3YzI0MTBiYTQxIiwidCI6ImM2MDlhMGVjLWE1ZTMtNDYzMS05Njg2LTE5MjI4MGJkOTE1MSJ9
+Official link verified byweb.open andweb.click; web page parser returns zero lines (JavaScript-only app). On 2026-10-12 attempted actual browser inspection with computer-use skill/cua. createBrowserTab("iab",URL,{visible:false}) returned "Browser is not available: iab". Subsequent cua.getState() returned {"apps":[],"browsers":[]}. No connected browser/native UI surface available. Thus visible dashboard coverage, filters, exports and downloads could not be inspected. No export obtained, no dashboard rows claimed, no private/hidden API reverse engineering attempted.
+Old CalgaryTableau reference located in2025 SU submission:
+https://public.tableau.com/app/profile/university.of.calgary.office.of.institutional.analysis/viz/Factbook-SummaryALL/TableofContents
+This old reference is not proof of current working export.
+Lethbridge official facts page links https://public.tableau.com/app/profile/ulethbridge.ia . Web parser showsJavaScript requirement; no dashboard export inspected.
+
+OTHER PAL/INSTITUTIONAL SEARCH FINDINGS
+UCalgary January22 2025 GAPS minutes reiterate underuse of2024 allocation and anticipated16% reserved for Masters/doctoral versus 84% broader pool. February27 2025 CCS minutes confirm2025 allocation received January 24 without count.
+https://www.ucalgary.ca/secretariat/sites/default/files/teams/1/GFC/Standing%20Committee%20Minutes/CCS/CCS%20Approved%20Minutes%202025-02-27.pdf
+Searches also covered UAlberta, UCalgary, MRU, AUArts, Athabasca, Concordia Edmonton, Ambrose, Burman admissions/governance terms. No additional numeric institutional PAL issuance/use count located. This does not prove none is publicly available; source coverage remains incomplete.
+
+ACTUAL WEB SEARCH QUERIES (GROUPED IN ORDER; SOME RETURNED NO RELEVANT RECORD)
+site.ualberta.ca "PALs" "allocation"
+site.ucalgary.ca "PALs" "allocation"
+site.macewan.ca "attestation" "allocation"
+site.ulethbridge.ca "attestation" "allocation"
+"university of alberta" "provincial attestation" allocation
+"university of calgary" "PALs" issued
+"MacEwan" "PAL" allocation
+"Mount Royal" "attestation" allocation
+site:ualberta.ca "attestation" "allocation" -site:preview.ualberta.ca
+site:ucalgary.ca "attestation" "allocation" "2025"
+site:macewan.ca "attestation" "allocation"
+site:mtroyal.ca "provincial attestation"
+site:macewan.ca "attestation" "letters" "2026"
+site:ulethbridge.ca "PALs" allocation
+site:auarts.ca "attestation" allocation
+site:athabascau.ca "attestation" allocation
+site:ualberta.ca "provincial attestation letters" "2024" "number"
+site:ualberta.ca "PAL" "allocation" "2025"
+site:ucalgary.ca "PAL" "issued" "2025" "allocation"
+site:ulethbridge.ca "PAL" "2025" "allocation"
+"University of Alberta" "PALs" "2025" -Pediatric -LinkedIn
+"University of Alberta" "attestation letters" "allocated"
+"University of Calgary" "attestation letters" "number"
+"MacEwan" "1,500" "letters"
+site:concordia.ab.ca "attestation" "allocation"
+site:ambrose.edu "attestation" "allocation"
+site:burmanu.ca "attestation" "allocation"
+site:auarts.ca "international" "2025" "annual report"
+site:ualberta.ca "enrolment" "2025" "international" "xlsx"
+site:ucalgary.ca "fact book" "2025" international students
+site:ulethbridge.ca "2025" "international" "enrolment report"
+site:macewan.ca "2025" "international" "enrolment" report
+University Alberta statistical review enrolment international 2024 2025
+University Calgary factbook international enrolment 2025
+University Lethbridge facts figures 2025 international enrolment
+Mount Royal University 2025 institutional analysis international enrolment data
+site:ualberta.ca "Annual Enrolment Report" "2025"
+site:ucalgary.ca factbook enrolment
+site:ualberta.ca "2024-2025" "international" "enrolment report"
+site:ucalgary.ca/oia factbook
+site:ualberta.ca "Statistical Review" enrolment
+site:ulethbridge.ca/analysis "International" "2020"
+site:athabascau.ca "international" "2024-25" "annual report"
+site:athabascau.ca annual report 2024 2025 international students
+site:ualberta.ca international student enrolment 2025 2026 annual report
+"Alberta" "attestation letters" "university" "issued" -site:scribd.com -site:reddit.com
+"Calgary" "PALs" "allocation" -site:reddit.com
+"Lethbridge" "PALs" "2026"
+"MacEwan" "attestation letters" "2024"
+"Alberta" "PAL allocation" university
+"Alberta" "PALs issued" university
+"Alberta" "attestation letters" "unused"
+"Alberta" "attestation letters" "utilization"
+site:ucalgary.ca "annual report" "2025-26"
+site:macewan.ca "annual-report-2025" international
+site:mtroyal.ca "annual report" "2025/2026"
+site:auarts.ca "2025-26" "annual report"
+
+Validation performed: primary PDFs opened and relevant wording/pages checked for Lethbridge 1,784, MacEwan 1,500 expected, and Lethbridge usage-unknown. Direct official latest annual reports checked for MRU, MacEwan, Athabasca. Primary landing-page links traced to dashboard destinations. No inference of zero where counts unavailable.
+

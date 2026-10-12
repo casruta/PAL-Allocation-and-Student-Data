@@ -1,0 +1,76 @@
+VERIFIED COUNTS AND WHAT THEY MEAN
+---------------------------------
+Student enrolment
+Alberta's Learner and Enrolment Reporting System (LERS) reports these annual
+international headcounts in its reporting post-secondary system:
+
+  Academic year   Headcount
+  2019-20            28,246
+  2020-21            27,028
+  2021-22            29,991
+  2022-23            37,076
+  2023-24            48,311
+  2024-25            50,164
+
+Source: analysis/cleaned/annual_enrolment_canada_alberta.csv. These are annual
+enrolments, not arrivals, PAL recipients or permit approvals. In 2024-25, LERS
+reports 4,747 master's and 2,875 doctoral students; see
+analysis/cleaned/alberta_enrolment_by_credential_and_program_type.csv.
+Master's is not MA-only, and doctoral categories are not necessarily PhD-only.
+
+Permit holders before and after PAL
+The national series excluding extensions reports 495,860 holders in 2023,
+293,260 in 2024 and 115,460 in 2025. Alberta's post-secondary DLI permit-effective
+series reports 29,630, 25,570 and 17,250 respectively, INCLUDING extensions.
+These are different populations: do not compare them as national/provincial
+arrivals or infer PAL's causal effect. No comparable annual Alberta new-arrivals
+series was obtained. Six-year counts and exact definitions are in
+analysis/cleaned/pal_before_after_annual_counts.csv; dated policy changes are in
+analysis/cleaned/pal_before_after_event_matrix.csv.
+
+PAL allocations and actual use
+Alberta's published application-space allocations are 40,894 (2024), 47,338
+(2025) and 32,271 (2026). The 2025 graduate allocation is 5,256, or 11.1%, for
+master's and doctoral applicants combined. These are planned application spaces,
+not admitted students or approved permits. Source:
+analysis/cleaned/pal_provincial_allocations_2024_2026.csv.
+
+Actual-use evidence remains incomplete:
+  - Alberta: 26,089 portal-issued PALs in fiscal 2024-25, across DLIs. The annual
+    report states, "the portal issued 26,089 provincial attestation letters"
+    (physical PDF page 58). Fiscal issuance cannot be divided by calendar quotas.
+  - Lethbridge: 1,784 PALs issued in 2024. Its 2,687 allocation covers January 22,
+    2024-January 21, 2025; unmatched periods prevent a verified utilization rate.
+  - Calgary: reported 2024 underuse without the counts needed for a percentage.
+  - Comparators: Saskatchewan endorsed 54.9% by December 3, 2024; Manitoba
+    reported less than 50% used; Toronto reported all used. Stages and dates
+    differ, so these are disclosures, not a standardized university ranking.
+Quotations, dates, sources and limitations:
+analysis/cleaned/pal_university_utilization_evidence.csv.
+
+RULES FOR INTERPRETATION
+-----------------------
+1. Separate admission, PAL allocation, issuance, submission, permit approval,
+   permit effectiveness, arrival and enrolment. A person can appear at several
+   stages. Allocation does not reveal actual university or degree recipients.
+2. PAL began January 22, 2024; earlier years are not applicable, not zero.
+   Master's/doctoral applicants were generally exempt in 2024, included from
+   January 22, 2025, and exempt at public DLIs from January 1, 2026. Other
+   exemptions apply. Changing coverage prevents a like-for-like quota trend.
+3. LERS covers approved programs at publicly funded reporting institutions, not
+   all private colleges or K-12; Banff is excluded. Its international definition
+   includes Student Visa or Other Visa and some refugee/work-permit apprentices.
+   Published headcounts are unique at each aggregation level: 2024-25 institution
+   totals sum to 50,606, versus 50,164 unique system students. Do not sum them.
+4. Athabasca's 2024-25 window spans 16 months; NorQuest repeats spring 2024 across
+   adjacent years; MaKami first reports in 2024-25. Check the reporting-change
+   extract before interpreting growth. Statistics Canada's PSIS instead counts
+   fall-snapshot PROGRAM enrolments, rounded to three; it is not annual LERS.
+5. IRCC counts are rounded to five; suppressed cells remain blank, not zero.
+   Province indicates intended destination, not verified residence or attendance.
+   Use published annual totals, never sums of months. January-July 2026 is partial.
+   Do not splice older year-end and newer monthly stocks with different scopes.
+6. Source inconsistencies remain documented: 2024 allocation rows sum to 552,094
+   versus published 552,095; the 2025 expected-permit table says 316,276 versus
+   316,267 in prose. Neither approvals versus forecast nor expected permits
+   measures PAL utilization. Observed declines do not establish policy causation.

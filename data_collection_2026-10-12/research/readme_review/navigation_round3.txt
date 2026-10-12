@@ -1,0 +1,43 @@
+METHODS/PROVENANCE SECTION -- ROTATED ROUND 3
+Reviewer: readme_navigation agent
+Owned candidate: section_3.txt only; no data or execution outputs changed.
+
+Evidence examined
+- Original methods/coverage/gaps sections and integrated round2_README.txt.
+- Current section_3.txt and original access-limit wording.
+- build_analysis_notebook.py and build_pal_interpretation_notebook.py imports,
+  notebook runpy calls, kernel setup and execution/result-writing code.
+- preliminary_analysis.py and extract_citizenship.py source inputs/imports.
+- Both saved notebook_execution.json records (9 and 6 cells, 0 errors each).
+- collection_validation.json (59 obtained, 1 unavailable) and degree validation
+  (827 numeric matches, no mismatches).
+- Exact existence checks for all 20 explicit slash-containing local references
+  in the Round 2 section; every path exists.
+- Source coverage and institution search logs for retained access limitations.
+
+Scores: accuracy / readability / clarity / formatting
+Original: 7 / 8 / 7 / 8.
+  Broad all-originals validation language and incomplete reproduction/source
+  ownership guidance overstate what the initial collection checks cover.
+Round 2: 9 / 9 / 9 / 9.
+  Correctly distinguishes saved execution evidence from this review's source-code
+  inspection, scopes validation and records distributed provenance. Commands
+  match the inspected notebook dependencies. No material defect identified.
+Round 3: 9 / 9 / 9 / 9.
+  Retains those strengths, restores concise documented access limitations and
+  names which notebook has each saved cell count, avoiding a distant 'respectively'.
+  Useful polish does not justify mechanically increasing scores.
+
+Changes implemented
+1. Restore search/access-log navigation and the HTTP 403/browser limitations that
+   were present in the original but omitted during restructuring. Clarify that
+   failed access is not evidence of data absence.
+2. Label the two saved cell counts directly. No claim of fresh execution added.
+
+Validation boundary
+This was a README/path/dependency review, not a new pipeline execution. Existing
+notebook records were inspected as historical evidence. The documented offline
+order begins with citizenship extraction and preliminary notebook generation;
+the latter creates the kernel needed by the later PAL notebook builder.
+No new substantive research, external contact or data modification was needed.
+Editorial comparisons are not an empirical reader A/B experiment.

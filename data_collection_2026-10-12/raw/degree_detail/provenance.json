@@ -1,0 +1,337 @@
+{
+  "purpose": "Enrolment context only. These are not PAL or study permit recipients.",
+  "filter": "REF_DATE starts 2019 or later; GEO Canada or Alberta or institution ending , Alberta; status international students case-insensitive. All other dimensions and status flags retained unchanged.",
+  "extractions": [
+    {
+      "table": "37100163",
+      "source_member": "37100163.csv",
+      "source_rows": 8164413,
+      "selected_rows": 238605,
+      "years": [
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ],
+      "geographies": [
+        "Alberta",
+        "Canada"
+      ],
+      "status_codes": [
+        "",
+        ".."
+      ],
+      "csv": "37100163_international_canada_alberta_2019_latest.csv",
+      "schema": [
+        "REF_DATE",
+        "GEO",
+        "DGUID",
+        "International Standard Classification of Education (ISCED)",
+        "Institution type",
+        "Classification of Instructional Programs, STEM and BHASE groupings",
+        "Status of student in Canada",
+        "Age group",
+        "Gender",
+        "Selected academic period",
+        "Selected statistics",
+        "UOM",
+        "UOM_ID",
+        "SCALAR_FACTOR",
+        "SCALAR_ID",
+        "VECTOR",
+        "COORDINATE",
+        "VALUE",
+        "STATUS",
+        "SYMBOL",
+        "TERMINATED",
+        "DECIMALS"
+      ]
+    },
+    {
+      "table": "37100232",
+      "source_member": "37100232.csv",
+      "source_rows": 8186645,
+      "selected_rows": 106014,
+      "years": [
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ],
+      "geographies": [
+        "Alberta",
+        "Alberta College of Art and Design, Alberta",
+        "Alberta University of the Arts, Alberta",
+        "Ambrose University, Alberta",
+        "Athabasca University, Alberta",
+        "Bow Valley College, Alberta",
+        "Burman University, Alberta",
+        "Canada",
+        "Concordia University of Edmonton, Alberta",
+        "Grant MacEwan University, Alberta",
+        "Keyano College, Alberta",
+        "Lakeland College, Alberta",
+        "Lethbridge Polytechnic, Alberta",
+        "MaKami College, Alberta",
+        "Medicine Hat College, Alberta",
+        "Mount Royal University, Alberta",
+        "NorQuest College, Alberta",
+        "Northern Alberta Institute of Technology, Alberta",
+        "Northern Lakes College, Alberta",
+        "Northwestern Polytechnic, Alberta",
+        "Olds College, Alberta",
+        "Portage College, Alberta",
+        "Red Deer Polytechnic, Alberta",
+        "Southern Alberta Institute of Technology, Alberta",
+        "St. Mary's University, Alberta",
+        "The King's University, Alberta",
+        "University of Alberta, Alberta",
+        "University of Calgary, Alberta",
+        "University of Lethbridge, Alberta"
+      ],
+      "status_codes": [
+        "",
+        ".."
+      ],
+      "csv": "37100232_international_canada_alberta_2019_latest.csv",
+      "schema": [
+        "REF_DATE",
+        "GEO",
+        "DGUID",
+        "International Standard Classification of Education (ISCED)",
+        "Institution type",
+        "Registration status",
+        "Classification of Instructional Programs, STEM and BHASE groupings",
+        "Status of student in Canada",
+        "Gender",
+        "UOM",
+        "UOM_ID",
+        "SCALAR_FACTOR",
+        "SCALAR_ID",
+        "VECTOR",
+        "COORDINATE",
+        "VALUE",
+        "STATUS",
+        "SYMBOL",
+        "TERMINATED",
+        "DECIMALS"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "37100163-eng.zip",
+      "source_url": "https://www150.statcan.gc.ca/n1/tbl/csv/37100163-eng.zip",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.788326+00:00",
+      "bytes": 97232589,
+      "sha256": "a0720e8c07bd7fc14695dfe1904d65c5649fed07e8bd46434d432f6cf9ae6982"
+    },
+    {
+      "file": "3710016301.html",
+      "source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710016301",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.859740+00:00",
+      "bytes": 88632,
+      "sha256": "d7872cfb2bb58293bbb74aa11e553510e800fbcb0a5849547fdb3bf1e3f0b67a"
+    },
+    {
+      "file": "37100163_detail_request_0.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.859740+00:00",
+      "bytes": 19025,
+      "sha256": "1361f80a42a0389a387f5a11d6219c8c7df5f4772e2f237bea1fb7b93af6c943"
+    },
+    {
+      "file": "37100163_detail_request_1.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.861244+00:00",
+      "bytes": 19170,
+      "sha256": "8f671263ed15f66bbd86a8bf1e2dccbfdb32c9ed4fb4c3956cf305ec50911428"
+    },
+    {
+      "file": "37100163_detail_request_2.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.861244+00:00",
+      "bytes": 16965,
+      "sha256": "ec5b369733f5625ba32b1d321a8619618dbac0ce32c03bbe07185eb64baee559"
+    },
+    {
+      "file": "37100163_detail_response_0.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.861244+00:00",
+      "bytes": 408909,
+      "sha256": "c005a3beb9a1ff3a7c11ac14be4377dac0c869497ff071b2044c24afdb0a0a0d"
+    },
+    {
+      "file": "37100163_detail_response_1.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.862749+00:00",
+      "bytes": 370164,
+      "sha256": "2685bfef6acf39dbadf6ba372b695174c28367df79d981a70e2a213fd21dbc03"
+    },
+    {
+      "file": "37100163_detail_response_2.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.862749+00:00",
+      "bytes": 310701,
+      "sha256": "aea19af58024478c851304b5d8b4fac3e24ea9ed972af8b4b7240bbb5c5ad249"
+    },
+    {
+      "file": "37100163_download_response.json",
+      "source_url": "https://www150.statcan.gc.ca/t1/wds/rest/getFullTableDownloadCSV/37100163/en",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.863755+00:00",
+      "bytes": 88,
+      "sha256": "f31c9d6cc03c71c4691eb2e9e0cfff2a3ca56cf5978033287e2fe7a9fc651c39"
+    },
+    {
+      "file": "37100163_international_age_gender_degree.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.863755+00:00",
+      "bytes": 661915,
+      "sha256": "93e183e18e2fd57617766bd7b25c8532fc5759d9885b4c5646fcde376a494183"
+    },
+    {
+      "file": "37100163_international_canada_alberta_2019_latest.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.886685+00:00",
+      "bytes": 67564438,
+      "sha256": "5a78dc051d2a0dca340ac4f7a5edcaf2a04c333358b38d7b7ffdab286428afbe"
+    },
+    {
+      "file": "37100163_international_field_degree.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.932813+00:00",
+      "bytes": 301963,
+      "sha256": "969ce3f0bac3b61f5378e86b8e8780ca728471d3a02dd695257512c47bc72114"
+    },
+    {
+      "file": "37100163_MetaData.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.961388+00:00",
+      "bytes": 10366,
+      "sha256": "655ae1aca5a960cb72728881b9ff8224026c224b995d441fd9b87162e12602df"
+    },
+    {
+      "file": "37100163_metadata.json",
+      "source_url": "https://www150.statcan.gc.ca/t1/wds/rest/getCubeMetadata",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.962387+00:00",
+      "bytes": 33383,
+      "sha256": "7725657cc9d2843597f44e0bef7f24826f396299c99d17192997f9004ddfc848"
+    },
+    {
+      "file": "37100232-eng.zip",
+      "source_url": "https://www150.statcan.gc.ca/n1/tbl/csv/37100232-eng.zip",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:02.962892+00:00",
+      "bytes": 103565097,
+      "sha256": "f80e327f5fa200cc3cec4b1f3ba3c7d62ba2974e741943f71512f64a1f0c7081"
+    },
+    {
+      "file": "37100232_api_failures.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.034309+00:00",
+      "bytes": 14676,
+      "sha256": "43f82fd4cbc055b9daf0bfa6343a74d934f6d3e5778640fd3fd4b3d32054e1e6"
+    },
+    {
+      "file": "37100232_api_unavailable_observations.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.050324+00:00",
+      "bytes": 61675,
+      "sha256": "65d45fbd3584482d99d864700c314bbbcc47a4383318bfd8b59dd82e3a22368d"
+    },
+    {
+      "file": "37100232_degree_request.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.072994+00:00",
+      "bytes": 18080,
+      "sha256": "9dfc094c3252ce7e92b8d185704294a29155adfc40530be9ea1c8d41f94c8b2f"
+    },
+    {
+      "file": "37100232_degree_response.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.074001+00:00",
+      "bytes": 276157,
+      "sha256": "1c120a138c1bc8403ad503643f48a7ea3c7e384b46c960905334f9bc975f7326"
+    },
+    {
+      "file": "37100232_international_canada_alberta_2019_latest.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.074001+00:00",
+      "bytes": 25726329,
+      "sha256": "1dfb713ac76617b1c9648e8968895e5cbdda253c5d05b65e068d41492b05f7c1"
+    },
+    {
+      "file": "37100232_international_degrees_canada_alberta_2019_2024.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.093549+00:00",
+      "bytes": 350924,
+      "sha256": "26dc24e8aa8273ca8a4909fa4961ad33b200c17a14b020f2c17461f2dc7bebaa"
+    },
+    {
+      "file": "37100232_international_institution_field_degree.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.094550+00:00",
+      "bytes": 1668507,
+      "sha256": "6f9fb51ac80a64adc9a4536c3fcf87156157c0caf30f9a9f1d5f4bb1d1f9a154"
+    },
+    {
+      "file": "37100232_MetaData.csv",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.122615+00:00",
+      "bytes": 33400,
+      "sha256": "05ae8b6308ecca96ed608b0cf9078b34be3d315504d5df83914b93a0b9350a27"
+    },
+    {
+      "file": "37100232_metadata.json",
+      "source_url": "https://www150.statcan.gc.ca/t1/wds/rest/getCubeMetadata",
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.122615+00:00",
+      "bytes": 119767,
+      "sha256": "21d002a985f22834325b0c9c83e659c5f60e0a53a6e036b2e2893fd63db11acb"
+    },
+    {
+      "file": "extract_api_degrees.py",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.123907+00:00",
+      "bytes": 2013,
+      "sha256": "e3bec20b268999675812ee67b20c8fad7a742febdcf4ed3c9785f4bce28b3050"
+    },
+    {
+      "file": "extract_degree_detail.py",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.123907+00:00",
+      "bytes": 3229,
+      "sha256": "c49ae9680728cd8ee18361c63faa0857c05b163db5eeb4ec9200bbfb571315e4"
+    },
+    {
+      "file": "prepare_demographic_request.py",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.123907+00:00",
+      "bytes": 621,
+      "sha256": "3ff80b63ba3003ec162683050a0143a24c22d74b607e4fea4da3bad19c5eb61b"
+    },
+    {
+      "file": "README.txt",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.124908+00:00",
+      "bytes": 3838,
+      "sha256": "f37155783173dbc22db2459854f5455012aa908da0514e25c3a211e6cea8159f"
+    },
+    {
+      "file": "validate_and_slice.py",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.124908+00:00",
+      "bytes": 2887,
+      "sha256": "3877d6a5e55b68f054b4e2a63786c5e83a18b59bfd548a0be6a14bbff0f1b407"
+    },
+    {
+      "file": "validation.json",
+      "source_url": null,
+      "retrieved_or_generated_utc": "2026-10-12T00:37:03.125913+00:00",
+      "bytes": 346,
+      "sha256": "7e1729301a94fc64c5dc3f5200a1f8678d6fd63d38c611638df84c3501d06f4c"
+    }
+  ]
+}

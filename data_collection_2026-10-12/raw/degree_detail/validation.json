@@ -1,0 +1,9 @@
+{
+  "api_degree_rows": 827,
+  "matched": 827,
+  "mismatches": [],
+  "age_gender_degree_rows": 2575,
+  "field_degree_rows": 1130,
+  "institution_field_degree_rows": 6265,
+  "notes": "API and bulk CSV independently retrieved. Empty/status flags preserved. Totals and subtotals retained; use explicit filters, never sum the complete file."
+}

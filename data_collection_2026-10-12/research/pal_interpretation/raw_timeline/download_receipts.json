@@ -1,0 +1,202 @@
+[
+  {
+    "source_id": "financial24",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-feb-28-2024/narrative.html",
+    "local_path": "research/pal_interpretation/raw_timeline/financial24.html",
+    "status": "downloaded",
+    "bytes": 27994,
+    "sha256": "2f6332ef32c500d372190d0bc1d51a493b2eceaa80723e0c79b09d3b5cf29440",
+    "retrieved_at": "2026-10-12T04:22:18.306533+00:00",
+    "error": null
+  },
+  {
+    "source_id": "pal24",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/01/canada-to-stabilize-growth-and-decrease-number-of-new-international-student-permits-issued-to-approximately-360000-for-2024.html",
+    "local_path": "research/pal_interpretation/raw_timeline/pal24.html",
+    "status": "downloaded",
+    "bytes": 40798,
+    "sha256": "8c846e8543930a0bf8df0d71e46f4e6c3f9dbbaeb8cb85fa134b6736f0ef26b8",
+    "retrieved_at": "2026-10-12T04:22:19.623742+00:00",
+    "error": null
+  },
+  {
+    "source_id": "masters",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/international-student-program-reform-more-information.html",
+    "local_path": "research/pal_interpretation/raw_timeline/masters.html",
+    "status": "downloaded",
+    "bytes": 28385,
+    "sha256": "840651f4de7619124db952b350fdee58301293164131e348eebdf268c16b37a1",
+    "retrieved_at": "2026-10-12T04:22:21.907605+00:00",
+    "error": null
+  },
+  {
+    "source_id": "allocation24",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/04/minister-miller-issues-statement-on-international-student-allocations-for-provinces-and-territories.html",
+    "local_path": "research/pal_interpretation/raw_timeline/allocation24.html",
+    "status": "downloaded",
+    "bytes": 45089,
+    "sha256": "28021becc1c8b896be904cbd77600c280afb89b0aa69f809eb56e26b513bcaf7",
+    "retrieved_at": "2026-10-12T04:22:25.356271+00:00",
+    "error": null
+  },
+  {
+    "source_id": "partnership",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/update-public-private-college-partnership-programs.html",
+    "local_path": "research/pal_interpretation/raw_timeline/partnership.html",
+    "status": "downloaded",
+    "bytes": 21402,
+    "sha256": "ae22496167a93d864fa445820f09d636ccb36c051964f2bb01a99b530fcd4371",
+    "retrieved_at": "2026-10-12T04:22:26.736267+00:00",
+    "error": null
+  },
+  {
+    "source_id": "sept24",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/09/strengthening-temporary-residence-programs-for-sustainable-volumes.html",
+    "local_path": "research/pal_interpretation/raw_timeline/sept24.html",
+    "status": "downloaded",
+    "bytes": 40212,
+    "sha256": "a3ae083d9ceb0ca93f97af779db45c504d7326dd018ebd31929a4e4fd446c5f8",
+    "retrieved_at": "2026-10-12T04:22:30.071759+00:00",
+    "error": null
+  },
+  {
+    "source_id": "pgwp",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-nov-25-2024/post-graduation-work-permit-program-labour-market-impact.html",
+    "local_path": "research/pal_interpretation/raw_timeline/pgwp.html",
+    "status": "downloaded",
+    "bytes": 24797,
+    "sha256": "6c48a2e131f9ded566eae207409a62c752659d820db89d02cd85498f8063c557",
+    "retrieved_at": "2026-10-12T04:22:31.481904+00:00",
+    "error": null
+  },
+  {
+    "source_id": "sds",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/end-student-direct-stream-nigeria-student-express.html",
+    "local_path": "research/pal_interpretation/raw_timeline/sds.html",
+    "status": "downloaded",
+    "bytes": 22882,
+    "sha256": "52dfae7df2cc50e7b112a943253a7a7d2abc0c0055fa97c1586ed3f2d16b1148",
+    "retrieved_at": "2026-10-12T04:22:34.743919+00:00",
+    "error": null
+  },
+  {
+    "source_id": "qp",
+    "url": "https://search.open.canada.ca/qpnotes/record/cic%2CIRCC-2025-QP-00030",
+    "local_path": "research/pal_interpretation/raw_timeline/qp.html",
+    "status": "downloaded",
+    "bytes": 86424,
+    "sha256": "6ff8a820905514a439f712600d1a8eba189dfbf904bf7e25c9c674b2b6a8ca9b",
+    "retrieved_at": "2026-10-12T04:22:35.629610+00:00",
+    "error": null
+  },
+  {
+    "source_id": "family",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html",
+    "local_path": "research/pal_interpretation/raw_timeline/family.html",
+    "status": "downloaded",
+    "bytes": 22875,
+    "sha256": "199cb7279462633dea8513619d649171b944cec286a1b7aef61e9d03d716519c",
+    "retrieved_at": "2026-10-12T04:22:37.872902+00:00",
+    "error": null
+  },
+  {
+    "source_id": "calgary",
+    "url": "https://www.ucalgary.ca/secretariat/sites/default/files/teams/1/GFC/Standing%20Committee%20Minutes/GAPS/GAPS%20Approved%20Minutes%202025-01-22.pdf",
+    "local_path": "research/pal_interpretation/raw_timeline/calgary.pdf",
+    "status": "downloaded",
+    "bytes": 302888,
+    "sha256": "76a2db96b2c1a414acc647f8036f96288a6e305abaed279cfdafd151481e45e7",
+    "retrieved_at": "2026-10-12T04:22:38.414794+00:00",
+    "error": null
+  },
+  {
+    "source_id": "allocation25",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2025-provincial-territorial-allocations-under-international-student-cap.html",
+    "local_path": "research/pal_interpretation/raw_timeline/allocation25.html",
+    "status": "downloaded",
+    "bytes": 30667,
+    "sha256": "a971570f89165f1478ff368c172e1642baf00d2c3b6876d8fca381d4198e7772",
+    "retrieved_at": "2026-10-12T04:22:41.851649+00:00",
+    "error": null
+  },
+  {
+    "source_id": "toronto",
+    "url": "https://governingcouncil.utoronto.ca/system/files/agenda-items/20250212_PB_03.pdf",
+    "local_path": "research/pal_interpretation/raw_timeline/toronto.pdf",
+    "status": "downloaded",
+    "bytes": 3291464,
+    "sha256": "a5251cc2a698e62ff9c1a6b94d27dea5ae0fd182c596adad05cf97e7897d5dc3",
+    "retrieved_at": "2026-10-12T04:22:42.648363+00:00",
+    "error": null
+  },
+  {
+    "source_id": "allocation26",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html",
+    "local_path": "research/pal_interpretation/raw_timeline/allocation26.html",
+    "status": "downloaded",
+    "bytes": 31275,
+    "sha256": "a18bac8d5694547c976ebdeeb30bb8152a854303cbee9b82e84c63e00d98ce57",
+    "retrieved_at": "2026-10-12T04:22:43.931639+00:00",
+    "error": null
+  },
+  {
+    "source_id": "graduate26",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html",
+    "local_path": "research/pal_interpretation/raw_timeline/graduate26.html",
+    "status": "downloaded",
+    "bytes": 41818,
+    "sha256": "babac66b8a3ef435cf734fb9d85d717b3d256f4883fc9b2551672e6806b5938d",
+    "retrieved_at": "2026-10-12T04:22:46.219523+00:00",
+    "error": null
+  },
+  {
+    "source_id": "oag",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-apr-20-2026/oag-report.html",
+    "local_path": "research/pal_interpretation/raw_timeline/oag.html",
+    "status": "downloaded",
+    "bytes": 120395,
+    "sha256": "20f904ad862329bc28db838aab440403119009488c2d3e13fccaf883a30e629f",
+    "retrieved_at": "2026-10-12T04:22:48.608477+00:00",
+    "error": null
+  },
+  {
+    "source_id": "financial26",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+    "local_path": "research/pal_interpretation/raw_timeline/financial26.html",
+    "status": "downloaded",
+    "bytes": 37980,
+    "sha256": "c3603ed4b6f8e19a7046f257d745a89382018f8e7c94abea56480669cdf681f0",
+    "retrieved_at": "2026-10-12T04:22:49.897434+00:00",
+    "error": null
+  },
+  {
+    "source_id": "alberta_launch",
+    "url": "https://open.alberta.ca/dataset/9c785a4b-e79a-465b-8fa9-322a322f1f15/resource/802e26db-c6c9-4557-a9ac-60820d707f6b/download/ae-annual-report-2023-2024.pdf",
+    "local_path": "research/pal_interpretation/raw_timeline/alberta_launch.pdf",
+    "status": "downloaded",
+    "bytes": 2786436,
+    "sha256": "ac4a7feec956ae20b826d91b9531d3d4193cec3b35d8c9068f0c1fea85e652f6",
+    "retrieved_at": "2026-10-12T04:23:17.502468+00:00",
+    "error": null
+  },
+  {
+    "source_id": "spouse24",
+    "url": "https://search.open.canada.ca/qpnotes/record/cic%2CIRCC-2024-QP-00066",
+    "local_path": "research/pal_interpretation/raw_timeline/spouse24.html",
+    "status": "downloaded",
+    "bytes": 94164,
+    "sha256": "ad511c9ab8ef786edcc7c1d5721d50e898e8cc277d7982eea8701dc43137b7e4",
+    "retrieved_at": "2026-10-12T04:23:18.413542+00:00",
+    "error": null
+  },
+  {
+    "source_id": "gazette25",
+    "url": "https://gazette.gc.ca/rp-pr/p1/2025/2025-01-18/html/notice-avis-eng.html",
+    "local_path": "research/pal_interpretation/raw_timeline/gazette25.html",
+    "status": "downloaded",
+    "bytes": 76193,
+    "sha256": "5b01b805279cff9c0fda1abdf8d0f8315ac1844139d34ff30ab3abea8a326dd5",
+    "retrieved_at": "2026-10-12T04:23:19.034068+00:00",
+    "error": null
+  }
+]

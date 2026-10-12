@@ -1,0 +1,373 @@
+[
+  {
+    "check": "alberta_enrolment_by_2_digit_cip_code: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "two_digit_cip_code"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_2_digit_cip_code: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_age_group: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "age_group"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_age_group: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_credential_and_program_type: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "credential_type",
+        "program_type"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_credential_and_program_type: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_field_of_study: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "stem_and_bhase",
+        "stem_and_bhase_subgroups"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_field_of_study: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_gender: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "gender"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_gender: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_sector_and_institution: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "learner_category",
+        "academic_year",
+        "sector",
+        "post_secondary_institution",
+        "status"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "alberta_enrolment_by_sector_and_institution: nonnegative headcount",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "ircc_alberta_institution_permit_effective_year: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "province",
+        "institution",
+        "administrative_type",
+        "row_type",
+        "year"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_alberta_institution_permit_effective_year: nonnegative value",
+    "passed": true,
+    "detail": {
+      "missing": 256
+    }
+  },
+  {
+    "check": "ircc_alberta_institution_permit_effective_year: suppression preserved",
+    "passed": true,
+    "detail": {
+      "suppressed_rows": 256
+    }
+  },
+  {
+    "check": "ircc_national_new_arrivals_annual_2024_2026: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "month",
+        "study_permit_holders",
+        "work_permit_holders"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_national_new_student_arrivals_monthly: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "month",
+        "number_of_permit_holders"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_national_study_permit_stock_monthly: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "month",
+        "number_of_permit_holders"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_permit_effective_year_province_study_level: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "province",
+        "study_level",
+        "row_type",
+        "year"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_permit_effective_year_province_study_level: nonnegative value",
+    "passed": true,
+    "detail": {
+      "missing": 44
+    }
+  },
+  {
+    "check": "ircc_permit_effective_year_province_study_level: suppression preserved",
+    "passed": true,
+    "detail": {
+      "suppressed_rows": 44
+    }
+  },
+  {
+    "check": "ircc_year_end_permit_holders: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "province",
+        "study_level",
+        "row_type",
+        "year"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "ircc_year_end_permit_holders: nonnegative value",
+    "passed": true,
+    "detail": {
+      "missing": 23
+    }
+  },
+  {
+    "check": "ircc_year_end_permit_holders: suppression preserved",
+    "passed": true,
+    "detail": {
+      "suppressed_rows": 23
+    }
+  },
+  {
+    "check": "pal_provincial_allocations_2024_2026: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "year",
+        "province"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "pal_provincial_allocations_2024_2026: nonnegative application_spaces",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "pal_provincial_allocations_2024_2026: nonnegative expected_permits_pal_required",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "pal_provincial_allocations_2024_2026: nonnegative graduate_application_spaces",
+    "passed": true,
+    "detail": {
+      "missing": 28
+    }
+  },
+  {
+    "check": "pal_provincial_allocations_2024_2026: nonnegative other_application_spaces",
+    "passed": true,
+    "detail": {
+      "missing": 28
+    }
+  },
+  {
+    "check": "statcan_psis_international_enrolments_2019_2024: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "ref_date",
+        "vector"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "statcan_psis_international_enrolments_2019_2024: nonnegative value",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "statcan_study_related_resident_estimates_2021_2026: unique keys",
+    "passed": true,
+    "detail": {
+      "keys": [
+        "ref_date",
+        "vector"
+      ],
+      "duplicate_rows": 0
+    }
+  },
+  {
+    "check": "statcan_study_related_resident_estimates_2021_2026: nonnegative value",
+    "passed": true,
+    "detail": {
+      "missing": 0
+    }
+  },
+  {
+    "check": "LERS overlapping institution memberships retained",
+    "passed": true,
+    "detail": {
+      "institution_sum": 50606,
+      "published_unique_system_total": 50164,
+      "excess_memberships": 442
+    }
+  },
+  {
+    "check": "2025 allocation graduate + other",
+    "passed": true,
+    "detail": "All published province/territory and total rows"
+  },
+  {
+    "check": "2024 provincial allocation sum minus published total",
+    "passed": false,
+    "detail": -1,
+    "severity": "source_discrepancy"
+  },
+  {
+    "check": "2025 provincial allocation sum minus published total",
+    "passed": true,
+    "detail": 0,
+    "severity": "info"
+  },
+  {
+    "check": "2026 provincial allocation sum minus published total",
+    "passed": true,
+    "detail": 0,
+    "severity": "info"
+  },
+  {
+    "check": "PSIS degree unique keys",
+    "passed": true,
+    "detail": "academic_year + coordinate"
+  },
+  {
+    "check": "37100163_international_age_gender_degree.csv: unique coordinates",
+    "passed": true,
+    "detail": "Published coordinate + reference period"
+  },
+  {
+    "check": "37100163_international_age_gender_degree.csv: counts only",
+    "passed": true,
+    "detail": "No percentage rows mixed with counts"
+  },
+  {
+    "check": "37100163_international_field_degree.csv: unique coordinates",
+    "passed": true,
+    "detail": "Published coordinate + reference period"
+  },
+  {
+    "check": "37100163_international_field_degree.csv: counts only",
+    "passed": true,
+    "detail": "No percentage rows mixed with counts"
+  },
+  {
+    "check": "37100232_international_institution_field_degree.csv: unique coordinates",
+    "passed": true,
+    "detail": "Published coordinate + reference period"
+  }
+]

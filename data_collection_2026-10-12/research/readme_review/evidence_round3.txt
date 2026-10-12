@@ -1,0 +1,47 @@
+SECTION 1 NAVIGATION REVIEW - ROUND 3
+Reviewer: readme_evidence agent. Date: 2026-10-12 UTC.
+Read original README, integrated round2 README, and current section1. Previously
+reviewed sections2 and3. Only section1 and this review record changed this round.
+
+Task-based navigation inspection (editorial, not a human usability study):
+1. Find annual counts: question1 leads directly to the six-year Canada/Alberta
+   outline and institution/study-level distributions; accompanying guide exists.
+2. Find degree profiles: question2 leads to executed notebook, summarized degree
+   file and three detailed dimension files; explicitly not PAL recipients.
+3. Find PAL before/after matrix and actual use: question3 has exact file paths
+   for matrix, annual counts and usage evidence plus executed notebook.
+4. Find caveats: final paragraph points to RULES FOR INTERPRETATION, present in
+   integrated README. Exact freshness/validation heading references improved.
+5. Find complete inventory: folder guide points to cleaned_file_inventory.csv.
+   Checked all29 entries against actual CSV rows; all match.29unique filenames,
+   matching29CSVfiles in analysis/cleaned, no mismatch or duplicate entry.
+6. Open outputs: CSV/spreadsheet and .ipynb/Jupyter guidance is explicit. All21
+   file/directory references recognized in section1 exist. Notebook JSON inspected:
+   first9code cells all have execution counts; second6all executed;0erroroutputs.
+
+Original scores (accuracy / readability / clarity / formatting): 8 / 7 / 6 / 7.
+Accuracy: source/extract descriptions mostly accurate but outdated collection-only
+  framing and navigation omit the latest cleaned analyses and annual outlines.
+Readability: deeper-search update precedes START HERE and duplicates many details.
+Clarity: readers cannot directly find current annual counts, degree profiles or
+  PAL matrix; 'start here' gives older extracts rather than current deliverables.
+Formatting: recognizable headings but compressed dates/numbers and uneven lists.
+
+Round2 scores: 9 / 9 / 9 / 9.
+Accuracy: tested referenced paths, inventory counts and saved notebook execution.
+Readability: question-based routes precede folder detail; concise file descriptions.
+Clarity: scope, periods, recipient limits and file-opening guidance explicit.
+Formatting: consistent headings and indents; only optional exact-heading polish.
+
+Implemented one small repair: replaced vague freshness/remaining-gap/validation
+references with exact integrated heading titles. No substantive defect identified;
+avoided unnecessary restructuring or cosmetic churn.
+
+Final scores: 9 / 9 / 9 / 9. Same score is deliberate: small precision improvement
+does not justify a manufactured score increase. A9means no material defect, not
+proof of perfection. These judgments are not empirical reader A/B results.
+
+Evidence: local Test-Path checks; Import-Csv row reconciliation for all29listed
+files; ConvertFrom-Json inspection of both notebook artifacts. Did not rerun the
+analysis or alter data. Existing source comparisons support claims but do not
+establish completeness of the underlying research search.

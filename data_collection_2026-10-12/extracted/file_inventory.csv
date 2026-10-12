@@ -1,0 +1,32 @@
+﻿file,rows,description
+extracted/alberta_enrolment_information.csv,8,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_dictionary.csv,31,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_reporting_changes.csv,34,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_sector_and_institution.csv,933,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_credential_and_program_type.csv,233,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_2_digit_cip_code.csv,423,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_field_of_study.csv,130,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_age_group.csv,71,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/alberta_enrolment_by_gender.csv,47,Direct sheet export; read Dictionary and Reporting Changes before comparison. Totals are unique counts and must not be recreated by summing institutions.
+extracted/ircc_year_end_permit_holders.csv,1675,"Year-end valid permit holder stock, 2000-2024; province of intended destination; rounded to 5, suppressed cells retained."
+extracted/ircc_permit_effective_year_province_study_level.csv,780,"Holders by year permit became effective; includes annual totals and partial January-July 2026. This is not current stock, enrolment, or PAL usage. Preserve original rounded values."
+extracted/ircc_alberta_institution_permit_effective_year.csv,1430,"Holders by year permit became effective; includes annual totals and partial January-July 2026. This is not current stock, enrolment, or PAL usage. Preserve original rounded values."
+extracted/pal_2024_source_table_1.csv,7,"Verbatim parsed table 1, raw/web/pal_allocations_2024.html; retain multirow headers and published inconsistencies."
+extracted/pal_2024_source_table_2.csv,15,"Verbatim parsed table 2, raw/web/pal_allocations_2024.html; retain multirow headers and published inconsistencies."
+extracted/pal_2024_source_table_3.csv,15,"Verbatim parsed table 3, raw/web/pal_allocations_2024.html; retain multirow headers and published inconsistencies."
+extracted/pal_2025_source_table_1.csv,5,"Verbatim parsed table 1, raw/web/pal_allocations_2025.html; retain multirow headers and published inconsistencies."
+extracted/pal_2025_source_table_2.csv,14,"Verbatim parsed table 2, raw/web/pal_allocations_2025.html; retain multirow headers and published inconsistencies."
+extracted/pal_2025_source_table_3.csv,14,"Verbatim parsed table 3, raw/web/pal_allocations_2025.html; retain multirow headers and published inconsistencies."
+extracted/pal_2026_source_table_1.csv,5,"Verbatim parsed table 1, raw/web/pal_allocations_2026.html; retain multirow headers and published inconsistencies."
+extracted/pal_2026_source_table_2.csv,14,"Verbatim parsed table 2, raw/web/pal_allocations_2026.html; retain multirow headers and published inconsistencies."
+extracted/pal_2026_source_table_3.csv,14,"Verbatim parsed table 3, raw/web/pal_allocations_2026.html; retain multirow headers and published inconsistencies."
+extracted/pal_provincial_allocations_2024_2026.csv,42,"Published application-space allocations and expected permits, not letters issued or spaces used. Annual scope differs."
+extracted/alberta_dli_register_table_1.csv,26,Alberta DLI register.
+extracted/alberta_dli_register_table_2.csv,2,Alberta DLI register.
+extracted/alberta_dli_register_table_3.csv,52,Alberta DLI register.
+extracted/alberta_dli_register_table_4.csv,12,Alberta DLI register.
+extracted/alberta_dli_register_table_5.csv,12,Alberta DLI register.
+extracted/alberta_dli_register_table_6.csv,18,Alberta DLI register.
+extracted/alberta_dli_register_table_7.csv,4,Alberta DLI register.
+extracted/oag_2025_approvals_as_percent_of_forecast_NOT_pal_usage.csv,10,"OAG Exhibit 7, approvals versus forecast as of September 2025, NOT PAL utilization."
+extracted/pal_verified_evidence.csv,3,"Verified short quotations and page references. Incomplete institution coverage; missing values are unknown, never zero."

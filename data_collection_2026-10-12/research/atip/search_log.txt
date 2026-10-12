@@ -1,0 +1,63 @@
+SEARCH LOG — 2026-10-12 — Alberta PAL difficult-data routes
+
+Web query families and results
+
+1. site.assembly.ab.ca "attestation" "letters" "2025"; site.assembly.ab.ca "PALs" "2024"
+Outcome: weak/no relevant results using older assembly domain; changed search to docs.assembly.ab.ca and full phrase.
+
+2. Alberta Hansard "provincial attestation"; "provincial attestation" "Hansard" Alberta
+Outcome: May9 2024 Alberta Hansard p1392, provincial responsibility statement; no count.
+https://docs.assembly.ab.ca/LADDAR_files/docs/hansards/han/legislature_31/session_1/20240509_1330_01_han.pdf
+
+3. site:docs.assembly.ab.ca "attestation"; "attestation" "docs.assembly.ab.ca" "2025"
+Outcome: no new numerical PAL usage evidence from indexed results.
+
+4. site:docs.assembly.ab.ca "international" "cap" "2025" "Sawhney"
+Outcome: 2023–2025 Hansard subject index and economics committee subject index. These identify further debates, but were not a source of institution usage figures.
+https://docs.assembly.ab.ca/LADDAR_files/indexes/hansards/han/legislature_31/session_1/20230620_1330_01_hansubj.pdf
+https://docs.assembly.ab.ca/LADDAR_files/indexes/committees/ef/legislature_31/session_1/20231030_1330_01_efsubj.pdf
+
+5. Alberta "attestation letters" "issued" -site:canada.ca; "provincial attestation" "Alberta" "2025" "issued"
+Outcome: existing Alberta2024–25 annual report 26,089 portal-issued figure; existing2023–24 report implementation context; no new institution breakdown.
+
+6. "provincial attestation" "Alberta" "26,089"; "Alberta" "attestation" "issued" "thousand"
+Outcome: no additional authoritative usage series.
+
+7. "attestation" "Alberta" "ATIP"; "attestation letters" "FOIP"; "provincial attestation" "access to information"; "provincial attestation" "disclosure"
+Outcome: Alberta Personal Information Banks identifies PAL Portal custodian; no public FOIP-released numerical table found. Miscellaneous process records and unrelated attestation hits excluded.
+https://www.alberta.ca/lookup/personal-information-banks.aspx
+
+8. Alberta FOIP completed requests advanced education international students
+Outcome: Alberta access-request route and generic FOIP statistics; no centralized Advanced Education release containing institution PAL usage located.
+https://www.alberta.ca/submit-a-foip-request.aspx
+No request submitted.
+
+9. site:ourcommons.ca "attestation" "Alberta" "letters"; "provincial attestation" "access to information"
+Outcome: House of Commons Q58 response Sep15 2025 specifically addresses requested allocation breakdowns and redirects to provinces. Saved citation in README.
+
+10. "IRCC" "attestation" "A-2024"; "provincial attestation" "completed" "requests"; site:search.open.canada.ca/ati/ "attestation"; site:open.canada.ca "provincial attestation"
+Outcome: general search engine did not surface relevant ATI records. This failure prompted full bulk-catalogue download and filtering, which found the records missed by web search.
+
+11. IRCC completed access information requests search dataset download
+Outcome: official search home, IRCC explanation, full dataset link discovered.
+https://search.open.canada.ca/ati/?wbdisable=true
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/completed-requests.html
+
+12. "0797e893-751e-4695-8229-a5066e4fe43c" csv
+Outcome: exact complete ATI CSV resource discovered. Landing metadata displayed modified2026-08-31. Actual raw download retained, with full hashes/counts in provenance.json.
+https://open.canada.ca/data/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati-all.csv
+
+13. Bulk CSV filter owner_org=cic, completion year>=2020; broad English/French student terms; narrower PAL/attestation terms
+Outcome: 7,750 IRCC summaries examined; 592 broad candidates; five PAL-specific records; 14 priority leads individually saved and request ID validated. Source pages are summaries only.
+
+14. "A-2024-02010" PAL; "A-2025-84005"; "A-2025-83996"
+Outcome: generic search engine did not find substantive copies. Direct official summary record URLs successfully downloaded with curl. No public underlying disclosure package linked on saved pages.
+
+15. "attestation letters" "Alberta" "committee"; "attestation letters" "Alberta" "unused"; "Alberta" "attestation" "utilization" OR "utilisation" OR "unused"
+Outcome: institutional governance/process context, commercial claims, and allocation figures; no new verified actual Alberta university PAL count.
+
+16. Auditor General 2026 International Student Program report Canada
+Outcome: authoritative March23 2026 audit with receipt-cohort application/approval series and province-level forecast comparisons. Direct PDF and caveats in README. Recommended to parent for source collection.
+https://www.canada.ca/en/auditor-general/our-work/audit-reports/auditor-general-report-2026-international-student-program-reforms.html
+
+Coverage limitation: This is a documented search of the routes above, not a claim that every unindexed file, archive, provincial record, or institution's internal database has been exhausted. No access requests or external communications were made.

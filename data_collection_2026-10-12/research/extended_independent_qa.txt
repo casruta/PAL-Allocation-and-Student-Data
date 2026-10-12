@@ -1,0 +1,113 @@
+INDEPENDENT REVIEW OF EXTENDED COLLECTION
+Reviewed 12 October 2026. Reviewer: institution_deep_search subagent.
+Scope: focused 2020-latest files, source metadata/definitions, raw Statistics
+Canada ZIP records, IRCC current stock/arrivals HTML, and Alberta PAL evidence.
+This review did not recreate every earlier workbook extraction or claim that
+public university PAL-use disclosures are complete.
+
+RESULT
+The reviewed focused extracts faithfully preserve source records. No unresolved
+numeric extraction discrepancy was found. A study-related NPR selection issue
+identified by the parent during the work has been corrected and independently
+checked: the final file contains four study-related categories, 1,176 records,
+and excludes the category 'without work or study permits'.
+
+SOURCE FIDELITY CHECKS
+1. PSIS: all 214 selected records matched every original provider field in
+   raw/statcan/37100086-eng.zip, using REF_DATE and COORDINATE as record keys.
+   Source URL/file provenance columns were excluded from comparison.
+2. NPR: all final 1,176 selected records matched every provider field in
+   raw/statcan/17100121-eng.zip, with the same keyed comparison. The four types
+   are study-only; work-and-study; asylum/protected/related with study-only;
+   and asylum/protected/related with work-and-study. No 'without' type remains.
+3. IRCC current HTML: all 3 annual/YTD new-arrival rows, all 32 monthly student
+   arrival rows, and all 32 monthly study-stock rows matched the underlying
+   HTML tables in raw/web/ircc_current_stock_arrivals.html. Annual published
+   values were preserved rather than reconstructed from rounded monthly values.
+4. All six Alberta focused enrolment CSVs are exact filtered copies of the
+   corresponding full extracts for Academic Year >=2019-2020. Row counts:
+   CIP253; age42; credential/program139; field78; gender30; institution561.
+5. The 2026 institution permit-effective rows explicitly say January-July.
+   Their 256 suppressed cells retain blank numeric values. Province/study-level
+   2026 rows also say January-July; 44 suppressed cells remain numerically blank.
+6. All six Alberta provincial/institution PAL entries were checked against
+   their cited physical PDF pages. Five quotes match normalized extracted text
+   exactly. Calgary's PDF text extractor splits 'the' into 't he'; its trailing
+   phrase 'University was not able to use up its 2024 allocation of PALs.'
+   matches exactly. This is an extraction spacing artifact, not contrary evidence.
+
+MEASURE AND DATE DISTINCTIONS REQUIRED IN ANY DOWNSTREAM ANSWER
+IRCC older year-end permit workbook: December31 valid-permit stock, with
+Alberta classified by intended destination. Focused coverage2020-2024. It does
+not prove attendance or physical presence at a particular university.
+
+IRCC permit-effective-year tables: holders grouped by when permits became
+effective, not December31 stock and not new-arrival counts. Complete calendar
+2020-2025 plus January-July2026. Do not annualize2026 without an explicit model.
+
+IRCC current monthly stock: December2023-July2026, month-end dates. Source says
+'These totals do not include asylum claimants, protected persons or related
+groups who may hold a study or work permit.' Dual work/study holders count as
+study holders. July31,2026 value590,205 is an as-of stock, not a full-year flow.
+Its December2024 figure928,220 differs from996,375 in the older year-end
+workbook; scope/vintage differ and these series must not be spliced.
+
+IRCC new arrivals: excludes permit extensions and asylum claimants. Simultaneous
+study/work permits count under study. Annual2024 and2025 are complete;2026
+explicitly January-July. Source rounds counts above5 to multiples of5, suppresses
+0-5 as '--', and identifies its data date as July31,2026.
+
+Statistics Canada PSIS table37-10-0086: academic2019/20-2024/25, but a fall
+snapshot chosen between September30 and December1. Counts program enrolments,
+not unique people or all enrolments during the academic year. Institutions
+and totals are hierarchical categories, not additive peers. Random rounding
+to multiples of3 explains Alberta2024/25 total41,007 versus university19,461
+plus college21,543 (=41,004). Do not force component agreement. This source's
+observed2024/25 release supersedes the same year's earlier modelled estimate
+in the separately preserved May2026 feasibility study. Prairies != Alberta.
+
+Statistics Canada NPR table17-10-0121: quarterly usual-resident estimates,
+July1,2021-July1,2026; not institutional enrolment. Categories are mutually
+exclusive under an asylum/protected/related-first hierarchy. Metadata marks
+periods through July1,2023 final; October1,2023-April1,2026 updated; July1,2026
+preliminary. Preserve STATUS and date. A July1,2026 snapshot is not an annual
+2026 count; the source is not a substitute for a full2020 series.
+
+Alberta LERS: annual unique headcount at each published aggregation level,
+academic2019/20-2024/25 in the focus folder. Legal status Student Visa or Other
+Visa; only provincially approved programming at publicly funded reporting
+institutions. Banff Centre excluded. Does not represent all private, K-12 or
+language-school students. Some refugee/work-permit apprentices are reported
+as international under current LERS rules. Institutional totals must not be
+summed to estimate unique system total; published system total already dedupes.
+Its annual headcount is distinct from PSIS fall program enrolment and IRCC stock.
+
+LERS longitudinal breaks are material: Athabasca2024/25 spans January2024-
+April2025 and artificially increases totals; the noted7,500extra learners are
+all learners, not an international-only adjustment. NorQuest repeats spring2024
+across2023/24 and2024/25; MaKami first reports2024/25. Earlier MRU/NAIT/SAIT,
+Northwestern and Lakeland reporting changes also repeat sessions. Preserve the
+entire reporting-changes file rather than treating all annual movements as
+changes in demand. Remote Athabasca enrolment does not establish Alberta residence.
+
+PAL EVIDENCE AND LIMITS
+PALs begin2024: earlier years are not applicable, not zero usage. Provincial
+application-space allocations and expected permit issuances are capacities or
+targets, not actual issued PALs, IRCC submissions, approvals, arrivals or enrolment.
+
+Alberta fiscal2024-25 portal issued26,089 (annual report physical PDFp58).
+Do not divide by a calendar-year allocation to compute use.
+Lethbridge initial allocation2,687 covers Jan22,2024-Jan21,2025 (budgetp3).
+Lethbridge later reports1,784issued 'last year' in Feb2025 minutes(p2), while
+the fees report(p54) says it does not know how many used them to apply. These
+do not establish a matched PAL-submission utilization percentage. Fall307
+registrants mentioned in source material are not a matched1784-PAL cohort.
+MacEwan1,500 is an expected2025 allocation (Feb2025 minutesp2), not confirmed
+allocation or issuance. Calgary discloses underuse without a numeric numerator
+or denominator. All three stages must remain distinct: allocated, issued, used.
+
+DOCUMENTATION NOTE
+The README was refreshed for the new2020-latest folder and six academic years;
+the corrected scope was checked before completing this review.
+The existence of observed2026 data does not remove partial-year flags or imply
+that the university-by-university PAL-use gap has been filled.

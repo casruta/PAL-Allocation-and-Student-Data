@@ -1,0 +1,31 @@
+SECTION 1 ROUND 2 ROTATED REVIEW
+Reviewer: readme_repro (not the original section author).
+Compared entire original README with integrated round 1 and revised section 1.
+Scores in accuracy/readability/clarity/formatting order, 0-10 editorial judgments:
+  Original corresponding navigation/purpose segments: 7 / 6 / 6 / 7.
+  Round 1 section 1: 9 / 9 / 8 / 9.
+  Revised section 1: 9 / 9 / 9 / 9.
+
+Verified all 24 path mentions in round 1 resolve locally. Counted 29 actual
+analysis/cleaned CSVs and 29 rows in cleaned_file_inventory.csv. Inspected annual
+outline and degree CSV headers/first rows against their descriptions.
+
+Round 1 materially improves the original: question-based entry points lead to
+the current annual files, degree profiles and PAL matrix, rather than sending
+users first to older extracts. It distinguishes recipient evidence from context
+and puts folder navigation before numerical caveats. No dead path found.
+
+Repairs made in round 2:
+- Expanded IRCC at first body use; avoided assuming agency-name familiarity.
+- Added how to open CSV and notebook formats for a non-programming reader.
+- Removed unqualified 'Comparable' from six academic years: known reporting
+  changes make blanket comparability too strong even with later caveats.
+- Described annual_student_count_outline.csv as counts/definitions, not an index.
+- Added verified complete 29-file inventory so the selected navigation does not
+  conceal additional datasets or need to enumerate every file.
+- Matched the RULES FOR INTERPRETATION cross-reference to its actual heading.
+
+Accuracy stays 9 rather than being forced higher: this review tested navigation
+and file descriptions, not every observation in the datasets. Readability and
+formatting were already strong; only clarity earns a higher score. The revisions
+do not alter data, source definitions or notebook contents.

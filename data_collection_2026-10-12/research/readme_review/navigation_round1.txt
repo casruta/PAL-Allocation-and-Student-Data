@@ -1,0 +1,45 @@
+NAVIGATION SECTION REVIEW -- ROUND 1
+Reviewer: readme_navigation agent
+Scope: original Purpose, DEEPER SEARCH UPDATE and START HERE sections.
+Candidate: section_1.txt. No research data or other section files changed.
+
+Evidence examined
+- Entire original collection README and review rubric.
+- analysis/README.txt and analysis/cleaned/ANNUAL_OUTLINE_README.txt.
+- analysis/pal_interpretation/README.txt.
+- Actual analysis and cleaned directory listings: 29 CSV files; both notebooks.
+- Headers and first rows of degree/institution, age/gender and field tables.
+
+Original scores (accuracy/readability/clarity/formatting): 7 / 6 / 6 / 6.
+Accuracy: most individual claims remain sound, but the collection-first-stage
+description and navigation omit the completed cleaned-data/notebook work. The
+claim that source_manifest covers every original download is now too broad;
+later source archives have separate receipts.
+Readability: the update history precedes the entry points and repeats material
+needed elsewhere. Compressed dates and numbers interrupt reading.
+Clarity: readers cannot readily find the requested annual outlines, degree
+profiles or before/after PAL matrix from the top-level entry points.
+Formatting: heading styles and number/date spacing are inconsistent.
+
+Improvements implemented
+1. Recast purpose around current collection AND preliminary analysis.
+2. Organize entry points around the three research questions, with exact paths.
+3. Explicitly direct readers to all four annual-outline files, degree-profile
+   files, both notebooks and PAL before/after/utilization datasets.
+4. Verify and state the actual cleaned CSV count rather than the old inventory.
+5. Move historical search detail, figures, limitations and reproducibility to
+   their responsible sections, while retaining short cross-references.
+6. Use consistent uppercase plain-text headings, spacing and numbered questions.
+
+Candidate self-review scores: 9 / 9 / 9 / 9.
+Accuracy: file names/count and descriptions match inspected files; no new
+recipient inference or changed research number introduced.
+Readability: question-first navigation replaces chronology; under 600 words.
+Clarity: distinct entry points and data layers make the next action explicit.
+Formatting: consistently indented paths and descriptions, simple headings.
+
+Remaining integration check
+Other sections must retain substantive source limitations and ATIP/access details
+removed from the old navigation; this section intentionally does not duplicate
+them. Verify all final cross-referenced sections exist after root integration.
+These scores are editorial comparisons, not an empirical reader A/B experiment.

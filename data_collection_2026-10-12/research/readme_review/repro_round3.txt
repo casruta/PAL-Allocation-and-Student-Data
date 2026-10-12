@@ -1,0 +1,35 @@
+SECTION 2 ROUND 3 ROTATED REVIEW
+Reviewer: readme_repro. Read current integrated README, section 2 and the original
+README retained from round 1. Compared numerical and interpretive claims with
+annual_enrolment_canada_alberta.csv, pal_before_after_annual_counts.csv,
+pal_university_utilization_evidence.csv, citizenship_extraction_notes.txt, and
+extended_independent_qa.txt.
+
+Scores in accuracy/readability/clarity/formatting order (0-10 editorial judgments):
+  Original corresponding evidence/interpretation sections: 8 / 7 / 8 / 8.
+  Round 2 section 2: 8 / 9 / 8 / 9.
+  Revised section 2: 9 / 9 / 9 / 9.
+
+Material defect caught: the blanket 'Province indicates intended destination'
+statement does not apply to all IRCC files. The DLI source title explicitly says
+Designated Learning Institutions' Province. Revised the rule to distinguish
+year-end stock intended destination from DLI institution geography. Both remain
+insufficient evidence of actual residence or attendance.
+
+Additional repairs: explicitly distinguished annual holder series from year-end
+stock; defined stock as a count at a date; clarified that the public-DLI graduate
+degree exemption does not extend to graduate certificates/private DLIs (other
+exemptions can still apply); narrowed 'Do not sum them' to the actual prohibited
+use, estimating unique system people by adding institutional headcounts.
+
+Numerical review: six Alberta LERS annual anchors agree with the annual overview;
+three national and Alberta administrative counts agree with the before/after
+file. Utilization evidence preserves Saskatchewan's partial-period endorsement
+definition, Manitoba's bound, Toronto's reported-all-used statement, and missing
+Calgary/Lethbridge rates. Actual-use rows are not relabelled approvals or forecasts.
+
+Readability and formatting remain 9: no need to force an increase after factual
+repairs. Accuracy remains 9, not 10: this review is bounded to README claims and
+saved evidence, not fresh external-source acquisition or re-execution of analysis.
+No research data were changed. This completes this agent's review of all three
+README segments across the three rounds.

@@ -1,0 +1,23 @@
+{
+  "requirements": {
+    "original_preserved": true,
+    "three_rounds_archived": true,
+    "three_section_reviewers": true,
+    "every_agent_reviewed_every_section": true,
+    "nine_review_records_exist": true,
+    "all_round3_section_metrics_at_least9": true,
+    "independent_final_whole_metrics_at_least9": true,
+    "independent_final_section_metrics_at_least9": true,
+    "independent_comparison_finds_improvement": true,
+    "no_remaining_required_changes": true,
+    "editorial_not_empirical": true,
+    "judged_current_readme": true,
+    "checked_current_readme": true,
+    "referenced_paths_exist": true,
+    "sampled_evidence_unchanged": true,
+    "final_report_review_complete": true
+  },
+  "all_passed": true,
+  "readme_sha256": "6f0174384d5efc6e4ad0f39c94c08484ed3ad26513141a6cf63e23e5f8351735",
+  "evidence_note": "Gate checks confirm saved review coverage and current-file identity. Editorial ratings remain reviewer judgments; they are not a reader experiment."
+}

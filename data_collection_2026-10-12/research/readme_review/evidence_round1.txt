@@ -1,0 +1,54 @@
+SECTION 2 REVIEW - ROUND 1
+Reviewer: readme_evidence agent. Date: 2026-10-12 UTC.
+Scope: verified figures and interpretation. Owned files only were changed.
+Method: editorial original-versus-candidate comparison, not empirical A/B testing.
+
+Original scores (accuracy / readability / clarity / formatting): 9 / 7 / 8 / 7.
+Accuracy: original figures and cautions match the collected evidence inspected.
+Readability: compressed dates and words impede scanning; lengthy enumerations
+repeat cautions also in deeper-search material.
+Clarity: pre/post research and annual outlines are absent; stock is given top
+billing even though it does not answer who arrived or received PALs. Graduate
+allocation and exemption transitions are not sufficiently explicit.
+Formatting: inconsistent spacing, long scattered lists and no annual count table.
+
+Changes implemented in section_2.txt:
+- Added six-year annual headcount table and precise reference to cleaned source.
+- Added master's/doctoral counts with category and recipient limitations.
+- Added pre/post 2023-25 counts with deliberately separate national and Alberta
+  populations and a prohibition on calling the Alberta series arrivals.
+- Added 2025 graduate allocation and eligibility transitions with exact dates.
+- Replaced scattered institutional examples with bounded actual-use disclosures.
+- Retained fiscal/calendar mismatch, non-additivity, rounding, partial-year,
+  reporting-change, source-discrepancy and causality limitations.
+- Added nearby evidence paths, consistent spacing and short thematic headings.
+- Removed stale emphasis on year-end 2024 stock from anchor figures; underlying
+  series remains available and interpretation warning remains.
+
+Candidate scores: 9 / 9 / 9 / 9.
+Accuracy: numerical anchors checked directly against current cleaned CSVs and
+  source-linked usage evidence; all stages and periods labelled.
+Readability: grouped by question; annual table replaces a prose count sequence.
+Clarity: explicitly distinguishes student context, permit counts and PAL capacity.
+Formatting: consistent plain-text headings, aligned table and indented short list.
+These are provisional editorial judgments for rotation review, not guarantees.
+
+Evidence inspected in current filesystem:
+- Entire top-level README.txt and research/readme_review/rubric.txt.
+- analysis/README.txt and analysis/pal_interpretation/README.txt.
+- analysis/cleaned/annual_enrolment_canada_alberta.csv: all six headcounts match.
+- analysis/cleaned/alberta_enrolment_by_credential_and_program_type.csv:
+  2024-2025 Master's 4747, Doctoral 2875, All Program Types 50164.
+- analysis/cleaned/pal_provincial_allocations_2024_2026.csv: Alberta 40894,
+  47338,32271; graduate 5256 in2025. 5256/47338*100 rounds to11.1.
+- analysis/cleaned/pal_before_after_annual_counts.csv: six published years,
+  selected 2023-25 national and Alberta values and distinct definitions match.
+- analysis/cleaned/pal_university_utilization_evidence.csv: exact source quotes,
+  periods, numerator/denominator and rate status checked for all five disclosures.
+- analysis/cleaned/pal_before_after_event_matrix.csv: PAL introduction and
+  policy event definitions inspected; exemption dates also corroborated by
+  analysis/pal_interpretation/README.txt and allocation scope fields.
+
+Limits: did not independently reopen every underlying PDF or redownload sources;
+comparison uses existing source-linked records and prior independent validations.
+No raw/cleaned data, notebooks, or other reviewers' files were modified.

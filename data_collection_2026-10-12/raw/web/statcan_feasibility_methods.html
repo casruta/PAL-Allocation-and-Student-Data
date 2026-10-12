@@ -1,0 +1,1525 @@
+﻿<!DOCTYPE html>
+
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"><![endif]--><!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+
+
+<!-- METADATA BEGINS | DEBUT DES METADONNEES -->
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta name="description" content="Following significant changes introduced by Immigration, Refugees and Citizenship Canada (IRCC) to the international education program, this study aims to assess the feasibility of developing a system to produce up-to-date estimates of international students enrolled in public postsecondary institutions in Canada. Based on survey data and complemented by two administrative data sources, these estimates will address an important data need and provide a clearer picture of the potential impact that immigration policies have had on international postsecondary education in Canada, particularly for the 2024-2025 and 2025-2026 academic years."/>
+<meta name="keywords" content="International students, Visa students"/>
+
+
+<!-- Page Title -->
+<title>Feasibility study: Estimating the international student population in Canada using administrative data</title>
+
+<!--Dublin Core Metadata-->
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+<meta name="dcterms.title" content="Feasibility study: Estimating the international student population in Canada using administrative data"/>
+<meta name="dcterms.language" title="ISO639-2/T" content="eng"/>
+<meta name="dcterms.creator" content="Government of Canada, Statistics Canada" data-gc-analytics-owner="82200|CCES|5017|N/A"/>
+<meta name="dcterms.issued" title="W3CDTF" content="2026-05-05"/>
+<meta name="dcterms.modified" title="W3CDTF" content="2026-05-05"/>
+<meta name="dcterms.subject" title="gcstc" content="Foreign students"/>
+
+<!--Additional Metadata-->
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "Article",
+    "name" : "Feasibility study: Estimating the international student population in Canada using administrative data",
+    "alternateName" : "81-595-M2026001",
+    "headline" : "Following significant changes introduced by Immigration, Refugees and Citizenship Canada (IRCC) to the international education program, this study aims to assess the feasibility of developing a system to produce up-to-date estimates of international students enrolled in public postsecondary institutions in Canada. Based on survey data and complemented by two administrative data sources, these estimates will address an important data need and provide a clearer picture of the potential impact that immigration policies have had on international postsecondary education in Canada, particularly for the 2024-2025 and 2025-2026 academic years.",
+    "url" : "https://www150.statcan.gc.ca/n1/pub/81-595-m/81-595-m2026001-eng.htm",
+    "sameAs" : "https://www150.statcan.gc.ca/n1/pub/81-595-m/81-595-m2026001-fra.htm",
+    "keywords" : "International students, Visa students",
+    "about" : "Other content related to Postsecondary education",
+    "isBasedOn" : "http://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5017",
+    "datePublished" : "2026-05-05",
+    "publisher" : {
+        "@type" : "Organization",
+        "additionalType" : "GovernmentOrganization",
+        "url" : "https://www.statcan.gc.ca/en/start",
+        "name" : "Government of Canada, Statistics Canada",
+        "sameAs" : ["https://en.wikipedia.org/wiki/Statistics_Canada", "https://x.com/statcan_eng", "https://www.facebook.com/StatisticsCanada", "https://www.youtube.com/statisticscanada", "https://www.instagram.com/statcan_eng", "https://ca.linkedin.com/company/statcan", "https://www.reddit.com/user/StatCanada"]
+    } ,
+    "author" : [
+        {
+            "@type" : "Person",
+            "name" : "Félix Blain"
+        },
+        {
+            "@type" : "Person",
+            "name" : "André Lebel"
+        },
+        {
+            "@type" : "Person",
+            "name" : "Camille Proulx"
+        },
+        {
+            "@type" : "Person",
+            "name" : "Ted Si Yuan Cheng"
+        }
+    ]
+
+}
+</script>
+<!-- METADATA ENDS | FIN DES METADONNEES -->
+
+<meta property="dcterms:service" content="StatCan"/> 
+<meta property="dcterms:accessRights" content="2"/>
+
+<link href="/wet-boew4b/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/wet-boew4b/css/wet-boew.min.css">
+<script src="/wet-boew4b/js/jquery.min.js"></script>
+
+<link rel="stylesheet" href="/wet-boew4b/css/theme.min.css">
+<link rel="stylesheet" href="/wet-boew4b/css/statcan.css">
+<link rel="stylesheet" href="/wet-boew4b/invitation-manager/Overlay.css"> 
+
+<noscript><link rel="stylesheet" href="/wet-boew4b/css/noscript.min.css" /></noscript>
+<!-- Adobe Analytics v5 production version --><!--script src="//assets.adobedtm.com/be5dfd287373/8cdb3d539c44/launch-6df9e9b447f9.min.js"></script-->
+<!-- Adobe Analytics v5 staging version --><!--script src="//assets.adobedtm.com/be5dfd287373/8cdb3d539c44/launch-dfa8abb35555-staging.min.js"></script-->
+<!-- Adobe Analytics v10 production version --><script src="//assets.adobedtm.com/be5dfd287373/8f0ead8a37e7/launch-09394abc039d.min.js"></script>
+
+<script>dataLayer1 = [];</script>
+
+
+<script src="/Framework/js/jquery.tooltipster.min.js"></script>
+<script src="/Framework/js/magic-hovers.js"></script>
+<link rel="stylesheet" type="text/css" href="/Framework/css/tooltipster.css">
+<link rel="stylesheet" type="text/css" href="/Framework/css/pubs_wet4.css">
+<link rel="stylesheet" type="text/css" href="/Framework/css/conform-e.css">
+<link rel="stylesheet" type="text/css" href="/wet-boew4b/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/Framework/css/auto-footnotes.css">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/MathML","output/HTML-CSS","output/NativeMML"],
+  extensions: ["mml2jax.js","MathMenu.js","MathZoom.js"]
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js">
+</script>
+<script>!window.MathJax && document.write(unescape('%3Cscript src="/mathjax/MathJax.js"%3E%3C/script%3E'))</script>
+
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
+<header role="banner">
+<div id="wb-bnr" class="container">
+<section id="wb-lng" class="visible-md visible-lg text-right">
+<h2 class="wb-inv">Language selection</h2>
+<div class="row">
+<div class="col-md-12">
+<ul class="list-inline margin-bottom-none">
+<li><a lang="fr" href="/cgi-bin/change.cgi">Fran&#231;ais</a></li>
+</ul>
+</div>
+</div>
+</section>
+<div class="row">
+<div class="brand col-xs-9 col-sm-5 col-md-4">
+<a href="https://www.canada.ca/en.html"><img src="/wet-boew4b/assets/sig-blk-gov-en.svg" alt="Government of Canada"><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span></a>
+</div>
+<section class="wb-mb-links col-sm-offset-4 col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="list-inline text-right chvrn">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+
+<section id="wb-srch" class="col-lg-offset-2 col-md-offset-2 col-xs-6 text-right visible-md visible-lg">
+<h2 class="wb-inv">Search</h2>
+<form action="https://www.statcan.gc.ca/search/results/site-search" method="get" name="cse-search-box" role="search" class="form-inline">
+<div class="form-group wb-srch-qry">
+<label for="wb-srch-q" class="wb-inv">Search Statistics Canada</label>
+<input type="hidden" name="fq" value="stclac:2" />
+<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Statistics Canada">
+<datalist id="wb-srch-q-ac">
+</datalist>
+</div>
+<div class="form-group submit">
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+</div>
+</form>
+</section>
+</div>
+</div>
+
+<nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl" data-ajax-replace="/wet-boew4b/ajax/sitemenu-en.html" typeof="SiteNavigationElement">
+	<div class="container nvbar">
+		<h2 class="wb-inv">Topics menu</h2>
+		<div class="row">
+			<ul class="list-inline menu">
+				<li><a href="https://www150.statcan.gc.ca/n1/en/subjects?MM=1">Subjects</a></li>
+				<li><a href="https://www150.statcan.gc.ca/n1/en/type/data?MM=1">Data</a></li>
+				<li><a href="https://www150.statcan.gc.ca/n1/en/type/analysis?MM=1">Analysis</a></li>
+				<li><a href="https://www.statcan.gc.ca/en/reference?MM=1">Reference</a></li>
+				<li><a href="https://www.statcan.gc.ca/en/geography?MM=1">Geography</a></li>
+				<li><a href="https://www.statcan.gc.ca/en/census?MM=1">Census</a></li>
+				<li><a href="https://www.statcan.gc.ca/en/surveys?MM=1">Surveys and statistical programs</a></li>
+				<li><a href="https://www.statcan.gc.ca/en/about/statcan?MM=1">About StatCan</a></li>
+				<li><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+	<div class="container">
+		<div class="row">
+
+<!-- Breadcrumb trail -->
+<ol class="breadcrumb">
+	<li><a href="/eng/start">Home</a></li>
+	<li><a href="/n1/en/catalogue/81-595-m" title="Online catalogue: 81-595-M">81-595-M</a></li>
+</ol>
+
+</div>
+</div>
+</nav>
+</header>
+
+<main role="main" property="mainContentOfPage" class="container">
+
+<section>
+
+<div class="row">
+	<div class="col-md-12">
+		<h1 property="name" id="wb-cont">
+			<small>Education, Learning and Training Research Paper Series
+</small><br/>
+			Feasibility study: Estimating the international student population in Canada using administrative data
+		</h1>
+		<div class="row">
+		<div class="col-md-8">
+			by <a href="/en/type/analysis?author=blain_felix"><strong>Félix Blain</strong></a>, <a href="/en/type/analysis?author=lebel_andre"><strong>André Lebel</strong></a>, <a href="/en/type/analysis?author=proulx_camille"><strong>Camille Proulx</strong></a>, and <a href="/en/type/analysis?author=cheng_ted_si_yuan"><strong>Ted Si Yuan Cheng</strong></a>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<span class="label label-primary mrgn-rght-md"><strong>Release date:</strong> May 5, 2026</span>
+		<!--<span class="label label-warning wb-inv"><strong>Correction date:</strong> (if required)</span>-->
+	</div>
+
+	<div class="col-md-6">
+	<div class="pull-right mrgn-bttm-sm mrgn-tp-sm">
+		<!--<a href="YYYYY" title="YYYYY" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-book mrgn-rght-sm"></span>Related article</a>-->
+
+		<!--<a href="/pub/11-627-m/11-627-m####-eng.htm" class="btn btn-xs btn-info" title="Infographic: YYYY"><span class="glyphicon glyphicon-picture mrgn-rght-sm"></span>Infographic</a>-->
+
+		<a href="#moreinfo" role="button" aria-controls="moreinfo" class="wb-lbx btn btn-default btn-xs" title="More information: Feasibility study: Estimating the international student population in Canada using administrative data"><span class="fa fa-info-circle mrgn-rght-sm"></span>More information</a>
+
+		<!--<a href="/daily-quotidien/XYZ/XYZ-eng.htm" class="btn btn-default btn-xs hidden-print"><em>The Daily</em> release</a>-->
+
+		<a href="/pub/81-595-m/81-595-m2026001-eng.pdf" class="btn btn-default btn-xs" title="PDF version: Feasibility study: Estimating the international student population in Canada using administrative data"><span class="glyphicon glyphicon-download-alt mrgn-rght-sm"></span>PDF version</a>
+	</div>
+	</div>
+</div>
+
+<p class="wb-inv"><a href="#txt">Skip to text</a></p>
+<details class="hidden-xs hidden-sm rel-article mrgn-bttm-md hidden-print"><summary class="rel-article"><span class="h4">On this page</span></summary>
+<ul>
+	<li><a href="#a1">Abstract</a></li>
+	<li><a href="#a2">Acknowledgments</a></li>
+	<li><a href="#a3">Introduction</a></li>
+	<li><a href="#a4">Data sources</a></li>
+	<li><a href="#a5">Methodology</a></li>
+	<li><a href="#a6">Results</a></li>
+	<li><a href="#a7">Conclusion</a></li>
+	<li><a href="#a8">Appendix</a></li>
+	<li><a href="#a9">References</a></li>
+	<li><a href="#fn">Notes</a></li>
+</ul>
+</details>
+<p class="wb-inv" id="txt">Text begins</p>
+
+
+<!-- ========== CONTENT GOES HERE ========== -->
+<div>
+	<h2 id="a1">Abstract</h2>
+	<p>Following the changes to the international  education program announced by Immigration, Refugees and Citizenship Canada  (IRCC) in 2024, this study examines the feasibility of producing current  estimates of the number of international students enrolled in public  postsecondary institutions in Canada. Using data from the Postsecondary Student  Information System (PSIS) and supplemented by administrative data sources,  these estimates are intended to fill an important data gap for recent academic  years, specifically 2024/2025 and 2025/2026. Preliminary results suggest that  the new government measures led to a sharp decline in the new cohorts of  international students and, to a lesser extent, a decline in total  international student enrolment in public postsecondary institutions. The results indicate that in  the short term—over two academic years—these measures may have significantly reduced  the size of new cohorts of international students (-64%) in 2025/2026 and, more  moderately, the total number of international students in public postsecondary  institutions (-29%). The total number of international students appears to have  particularly fallen in college programs (-42%) and in Ontario (-36%).</p>
+	
+	<p><strong>Keywords:</strong> International students, international education, <abbr title="Postsecondary Student Information System">PSIS</abbr>, postsecondary institutions.</p>
+	
+	<h2 id="a2">Acknowledgments</h2>
+	<p>We  would like to thank those who contributed at various stages of this feasibility  study: Pierre Daoust, Camille Charbonneau, Shou Xiang Chen, and Nicolas Taylor  from the Social Statistics Methods Division; Mélanie Meunier and Julien  Bérard-Chagnon from the Centre for Demography; Liliana Corak, Klarka Zeman,  Youssouf Azmi, Katherine Wall and Christopher Penney from the Canadian Centre  for Education Statistics; and finally, Sébastien Larochelle-Côté, Director  General of the Socioeconomic Statistics and Social Data Integration Branch.</p>
+	
+	<h2 id="a3">Introduction</h2>
+	<p>Over the past two  decades, the portrait of the postsecondary student population in Canada has  changed quickly, mostly due to the increase in the number of international  students. The relative share of international students among all postsecondary  students has increased fivefold since the early 2000s, from about 5% to nearly  25% (<a href="#r17">Statistics  Canada, 2025a</a>). A number of factors contributed to this  rapid growth in the number of international students, including the Government  of Canada&rsquo;s International Education Strategy 2019-2024, which highlighted the  economic, social, and cultural contributions of international students to  Canada (<a href="#r3">Global  Affairs Canada, 2019</a>). This strategy set objectives  to ensure Canada&rsquo;s long-term competitiveness and to continue attracting the  best talent from around the world. At the same time, in recent years, decreased  investment by the provinces in the postsecondary education sector has prompted  institutions to intensify their recruitment abroad (<a href="#r23">Usher,  Balfour &amp; Jeon, 2025</a>). Tuition fees, which are much higher  for international students (<a href="#r18">Statistics  Canada, 2025b</a>), have helped, among other things, to alleviate  the financial pressure that some institutions were experiencing (<a href="#r19">Statistics  Canada, 2025c</a>). Together, these factors have contributed to sustained  growth in the number of international postsecondary students since the early  2010s, averaging over 10% per year (<a href="#r17">Statistics Canada, 2025a</a>).</p>
+	
+	<p>However,  this growth in the international student population has raised concerns about  the sustainability of Canada&rsquo;s international education program. In public  discourse, international students are viewed, on one hand, as ideal candidates  for permanent residency due to their knowledge of official languages, their  recognized Canadian education, and above all, their contribution to the  Canadian economy (<a href="#r14">Scott  &amp; al., 2015</a>; <a href="#r6"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>,  2022</a>). On the other hand, they are  sometimes associated with the pressure they can exert on access to housing, the  health care system and schools (<a href="#r4">Government of Canada, 2025</a>). At the same, several  studies paint a portrait of an increasingly marginalized population: in  addition to high tuition fees, a lack of adequate housing, and financial,  psychological and sexual abuse (<a href="#r11">Marwah  &amp; al., 2023</a>; <a href="#r22">Stick,  Hou &amp; Zhang, 2024</a>), there is evidence of potential  abuse of the international education program (<a href="#r5">Hune-Brown,  2021</a>).</p>
+	
+	<p>As a result,  Immigration, Refugees and Citizenship Canada (IRCC) implemented various  measures aimed at better controlling the growth in the number of international  students. Caps on study permit applications and additional constraints on  obtaining post-graduation work permits were implemented, reducing the number of  international students who will come to study in Canada (<a href="#r7"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>,  2024a</a>; <a href="#r8"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>,  2024b</a>; <a href="#r10"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>,  2025</a>). However, according to various stakeholders in the field, these  policies could potentially lead to repercussions on the financial health of  postsecondary educational institutions, the diversity of programs offered, and  Canada&rsquo;s long-term competitiveness as an international study destination (<a href="#r13">Radio Canada, 2026</a>) (French only).</p>
+	
+	<p>These  changes in Canada are set against a global backdrop of increasing restrictions  for international students in the traditional &ldquo;Big Four&rdquo;<sup id="n1-refa"><a class="fn-lnk" href="#n1"><span class="wb-inv">Note </span></a></sup> destinations.  In 2025, an 18% decrease in the number of international students in these  countries is expected, in favour of new hubs in Europe and Asia (<a href="#r1">Bartosik &amp; Simonova, 2025</a>). In the United States, visa restrictions and the social climate  could lead to a drop of 30% to 40% in new international enrolments,  representing a loss of nearly $7&nbsp;billion (<a href="#r12"><abbr title="National Association of Foreign Student Advisers">NAFSA</abbr>, 2025</a>).</p>
+	
+	<p>For  now, the impact of measures on the number of international students enrolled in  colleges and universities in Canada is not known, as data for the last two  academic years are not yet available. The most recent release from Statistics  Canada&rsquo;s Postsecondary Student Information System (PSIS) examined students in the  2023/2024 academic year, i.e., before changes were made to <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>&rsquo;s <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/minister-2025-05/international-student-program.html">International Student Program (ISP)</a>. The key objective of  this study is therefore to measure the feasibility of developing a system for  producing more current estimates of the number of international students in the  public postsecondary sector in Canada. Using survey data and supplemented by  administrative data sources, these estimates will help to meet a significant  data need and better measure the potential impacts that migration policies have  had on international postsecondary education in Canada, particularly for the  2024/2025 and 2025/2026 academic years. Furthermore, the estimates will also help  to assess where these impacts have been felt most, based on certain key  characteristics such as region, level of education (e.g., bachelor&rsquo;s degree), institution  type (e.g., university), or field of study.</p>
+	
+	<h2 id="a4">Data sources</h2>
+	<p>For  this feasibility study, we used longitudinal data from the <abbr title="Postsecondary Student Information System">PSIS</abbr> along with two administrative  data sources available at Statistics Canada: <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>&rsquo;s monthly study permit files  and the Canada Revenue Agency&rsquo;s (CRA) T2202 tax data.</p>
+	
+	<p>The  Canadian Centre for Education Statistics&rsquo; (CCES) <a href="https://www.statcan.gc.ca/en/survey/business/5017">Postsecondary  Student Information System (PSIS)</a> is a national survey that enables Statistics Canada to publish information on  enrolments and graduates of Canadian public postsecondary institutions to meet  policy and planning needs in the field of postsecondary education. Since the <abbr title="Postsecondary Student Information System">PSIS</abbr>  consists of a set of cross-sectional data files, it has the great advantage of making  longitudinal analyses possible. Statistics Canada&rsquo;s <a href="/n1/pub/37-20-0001/372000012024002-eng.htm">Education  and Labour Market Longitudinal Platform (ELMLP)</a> integrates data from the <abbr title="Postsecondary Student Information System">PSIS</abbr> and other data sources for analytical purposes.  In this study, we first drew on the longitudinal data from the <abbr title="Education  and Labour Market Longitudinal Platform">ELMLP</abbr>.</p>
+	
+	<p>Second,  we used the monthly study permit files from <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr> available at Statistics  Canada. According to <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>, a foreigner must acquire a study permit to begin  university or professional studies or training courses or other courses whose duration  is more than six months and are offered at a <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/temporary-residents/study-permits/designated-learning-institutions.html">designated  learning institution (DLI)</a><sup id="n2-refa"><a class="fn-lnk" href="#n2"><span class="wb-inv">Note </span></a></sup> in Canada (<a href="#r3">Global Affairs Canada, 2026</a>; accessed on March&nbsp;2, 2026).  <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>&rsquo;s data on study permits are very current, being available on a monthly  basis about three weeks after the end of the reference month. These files include  both certain demographic characteristics of students who have had one or more  study permits in Canada and information about the permits themselves. These  data are used to estimate the size and certain characteristics of new cohorts  of international students.</p>
+	
+	<p>Lastly,  tax data from the <abbr title="Canada Revenue Agency">CRA</abbr>&rsquo;s T2202 file (Tuition and Enrolment Certificate) were  used during an exploratory period to confirm the validity of our adjustment  method for the overestimation resulting from study permit holders who are not  in the <abbr title="Postsecondary Student Information System">PSIS</abbr>. The T2202 is a tax form provided by designated educational  institutions to all qualifying students in a qualifying educational program for  tax purposes.<sup id="n3-refa"><a class="fn-lnk" href="#n3"><span class="wb-inv">Note </span></a></sup> Since 2019, the <abbr title="Canada Revenue Agency">CRA</abbr> has collected T2202 certificates from both public and  private designated learning institutions.</p>
+	
+	<h2 id="a5">Methodology</h2>
+	<p>To  align the estimates with the objectives of this study, the reference population  was defined as international students attending a public postsecondary <abbr title="designated learning institution">DLI</abbr>. As  a result, the total population in our estimates was not directly comparable  with other sources. For example, there is a major conceptual difference between  enrolled international students (estimated here) and study permit holders in <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>&rsquo;s  files. Essentially, the study permits provide an indication of permission to  study in Canada, rather than school enrolment. Moreover, the data on study  permit holders have been recognized for historically overestimating the number  of international students actually enrolled in a Canadian postsecondary  institution (<a href="#r15">Statistics Canada, 2019</a>; <a href="#r16">Statistics Canada, 2023</a>). Lastly, unlike the <abbr title="Postsecondary Student Information System">PSIS</abbr> data which are based on the  number of enrolments in programs, our estimates are based on the number of  students studying full-time.</p>
+	
+	<p>In this study, we took a longitudinal  approach by cohort to maximize the use of <abbr title="Education  and Labour Market Longitudinal Platform">ELMLP</abbr>  data. First, each student was placed in an entry cohort for a given program of  study and region of study. We define entry cohorts, or new enrolment cohorts,  as students who are enrolled full-time for the first time in their program of  study during the reference period (September&nbsp;30 to December&nbsp;1). For  our estimates, the entry cohorts were estimated for the fall session of the  academic year. We tracked the respective enrolments of each of these cohorts  longitudinally until the end of the <abbr title="Postsecondary Student Information System">PSIS</abbr> data availability period—for this  study, the 2023/2024 academic year.</p>
+	
+	<p>Subsequently,  we projected these student enrolments using historical annual persistence rates  defined as</p>
+	
+	<math display="block">
+	 <semantics>
+	  <mrow>
+	   <mi>Annual persistence rates</mi><mfenced>
+		<mi>i</mi>
+	   </mfenced><mo>=</mo><mfrac>
+		<mrow>
+		 <msub>
+		  <mi>E</mi>
+		  <mrow>
+		   <mi>i</mi><mo>+</mo><mn>1</mn></mrow>
+		 </msub>
+		 </mrow>
+		<mrow>
+		 <msub>
+		  <mi>E</mi>
+		  <mi>i</mi>
+		 </msub>
+		 </mrow>
+	   </mfrac>
+	   <mo>&#x00D7;</mo><mn>100</mn></mrow>
+	  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+	  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+	  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+	  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+	  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+	  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+	  Gaaeyqaiaab6gacaqGUbGaaeyDaiaabggacaqGSbGaaeiOaiaabcha
+	  caqGLbGaaeOCaiaabohacaqGPbGaae4CaiaabshacaqGLbGaaeOBai
+	  aabogacaqGLbGaaeiOaiaabkhacaqGHbGaaeiDaiaabwgacaqGZbWa
+	  aeWaa8aabaWdbiaabMgaaiaawIcacaGLPaaacqGH9aqpdaWcaaWdae
+	  aapeGaaeyra8aadaWgaaWcbaWdbiaabMgacqGHRaWkcaaIXaaapaqa
+	  baaakeaapeGaaeyra8aadaWgaaWcbaWdbiaabMgaa8aabeaaaaGcpe
+	  Gaey41aqRaaGymaiaaicdacaaIWaaaaa@5AB6@
+	  </annotation>
+	 </semantics>
+	</math>
+	
+	<p>where 
+		<math>
+		 <semantics>
+		  <mrow>
+		   <msub>
+			<mi>E</mi>
+			<mi>i</mi>
+		   </msub>
+		   </mrow>
+		  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+		  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+		  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+		  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+		  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+		  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+		  Gaaeyra8aadaWgaaWcbaWdbiaabMgaa8aabeaaaaa@381D@
+		  </annotation>
+		 </semantics>
+		</math>
+	represents the number  of students enrolled after i years and 
+		<math>
+		 <semantics>
+		  <mrow>
+		   <msub>
+			<mi>E</mi>
+			<mrow>
+			 <mi>i</mi><mo>+</mo><mn>1</mn></mrow>
+		   </msub>
+		   </mrow>
+		  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+		  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+		  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+		  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+		  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+		  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+		  Gaaeyra8aadaWgaaWcbaWdbiaabMgacqGHRaWkcaaIXaaapaqabaaa
+		  aa@39BA@
+		  </annotation>
+		 </semantics>
+		</math>
+	the number of students  still enrolled the following year. The annual persistence rate represents the  proportion of students in a given cohort who will still be enrolled the  following year. This method supposes that the school  persistence rates of recent cohorts will remain roughly the same for future  cohorts. This method was inspired by the one used to calculate the persistence  and graduation indicators of postsecondary students (<a href="#r20">Statistics  Canada, 2025d</a>). However, to ensure  the reliability of estimation parameters for small numbers, annual persistence  rates were preferred for our study.</p>
+	
+	<p>For  the 2024/2025 and 2025/2026 entry cohorts, we used monthly <abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr> data on study  permit holders to estimate the starting population of these cohorts. Only  permits selected on the basis of their effective date and validity during the <abbr title="Postsecondary Student Information System">PSIS</abbr>  reference period (the fall semester) were taken into account for the estimates.  The new cohorts were created based on the first study permit issued to the  person for a given level of study. The number of study permit holders was first  adjusted to account for the overestimation historically observed compared with the  actual number of international students enrolled (<a href="#r15">Statistics  Canada, 2019</a>; <a href="#r16">Statistics  Canada, 2023</a>). These adjustments were  also made amid the introduction of new mechanisms in the International Student  Program for monitoring international students (<a href="#r9"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>, 2024c</a>). However, our model  assumes that this adjustment factor calculated using 2023 data remains constant for the years estimated. Then, these  new entry cohorts were projected using previously calculated annual historical persistence  rates, namely average of  the rates from the last three years published by the <abbr title="Postsecondary Student Information System">PSIS</abbr>.</p>
+	
+	<p>Cohorts  were longitudinally tracked by gender (male, female), study region (Atlantic,  Quebec, Ontario, Prairies, and British Columbia), institution type (public  colleges and universities), level of education, and field of study. We defined  four categories of education levels: college studies (including short-cycle  programs, applied degrees, and college-level bachelor&rsquo;s degrees) as well as university-level  bachelor&rsquo;s degrees, master&rsquo;s degrees, and doctorates. Apprenticeship programs, language training, and any other non-tertiary  postsecondary education programs were excluded from the estimates because these  students are not part of the <abbr title="Postsecondary Student Information System">PSIS</abbr> universe. In addition, given the very small  proportion of students enrolled in master&rsquo;s or equivalent programs in colleges rather  than in universities (0.1% in 2023/2024), they were excluded from our  estimates. The two main fields of study considered are &ldquo;Science, technology,  engineering and mathematics&rdquo; (STEM) and &ldquo;Business, humanities, health, arts,  social science and education&rdquo; (BHASE). Part-time students were also excluded  from the analysis and estimates.</p>
+	
+	<p>To  verify the reliability of the methods and the validity of the results, we  conducted sensitivity analyses by checking the degree of error in our estimates  through <em>backcasting</em>. This method involves testing an estimation or  projection model on historical data by comparing the projected values with the  known values. We did this by measuring the weighted mean absolute percentage error (WMAPE), defined as</p>
+	
+	<math display="block">
+	 <semantics>
+	  <mrow>
+	   <mi>W</mi><mi>M</mi><mi>A</mi><mi>P</mi><mi>E</mi><mo>=</mo><mfrac>
+		<mrow>
+		 <msubsup>
+		  <mstyle mathsize='140%' displaystyle='true'><mo>&#x2211;</mo></mstyle>
+		  <mrow>
+		   <mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+		  <mi>n</mi>
+		 </msubsup>
+		 <mfenced close="|" open="|">
+		  <mrow>
+		   <msub>
+			<mi>A</mi>
+			<mi>i</mi>
+		   </msub>
+		   <mo>&#x2212;</mo><msub>
+			<mi>F</mi>
+			<mi>i</mi>
+		   </msub>
+		   </mrow>
+		 </mfenced></mrow>
+		<mrow>
+		 <msubsup>
+		  <mstyle mathsize='140%' displaystyle='true'><mo>&#x2211;</mo></mstyle>
+		  <mrow>
+		   <mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+		  <mi>n</mi>
+		 </msubsup>
+		 <msub>
+		  <mi>A</mi>
+		  <mi>i</mi>
+		 </msub>
+		 </mrow>
+	   </mfrac>
+	   <mo>&#x00D7;</mo><mn>100</mn></mrow>
+	  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+	  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+	  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+	  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+	  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+	  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+	  Gaam4vaiaad2eacaWGbbGaamiuaiaadweacqGH9aqpdaWcaaWdaeaa
+	  peWaaubmaeqal8aabaWdbiaadMgacqGH9aqpcaaIXaaapaqaa8qaca
+	  WGUbaan8aabaWdbiabggHiLdaakmaaemaapaqaa8qacaWGbbWdamaa
+	  BaaaleaapeGaamyAaaWdaeqaaOWdbiabgkHiTiaadAeapaWaaSbaaS
+	  qaa8qacaWGPbaapaqabaaak8qacaGLhWUaayjcSdaapaqaa8qadaqf
+	  WaqabSWdaeaapeGaamyAaiabg2da9iaaigdaa8aabaWdbiaad6gaa0
+	  WdaeaapeGaeyyeIuoaaOGaamyqa8aadaWgaaWcbaWdbiaadMgaa8aa
+	  beaaaaGcpeGaey41aqRaaGymaiaaicdacaaIWaaaaa@568B@
+	  </annotation>
+	 </semantics>
+	</math>
+	
+	<p>where 
+		<math>
+		 <semantics>
+		  <mrow>
+		   <msub>
+			<mi>A</mi>
+			<mi>i</mi>
+		   </msub>
+		   </mrow>
+		  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+		  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+		  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+		  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+		  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+		  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+		  Gaamyqa8aadaWgaaWcbaWdbiaadMgaa8aabeaaaaa@381D@
+		  </annotation>
+		 </semantics>
+		</math>
+	is the observed value and 
+		<math>
+		 <semantics>
+		  <mrow>
+		   <msub>
+			<mi>F</mi>
+			<mi>i</mi>
+		   </msub>
+		   </mrow>
+		  <annotation encoding='MathType-MTEF'>MathType@MTEF@5@5@+=
+		  feaahOart1ev3aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
+		  hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
+		  4rNCHbGeaGqiVCI8FfYJH8YrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbb
+		  a9q8WqFfeaY=biLkVcLq=JHqpepeea0=as0Fb9pgeaYRXxe9vr0=vr
+		  0=vqpWqaaeaabiGaciaacaqabeaadaqaaqaaaOqaaabaaaaaaaaape
+		  GaamOra8aadaWgaaWcbaWdbiaadMgaa8aabeaaaaa@3822@
+		  </annotation>
+		 </semantics>
+		</math>
+	is the predicted value.  The lower the <abbr title="weighted mean absolute percentage error">WMAPE</abbr>, the more reliable the estimates. The error percentages, or  the difference between the value observed in the <abbr title="Postsecondary Student Information System">PSIS</abbr> data and the value  predicted by our estimates, were also analyzed for 2022/2023.</p>
+	
+	<h2 id="a6">Results</h2>
+	<h3>Total population</h3>
+	<p>In recent years, the number of  international students enrolled in public postsecondary institutions at the  college and university levels has grown substantially, rising from 289,259  students in 2019/2020 to 428,077 in 2023/2024 (Chart&nbsp;1). Except for the  2020/2021 academic year—the first year of the COVID-19 pandemic—growth has been  sustained, ranging from 12% to 20% each year, compared with a 4% decline in  2020/2021. From 2019/2020 to 2023/2024, the number of international students  grew more rapidly at the college level (+110%) than at the university level  (+16%). In 2023/2024, the number of international college students (206,013)  nearly caught up<sup id="n4-refa"><a class="fn-lnk" href="#n4"><span class="wb-inv">Note </span></a></sup> to the number of international  students in university undergraduate and graduate programs (222,064).</p>
+	
+	<p>The new estimates  indicate that the number of international students decreased by 4% in 2024/2025  and by 26% in 2025/2026 compared with previous years. Over two years, this  estimated decline represents a loss of about 124,000 students (-29%), bringing  the total number of international students back to levels similar to those  observed during the second academic year of the pandemic (2021/2022)—nearly  300,000 students. In college programs, the decline appears to be moderate in  2024/2025 (-3%) and more pronounced in 2025/2026, with a 40% drop in enrolment,  representing a cumulative decrease of 42% between 2023/2024 and 2025/2026. Although  the gap between college and university enrolment had been narrowing since  2020/2021, it is thought to have widened in 2025/2026. In 2025/2026, the number  of international students at colleges may be lower than in 2021/2022, while the  number at universities is thought to be lower than in 2019/2020.</p>
+	
+	<p><img src="2026001/c-g/c-g01-eng.png" class="brdr-all img-responsive" alt="Chart 1 Number of international students in  public postsecondary institutions, by institution type, observed (2019/2020 to  2023/2024) and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 1</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 1<br />
+		Table summary<br />The information is grouped by Institution type (appearing as row headers), Academic year, 2019/2020, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_277_1-1" rowspan="3">Institution type</th>
+        <th class="cl-grp" colspan="7" id="h_277_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_277_1-2" id="h_277_2-1">2019/2020</th>
+        <th headers="h_277_1-2" id="h_277_2-2">2020/2021</th>
+        <th headers="h_277_1-2" id="h_277_2-3">2021/2022</th>
+        <th headers="h_277_1-2" id="h_277_2-4">2022/2023</th>
+        <th headers="h_277_1-2" id="h_277_2-5">2023/2024</th>
+        <th headers="h_277_1-2" id="h_277_2-6">2024/2025</th>
+        <th headers="h_277_1-2" id="h_277_2-7">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="7" id="u_277_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="8">			<strong>Source: </strong>PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_277_1-1" id="s_277_4-1">College</th>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-1 u_277_3-1">98,247</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-2 u_277_3-1">85,840</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-3 u_277_3-1">108,619</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-4 u_277_3-1">146,583</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-5 u_277_3-1">206,013</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-6 u_277_3-1">200,374</td>
+        <td headers="s_277_4-1 h_277_1-2 h_277_2-7 u_277_3-1">120,130</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_277_1-1" id="s_277_5-1">University</th>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-1 u_277_3-1">191,012</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-2 u_277_3-1">191,632</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-3 u_277_3-1">201,026</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-4 u_277_3-1">208,842</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-5 u_277_3-1">222,064</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-6 u_277_3-1">210,092</td>
+        <td headers="s_277_5-1 h_277_1-2 h_277_2-7 u_277_3-1">183,616</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<p>In  university programs, the decline appears to be slower than in college programs.  From 2023/2024 to 2025/2026, the decline in the number of international  students is estimated to be 18% at the undergraduate and master&rsquo;s levels and 11%  at the doctoral level (Chart&nbsp;2).</p>
+	
+	<p><img src="2026001/c-g/c-g02-eng.png" class="brdr-all img-responsive" alt="Chart 2 Number of international students in  public postsecondary institutions, by level of study, observed (2020/2021 to  2023/2024) and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 2</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 2<br />
+		Table summary<br />The information is grouped by Level of study (appearing as row headers), Academic year, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_861_1-1" rowspan="3">Level of study</th>
+        <th class="cl-grp" colspan="6" id="h_861_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_861_1-2" id="h_861_2-1">2020/2021</th>
+        <th headers="h_861_1-2" id="h_861_2-2">2021/2022</th>
+        <th headers="h_861_1-2" id="h_861_2-3">2022/2023</th>
+        <th headers="h_861_1-2" id="h_861_2-4">2023/2024</th>
+        <th headers="h_861_1-2" id="h_861_2-5">2024/2025</th>
+        <th headers="h_861_1-2" id="h_861_2-6">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="6" id="u_861_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="7">			<strong>Source:</strong> PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_861_1-1" id="s_861_4-1">College</th>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-1 u_861_3-1">85,840</td>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-2 u_861_3-1">108,619</td>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-3 u_861_3-1">146,583</td>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-4 u_861_3-1">206,013</td>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-5 u_861_3-1">200,374</td>
+        <td headers="s_861_4-1 h_861_1-2 h_861_2-6 u_861_3-1">120,130</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_861_1-1" id="s_861_5-1">Bachelor's</th>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-1 u_861_3-1">136,114</td>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-2 u_861_3-1">139,709</td>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-3 u_861_3-1">140,855</td>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-4 u_861_3-1">148,712</td>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-5 u_861_3-1">139,443</td>
+        <td headers="s_861_5-1 h_861_1-2 h_861_2-6 u_861_3-1">122,028</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_861_1-1" id="s_861_6-1">Master's</th>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-1 u_861_3-1">36,132</td>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-2 u_861_3-1">40,558</td>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-3 u_861_3-1">46,380</td>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-4 u_861_3-1">51,354</td>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-5 u_861_3-1">49,981</td>
+        <td headers="s_861_6-1 h_861_1-2 h_861_2-6 u_861_3-1">42,075</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_861_1-1" id="s_861_7-1">Doctoral</th>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-1 u_861_3-1">19,386</td>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-2 u_861_3-1">20,759</td>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-3 u_861_3-1">21,607</td>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-4 u_861_3-1">21,998</td>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-5 u_861_3-1">20,668</td>
+        <td headers="s_861_7-1 h_861_1-2 h_861_2-6 u_861_3-1">19,513</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<h3>Regions</h3>
+	<p>At  the regional level, estimates indicate that Ontario would see the largest  decline in the number of students, with losses of about 15,000 students in  2024/2025 (-6%) and 92,000 in 2025/2026 (-36%) compared with 2023/2024 (Chart&nbsp;3).  The trends observed in Atlantic Canada, Quebec and British Columbia showed similar  patterns, with slight declines in 2024/2025 followed by larger drops of 14% to  26% in 2025/2026 compared with 2023/2024. The Prairies stand out with a slight  increase in 2024/2025 (+3%) associated with college programs in Alberta. However,  this region follows the same trend as the other provinces and regions in  2025/2026, with a decrease of 19%.</p>
+	
+	<p><img src="2026001/c-g/c-g03-eng.png" class="brdr-all img-responsive" alt="Chart 3 Number of international students in  public postsecondary institutions, by region, observed (2020/2021 to 2023/2024)  and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 3</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 3<br />
+		Table summary<br />The information is grouped by Region (appearing as row headers), Academic year, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_6_1-1" rowspan="3">Region</th>
+        <th class="cl-grp" colspan="6" id="h_6_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_6_1-2" id="h_6_2-1">2020/2021</th>
+        <th headers="h_6_1-2" id="h_6_2-2">2021/2022</th>
+        <th headers="h_6_1-2" id="h_6_2-3">2022/2023</th>
+        <th headers="h_6_1-2" id="h_6_2-4">2023/2024</th>
+        <th headers="h_6_1-2" id="h_6_2-5">2024/2025</th>
+        <th headers="h_6_1-2" id="h_6_2-6">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="6" id="u_6_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="7">			<strong>Source:</strong> PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_6_1-1" id="s_6_4-1">Atlantic</th>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-1 u_6_3-1">16,978</td>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-2 u_6_3-1">15,819</td>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-3 u_6_3-1">18,621</td>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-4 u_6_3-1">23,319</td>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-5 u_6_3-1">21,546</td>
+        <td headers="s_6_4-1 h_6_1-2 h_6_2-6 u_6_3-1">17,274</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_6_1-1" id="s_6_5-1">Quebec</th>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-1 u_6_3-1">41,367</td>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-2 u_6_3-1">44,525</td>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-3 u_6_3-1">47,113</td>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-4 u_6_3-1">52,382</td>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-5 u_6_3-1">51,909</td>
+        <td headers="s_6_5-1 h_6_1-2 h_6_2-6 u_6_3-1">44,945</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_6_1-1" id="s_6_6-1">Ontario</th>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-1 u_6_3-1">143,954</td>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-2 u_6_3-1">170,913</td>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-3 u_6_3-1">204,581</td>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-4 u_6_3-1">257,042</td>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-5 u_6_3-1">242,237</td>
+        <td headers="s_6_6-1 h_6_1-2 h_6_2-6 u_6_3-1">165,537</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_6_1-1" id="s_6_7-1">Prairies</th>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-1 u_6_3-1">29,682</td>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-2 u_6_3-1">32,902</td>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-3 u_6_3-1">38,776</td>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-4 u_6_3-1">47,037</td>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-5 u_6_3-1">48,463</td>
+        <td headers="s_6_7-1 h_6_1-2 h_6_2-6 u_6_3-1">39,275</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_6_1-1" id="s_6_8-1">British Columbia</th>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-1 u_6_3-1">45,491</td>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-2 u_6_3-1">45,486</td>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-3 u_6_3-1">46,334</td>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-4 u_6_3-1">48,297</td>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-5 u_6_3-1">46,311</td>
+        <td headers="s_6_8-1 h_6_1-2 h_6_2-6 u_6_3-1">36,715</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<p>In 2024, the  Canadian government established study permit quotas by province, based on population  size, among other factors  (<a href="#r7"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>, 2024a</a>). With these  changes, most of the less populated provinces were allocated a larger share of  the new permits issued since their historical share of international students  was often lower than their demographic weight. For Alberta, the number of study  permits authorized for 2024 was 23% higher than for 2023.</p>
+	
+	<p>Despite  these changes, Ontario continued to be the province with the largest number of  international students, with nearly 166,000 international students expected to  still be enrolled in public institutions in 2025/2026. These results would  nonetheless have a major impact on the distribution of international students  across the country. For example, Ontario was home to a growing share of the  total number of international students, reaching 60% in 2023/2024, compared  with its respective share of about 39% of the Canadian population. In  2025/2026, this share seems to be more balanced, with about 54% in Ontario,  around 15% in each of Quebec, British Columbia and the Prairies, and just over  5% in the Atlantic provinces (Table&nbsp;1).</p>
+	
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>Table 1<br />
+
+		Regional distribution of international students and the Canadian population
+      <span class="wb-inv">
+		Table summary<br />The information is grouped by Region (appearing as row headers), International students, Canadian population1, 2023/2024, 2024/2025, 2025/2026, 2023, 2024 and 2025, calculated using percent units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_959_1-1" rowspan="3">Region</th>
+        <th class="cl-grp" colspan="3" id="h_959_1-2">International students</th>
+        <th class="cl-grp" colspan="3" id="h_959_1-3">Canadian population          <span class="text-nowrap"><sup id="tbl01n_1-refa"><a class="fn-lnk" href="#tbl01n_1"><span class="wb-inv">Table 1 Note </span>1</a></sup></span>
+</th>
+      </tr>
+      <tr>
+        <th headers="h_959_1-2" id="h_959_2-1">2023/2024</th>
+        <th headers="h_959_1-2" id="h_959_2-2">2024/2025</th>
+        <th headers="h_959_1-2" id="h_959_2-3">2025/2026</th>
+        <th headers="h_959_1-3" id="h_959_2-4">2023</th>
+        <th headers="h_959_1-3" id="h_959_2-5">2024</th>
+        <th headers="h_959_1-3" id="h_959_2-6">2025</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="6" id="u_959_3-1">percent</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="7">          <div class="wb-fnote" role="note">
+            <dl>
+              <dt><span class="wb-inv">Note&nbsp;</span>1</dt>
+              <dd id="tbl01n_1">
+                <p><a href="#r21">Statistics Canada (2025e)</a>, population as of October 1, release of December 17, 2025.</p>
+                <p class="fn-rtn"><a href="#tbl01n_1-refa"><span class="wb-inv">Return to note&nbsp;</span>1<span class="wb-inv"> referrer</span></a></p>
+              </dd>
+            </dl>
+          </div>
+			<strong>Source:</strong> Authors' calculations.
+		</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_959_1-1" id="s_959_4-1">Atlantic</th>
+        <td headers="s_959_4-1 h_959_1-2 h_959_2-1 u_959_3-1">5</td>
+        <td headers="s_959_4-1 h_959_1-2 h_959_2-2 u_959_3-1">5</td>
+        <td headers="s_959_4-1 h_959_1-2 h_959_2-3 u_959_3-1">6</td>
+        <td headers="s_959_4-1 h_959_1-3 h_959_2-4 u_959_3-1">6</td>
+        <td headers="s_959_4-1 h_959_1-3 h_959_2-5 u_959_3-1">6</td>
+        <td headers="s_959_4-1 h_959_1-3 h_959_2-6 u_959_3-1">6</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_959_1-1" id="s_959_5-1">Quebec</th>
+        <td headers="s_959_5-1 h_959_1-2 h_959_2-1 u_959_3-1">12</td>
+        <td headers="s_959_5-1 h_959_1-2 h_959_2-2 u_959_3-1">13</td>
+        <td headers="s_959_5-1 h_959_1-2 h_959_2-3 u_959_3-1">15</td>
+        <td headers="s_959_5-1 h_959_1-3 h_959_2-4 u_959_3-1">22</td>
+        <td headers="s_959_5-1 h_959_1-3 h_959_2-5 u_959_3-1">22</td>
+        <td headers="s_959_5-1 h_959_1-3 h_959_2-6 u_959_3-1">22</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_959_1-1" id="s_959_6-1">Ontario</th>
+        <td headers="s_959_6-1 h_959_1-2 h_959_2-1 u_959_3-1">60</td>
+        <td headers="s_959_6-1 h_959_1-2 h_959_2-2 u_959_3-1">59</td>
+        <td headers="s_959_6-1 h_959_1-2 h_959_2-3 u_959_3-1">54</td>
+        <td headers="s_959_6-1 h_959_1-3 h_959_2-4 u_959_3-1">39</td>
+        <td headers="s_959_6-1 h_959_1-3 h_959_2-5 u_959_3-1">39</td>
+        <td headers="s_959_6-1 h_959_1-3 h_959_2-6 u_959_3-1">39</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_959_1-1" id="s_959_7-1">Prairies</th>
+        <td headers="s_959_7-1 h_959_1-2 h_959_2-1 u_959_3-1">11</td>
+        <td headers="s_959_7-1 h_959_1-2 h_959_2-2 u_959_3-1">12</td>
+        <td headers="s_959_7-1 h_959_1-2 h_959_2-3 u_959_3-1">13</td>
+        <td headers="s_959_7-1 h_959_1-3 h_959_2-4 u_959_3-1">18</td>
+        <td headers="s_959_7-1 h_959_1-3 h_959_2-5 u_959_3-1">19</td>
+        <td headers="s_959_7-1 h_959_1-3 h_959_2-6 u_959_3-1">19</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_959_1-1" id="s_959_8-1">British Columbia</th>
+        <td headers="s_959_8-1 h_959_1-2 h_959_2-1 u_959_3-1">11</td>
+        <td headers="s_959_8-1 h_959_1-2 h_959_2-2 u_959_3-1">11</td>
+        <td headers="s_959_8-1 h_959_1-2 h_959_2-3 u_959_3-1">12</td>
+        <td headers="s_959_8-1 h_959_1-3 h_959_2-4 u_959_3-1">14</td>
+        <td headers="s_959_8-1 h_959_1-3 h_959_2-5 u_959_3-1">14</td>
+        <td headers="s_959_8-1 h_959_1-3 h_959_2-6 u_959_3-1">14</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	
+	<h3>Fields of study</h3>
+	<p>In  the current context of the labour shortage affecting various sectors of the job  market differently, the evolution of enrolment in certain fields of study is  generating increasing interest. In the same way that growth in <abbr title="Business, humanities, health, arts,  social science and education">BHASE</abbr> programs in  2023/2024 was stronger (+25%) than in <abbr title="Science, technology, engineering and mathematics">STEM</abbr> programs (+16%), the decline that  began in the 2024/2025 academic year appears to have affected <abbr title="Business, humanities, health, arts,  social science and education">BHASE</abbr> programs  more (Chart&nbsp;4). It is estimated that enrolment over the past two years  fell by 26% in <abbr title="Science, technology, engineering and mathematics">STEM</abbr> programs and by 33% in <abbr title="Business, humanities, health, arts,  social science and education">BHASE</abbr> programs.</p>
+	
+	<p><img src="2026001/c-g/c-g04-eng.png" class="brdr-all img-responsive" alt="Chart 4 Number of international students in  public postsecondary institutions, by field of study and institution type,  observed (2020/2021 to 2023/2024) and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 4</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 4<br />
+		Table summary<br />The information is grouped by Institution type/Field of study (appearing as row headers), Academic year, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_22_1-1" rowspan="3">Institution type/Field of study</th>
+        <th class="cl-grp" colspan="6" id="h_22_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_22_1-2" id="h_22_2-1">2020/2021</th>
+        <th headers="h_22_1-2" id="h_22_2-2">2021/2022</th>
+        <th headers="h_22_1-2" id="h_22_2-3">2022/2023</th>
+        <th headers="h_22_1-2" id="h_22_2-4">2023/2024</th>
+        <th headers="h_22_1-2" id="h_22_2-5">2024/2025</th>
+        <th headers="h_22_1-2" id="h_22_2-6">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="6" id="u_22_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="7">			<strong>Source: </strong>PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-hd" headers="h_22_1-1" id="s_22_4-1">College</th>
+        <td class="rw-hd-d" colspan="6">&nbsp;</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_4-1" id="s_22_5-1">STEM</th>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-1 u_22_3-1">24,757</td>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-2 u_22_3-1">31,110</td>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-3 u_22_3-1">40,571</td>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-4 u_22_3-1">55,388</td>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-5 u_22_3-1">55,239</td>
+        <td headers="s_22_5-1 h_22_1-2 h_22_2-6 u_22_3-1">34,404</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_4-1" id="s_22_6-1">BHASE</th>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-1 u_22_3-1">60,962</td>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-2 u_22_3-1">77,420</td>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-3 u_22_3-1">105,938</td>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-4 u_22_3-1">150,527</td>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-5 u_22_3-1">144,981</td>
+        <td headers="s_22_6-1 h_22_1-2 h_22_2-6 u_22_3-1">84,836</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-hd" headers="h_22_1-1" id="s_22_7-1">University</th>
+        <td class="rw-hd-d" colspan="6">&nbsp;</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_7-1" id="s_22_8-1">STEM</th>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-1 u_22_3-1">83,445</td>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-2 u_22_3-1">89,251</td>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-3 u_22_3-1">95,261</td>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-4 u_22_3-1">101,687</td>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-5 u_22_3-1">96,592</td>
+        <td headers="s_22_8-1 h_22_1-2 h_22_2-6 u_22_3-1">82,524</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_7-1" id="s_22_9-1">BHASE</th>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-1 u_22_3-1">91,173</td>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-2 u_22_3-1">94,053</td>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-3 u_22_3-1">96,469</td>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-4 u_22_3-1">103,200</td>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-5 u_22_3-1">97,879</td>
+        <td headers="s_22_9-1 h_22_1-2 h_22_2-6 u_22_3-1">85,077</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-hd" headers="h_22_1-1" id="s_22_10-1">Total</th>
+        <td class="rw-hd-d" colspan="6">&nbsp;</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_10-1" id="s_22_11-1">STEM</th>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-1 u_22_3-1">108,202</td>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-2 u_22_3-1">120,361</td>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-3 u_22_3-1">135,832</td>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-4 u_22_3-1">157,075</td>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-5 u_22_3-1">151,831</td>
+        <td headers="s_22_11-1 h_22_1-2 h_22_2-6 u_22_3-1">116,928</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s1" headers="h_22_1-1 s_22_10-1" id="s_22_12-1">BHASE</th>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-1 u_22_3-1">152,135</td>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-2 u_22_3-1">171,473</td>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-3 u_22_3-1">202,407</td>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-4 u_22_3-1">253,727</td>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-5 u_22_3-1">242,860</td>
+        <td headers="s_22_12-1 h_22_1-2 h_22_2-6 u_22_3-1">169,913</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<h3>New cohorts</h3>
+	<p>Since  the measures to slow the growth in the number of international students are  being applied gradually to new entry cohorts, it can be relevant to measure the  change in the size of these new enrolment cohorts specifically. On the one side,  it was observed that from 2021/2022 to 2023/2024, most international students  starting a new program in Canada did so at a college and their relative share  increased over time (Chart&nbsp;5). Conversely, at the university level, the  recent entry cohorts appeared to remain similar in size until 2023/2024. In  fact, the 2024/2025 academic year seems to show a clear break in these trends,  with a large drop in the number of students in new cohorts for both international  students registered in colleges and universities. In colleges, this decrease may  represent a loss of 102,188 new students (-75%) compared with 2023/2024. The  decline appears to be less pronounced for new cohorts in university, with  estimated losses of 36,740 or 46% over two years. As a result, the size of the  new cohorts starting their studies in 2025/2026 seems to be similar to the size  of college cohorts in 2020/2021 and university cohorts in 2013/2014 (not shown  in Chart&nbsp;5).</p>
+	
+	<p><img src="2026001/c-g/c-g05-eng.png" class="brdr-all img-responsive" alt="Chart 5 Size of new cohorts of international  students in public postsecondary institutions, by institution type, observed  (2015/2016 to 2023/2024) and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 5</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 5<br />
+		Table summary<br />The information is grouped by Institution type (appearing as row headers), Academic year, 2015/2016, 2016/2017, 2017/2018, 2018/2019, 2019/2020, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_307_1-1" rowspan="3">Institution type</th>
+        <th class="cl-grp" colspan="11" id="h_307_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_307_1-2" id="h_307_2-1">2015/2016</th>
+        <th headers="h_307_1-2" id="h_307_2-2">2016/2017</th>
+        <th headers="h_307_1-2" id="h_307_2-3">2017/2018</th>
+        <th headers="h_307_1-2" id="h_307_2-4">2018/2019</th>
+        <th headers="h_307_1-2" id="h_307_2-5">2019/2020</th>
+        <th headers="h_307_1-2" id="h_307_2-6">2020/2021</th>
+        <th headers="h_307_1-2" id="h_307_2-7">2021/2022</th>
+        <th headers="h_307_1-2" id="h_307_2-8">2022/2023</th>
+        <th headers="h_307_1-2" id="h_307_2-9">2023/2024</th>
+        <th headers="h_307_1-2" id="h_307_2-10">2024/2025</th>
+        <th headers="h_307_1-2" id="h_307_2-11">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="11" id="u_307_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="12">			<strong>Source:</strong> PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_307_1-1" id="s_307_4-1">College</th>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-1 u_307_3-1">22,177</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-2 u_307_3-1">27,366</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-3 u_307_3-1">36,226</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-4 u_307_3-1">45,474</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-5 u_307_3-1">57,646</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-6 u_307_3-1">35,766</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-7 u_307_3-1">72,842</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-8 u_307_3-1">91,376</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-9 u_307_3-1">136,148</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-10 u_307_3-1">98,482</td>
+        <td headers="s_307_4-1 h_307_1-2 h_307_2-11 u_307_3-1">33,960</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_307_1-1" id="s_307_5-1">University</th>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-1 u_307_3-1">47,904</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-2 u_307_3-1">51,322</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-3 u_307_3-1">57,483</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-4 u_307_3-1">64,768</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-5 u_307_3-1">70,362</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-6 u_307_3-1">57,254</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-7 u_307_3-1">70,095</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-8 u_307_3-1">69,731</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-9 u_307_3-1">80,719</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-10 u_307_3-1">60,271</td>
+        <td headers="s_307_5-1 h_307_1-2 h_307_2-11 u_307_3-1">43,979</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<p>The  sizes of new university student cohorts also seem to vary by program: the size  of the new master&rsquo;s program cohorts in 2025/2026 seems to fall between those of  2017/2018 and 2018/2019 (around 18,000), while those for bachelor&rsquo;s programs  (around 23,000) and doctoral programs (around 3,000) may be lower than in 2017/2018  (Chart&nbsp;6).<sup id="n5-refa"><a class="fn-lnk" href="#n5"><span class="wb-inv">Note </span></a></sup> The estimated decline from 2023/2024 to 2025/2026 appears to be more pronounced  for bachelor&rsquo;s degrees (-53%) compared with the new cohorts at the master&rsquo;s and  doctoral levels, which appear to have decreased about a third. The new cohorts  of international graduate students appear to have been less affected by the  changes in policies in the international education program.</p>
+	
+	<p><img src="2026001/c-g/c-g06-eng.png" class="brdr-all img-responsive" alt="Chart 6 Size of new cohorts of international  students in public postsecondary institutions, by level of study, observed  (2020/2021 to 2023/2024) and estimated (2024/2025 and 2025/2026)"></p>
+	<details class="desc">
+	<summary class="desc">Data table for Chart 6</summary>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>
+      <span class="wb-inv">
+		Data table for Chart 6<br />
+		Table summary<br />The information is grouped by Level of study (appearing as row headers), Academic year, 2020/2021, 2021/2022, 2022/2023, 2023/2024, 2024/2025 and 2025/2026, calculated using number units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_701_1-1" rowspan="3">Level of study</th>
+        <th class="cl-grp" colspan="6" id="h_701_1-2">Academic year</th>
+      </tr>
+      <tr>
+        <th headers="h_701_1-2" id="h_701_2-1">2020/2021</th>
+        <th headers="h_701_1-2" id="h_701_2-2">2021/2022</th>
+        <th headers="h_701_1-2" id="h_701_2-3">2022/2023</th>
+        <th headers="h_701_1-2" id="h_701_2-4">2023/2024</th>
+        <th headers="h_701_1-2" id="h_701_2-5">2024/2025</th>
+        <th headers="h_701_1-2" id="h_701_2-6">2025/2026</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="6" id="u_701_3-1">number</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="7">			<strong>Source: </strong>PSIS for the observed period and author's calculations for the estimated period.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_701_1-1" id="s_701_4-1">College</th>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-1 u_701_3-1">35,766</td>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-2 u_701_3-1">72,842</td>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-3 u_701_3-1">91,376</td>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-4 u_701_3-1">136,148</td>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-5 u_701_3-1">98,482</td>
+        <td headers="s_701_4-1 h_701_1-2 h_701_2-6 u_701_3-1">33,960</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_701_1-1" id="s_701_5-1">Bachelor's</th>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-1 u_701_3-1">37,598</td>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-2 u_701_3-1">41,235</td>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-3 u_701_3-1">40,732</td>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-4 u_701_3-1">48,408</td>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-5 u_701_3-1">33,716</td>
+        <td headers="s_701_5-1 h_701_1-2 h_701_2-6 u_701_3-1">22,880</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_701_1-1" id="s_701_6-1">Master's</th>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-1 u_701_3-1">15,510</td>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-2 u_701_3-1">23,945</td>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-3 u_701_3-1">24,525</td>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-4 u_701_3-1">27,952</td>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-5 u_701_3-1">23,731</td>
+        <td headers="s_701_6-1 h_701_1-2 h_701_2-6 u_701_3-1">18,124</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_701_1-1" id="s_701_7-1">Doctoral</th>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-1 u_701_3-1">4,146</td>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-2 u_701_3-1">4,915</td>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-3 u_701_3-1">4,474</td>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-4 u_701_3-1">4,359</td>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-5 u_701_3-1">2,824</td>
+        <td headers="s_701_7-1 h_701_1-2 h_701_2-6 u_701_3-1">2,975</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	</details>
+	
+	<h3>Sensitivity analyses</h3>
+	<p>The  results of the sensitivity analyses conducted on the data from the 2023/2024  academic year show a relatively low overall potential for error, but must still  be taken into account when interpreting the results. The percentage error—the  difference between the observed value in the <abbr title="Postsecondary Student Information System">PSIS</abbr> data and the value predicted  by our estimates—indicates that at the national level, the estimates of  international students are 98.4% accurate (1.6% error rate) for international  students at colleges and 98.8% accurate (1.2% error rate) for international students  at universities (Table&nbsp;2). Accuracy varies across regions: the estimates  for colleges in Quebec (15.1% percentage error) and in the Prairies (12.8% percentage  error) have the lowest accuracy levels. Tests that account for the differences  in the population size of the regions (weighted mean absolute  percentage error (WMAPE)<sup id="n6-refa"><a class="fn-lnk" href="#n6"><span class="wb-inv">Note </span></a></sup>)  point to the same conclusions and can be found in Table&nbsp;3 in the appendix.  For most regions and levels of study, the <abbr title="weighted mean absolute percentage error">WMAPE</abbr> is below 15% and therefore  has a satisfactory degree of accuracy, with the exception of colleges in Quebec  and the Prairies.</p>
+	
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>Table 2<br />
+
+		Percentage error of the estimates of international students for the 2023/2024 academic year
+      <span class="wb-inv">
+		Table summary<br />The information is grouped by Region (appearing as row headers), Level of study, College, Bachelor's, Master's, Doctoral and University, calculated using percent units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_103_1-1" rowspan="3">Region</th>
+        <th class="cl-grp" colspan="5" id="h_103_1-2">Level of study</th>
+      </tr>
+      <tr>
+        <th headers="h_103_1-2" id="h_103_2-1">College</th>
+        <th headers="h_103_1-2" id="h_103_2-2">Bachelor's</th>
+        <th headers="h_103_1-2" id="h_103_2-3">Master's</th>
+        <th headers="h_103_1-2" id="h_103_2-4">Doctoral</th>
+        <th headers="h_103_1-2" id="h_103_2-5">University</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="5" id="u_103_3-1">percent</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="6">			<strong>Source:</strong> Authors' calculations.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_4-1">Atlantic</th>
+        <td headers="s_103_4-1 h_103_1-2 h_103_2-1 u_103_3-1">2.5</td>
+        <td headers="s_103_4-1 h_103_1-2 h_103_2-2 u_103_3-1">8.1</td>
+        <td headers="s_103_4-1 h_103_1-2 h_103_2-3 u_103_3-1">3.3</td>
+        <td headers="s_103_4-1 h_103_1-2 h_103_2-4 u_103_3-1">3.2</td>
+        <td headers="s_103_4-1 h_103_1-2 h_103_2-5 u_103_3-1">4.9</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_5-1">Quebec</th>
+        <td headers="s_103_5-1 h_103_1-2 h_103_2-1 u_103_3-1">15.1</td>
+        <td headers="s_103_5-1 h_103_1-2 h_103_2-2 u_103_3-1">1.4</td>
+        <td headers="s_103_5-1 h_103_1-2 h_103_2-3 u_103_3-1">4.7</td>
+        <td headers="s_103_5-1 h_103_1-2 h_103_2-4 u_103_3-1">4.9</td>
+        <td headers="s_103_5-1 h_103_1-2 h_103_2-5 u_103_3-1">1.3</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_6-1">Ontario</th>
+        <td headers="s_103_6-1 h_103_1-2 h_103_2-1 u_103_3-1">0.9</td>
+        <td headers="s_103_6-1 h_103_1-2 h_103_2-2 u_103_3-1">4.7</td>
+        <td headers="s_103_6-1 h_103_1-2 h_103_2-3 u_103_3-1">1.3</td>
+        <td headers="s_103_6-1 h_103_1-2 h_103_2-4 u_103_3-1">1.5</td>
+        <td headers="s_103_6-1 h_103_1-2 h_103_2-5 u_103_3-1">3.3</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_7-1">Prairies</th>
+        <td headers="s_103_7-1 h_103_1-2 h_103_2-1 u_103_3-1">12.8</td>
+        <td headers="s_103_7-1 h_103_1-2 h_103_2-2 u_103_3-1">2.1</td>
+        <td headers="s_103_7-1 h_103_1-2 h_103_2-3 u_103_3-1">1.0</td>
+        <td headers="s_103_7-1 h_103_1-2 h_103_2-4 u_103_3-1">1.9</td>
+        <td headers="s_103_7-1 h_103_1-2 h_103_2-5 u_103_3-1">0.8</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_8-1">British Columbia</th>
+        <td headers="s_103_8-1 h_103_1-2 h_103_2-1 u_103_3-1">3.2</td>
+        <td headers="s_103_8-1 h_103_1-2 h_103_2-2 u_103_3-1">0.3</td>
+        <td headers="s_103_8-1 h_103_1-2 h_103_2-3 u_103_3-1">9.8</td>
+        <td headers="s_103_8-1 h_103_1-2 h_103_2-4 u_103_3-1">1.0</td>
+        <td headers="s_103_8-1 h_103_1-2 h_103_2-5 u_103_3-1">3.6</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_103_1-1" id="s_103_9-1">Canada</th>
+        <td headers="s_103_9-1 h_103_1-2 h_103_2-1 u_103_3-1">1.6</td>
+        <td headers="s_103_9-1 h_103_1-2 h_103_2-2 u_103_3-1">3.1</td>
+        <td headers="s_103_9-1 h_103_1-2 h_103_2-3 u_103_3-1">2.1</td>
+        <td headers="s_103_9-1 h_103_1-2 h_103_2-4 u_103_3-1">2.2</td>
+        <td headers="s_103_9-1 h_103_1-2 h_103_2-5 u_103_3-1">1.2</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	
+	<h2 id="a7">Conclusion</h2>
+	<p>The  objective of the study was to assess the feasibility of producing preliminary  estimates of the international student population using administrative data. Amid  tightened immigration policies and a general transformation of international  student mobility, the results show that this approach is not only viable, but  also effective in quickly detecting structural changes.</p>
+	
+	<p>The  study seems to confirm a clear reversal of the upward trend observed in recent  years in the international student population in Canada. As of the 2024/2025  academic year, a significant decrease in the size of new student cohorts is estimated  at almost all levels of study and in all regions. Over two years, this would  represent a decline of more than 50% in the number of new enrollments at the  national level. The results also seem to indicate a general decrease in student  volumes and a rebalancing of their geographical distribution.</p>
+	
+	<p>Although  these results are reliable, they must be interpreted with certain limitations  in mind. The reference periods and program classifications differ between <abbr title="Postsecondary Student Information System">PSIS</abbr>  data and study permit data, which excludes some program categories; nevertheless,  the study covers nearly 95% of international students in public postsecondary  education. The lack of information on the field of study on study permits also  requires relying on assumptions based on historical trends. Lastly, the  estimates are based on the assumption of constant persistence rates and on  adjustment factors sensitive to recent regulatory changes, particularly the new  mechanisms introduced in the International Student Program for tracking international  students (<a href="#r9"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>, 2024c</a>).</p>
+	
+	<p>Given  the federal measures in force until 2027 and the expected departure of  particularly large cohorts from recent years, a steady decline in the number of  international students is anticipated in Canada, particularly in Ontario, where  the effects should be among the largest. Lastly, it is important to note that  the estimates presented in this study are preliminary and will be revised as  new data from the <abbr title="Postsecondary Student Information System">PSIS</abbr> become available.</p>
+	
+	<h2 id="a8">Appendix</h2>
+	<div class="table-responsive">
+  <table class="table table-bordered table-condensed">
+    <caption>Table 3<br />
+
+		Weighted mean absolute percentage error of international student estimates for the 2023/2024 academic year
+      <span class="wb-inv">
+		Table summary<br />The information is grouped by Region (appearing as row headers), Level of study, College, Bachelor's, Master's, Doctoral and University, calculated using percent units of measure (appearing as column headers).</span>
+    </caption>
+    <thead class="styx">
+      <tr>
+        <th class="rw-hd" id="h_929_1-1" rowspan="3">Region</th>
+        <th class="cl-grp" colspan="5" id="h_929_1-2">Level of study</th>
+      </tr>
+      <tr>
+        <th headers="h_929_1-2" id="h_929_2-1">College</th>
+        <th headers="h_929_1-2" id="h_929_2-2">Bachelor's</th>
+        <th headers="h_929_1-2" id="h_929_2-3">Master's</th>
+        <th headers="h_929_1-2" id="h_929_2-4">Doctoral</th>
+        <th headers="h_929_1-2" id="h_929_2-5">University</th>
+      </tr>
+      <tr>
+        <th class="uom-c" colspan="5" id="u_929_3-1">percent</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td class="tbl-ftr" colspan="6">			<strong>Source:</strong> Authors' calculations.
+</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_4-1">Atlantic</th>
+        <td headers="s_929_4-1 h_929_1-2 h_929_2-1 u_929_3-1">4.2</td>
+        <td headers="s_929_4-1 h_929_1-2 h_929_2-2 u_929_3-1">8.5</td>
+        <td headers="s_929_4-1 h_929_1-2 h_929_2-3 u_929_3-1">7.1</td>
+        <td headers="s_929_4-1 h_929_1-2 h_929_2-4 u_929_3-1">7.6</td>
+        <td headers="s_929_4-1 h_929_1-2 h_929_2-5 u_929_3-1">7.6</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_5-1">Quebec</th>
+        <td headers="s_929_5-1 h_929_1-2 h_929_2-1 u_929_3-1">16.1</td>
+        <td headers="s_929_5-1 h_929_1-2 h_929_2-2 u_929_3-1">3.9</td>
+        <td headers="s_929_5-1 h_929_1-2 h_929_2-3 u_929_3-1">7.3</td>
+        <td headers="s_929_5-1 h_929_1-2 h_929_2-4 u_929_3-1">6.5</td>
+        <td headers="s_929_5-1 h_929_1-2 h_929_2-5 u_929_3-1">3.2</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_6-1">Ontario</th>
+        <td headers="s_929_6-1 h_929_1-2 h_929_2-1 u_929_3-1">3.2</td>
+        <td headers="s_929_6-1 h_929_1-2 h_929_2-2 u_929_3-1">8.3</td>
+        <td headers="s_929_6-1 h_929_1-2 h_929_2-3 u_929_3-1">4.1</td>
+        <td headers="s_929_6-1 h_929_1-2 h_929_2-4 u_929_3-1">2.7</td>
+        <td headers="s_929_6-1 h_929_1-2 h_929_2-5 u_929_3-1">7.9</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_7-1">Prairies</th>
+        <td headers="s_929_7-1 h_929_1-2 h_929_2-1 u_929_3-1">18.0</td>
+        <td headers="s_929_7-1 h_929_1-2 h_929_2-2 u_929_3-1">4.4</td>
+        <td headers="s_929_7-1 h_929_1-2 h_929_2-3 u_929_3-1">7.6</td>
+        <td headers="s_929_7-1 h_929_1-2 h_929_2-4 u_929_3-1">4.5</td>
+        <td headers="s_929_7-1 h_929_1-2 h_929_2-5 u_929_3-1">4.7</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_8-1">British Columbia</th>
+        <td headers="s_929_8-1 h_929_1-2 h_929_2-1 u_929_3-1">6.6</td>
+        <td headers="s_929_8-1 h_929_1-2 h_929_2-2 u_929_3-1">2.8</td>
+        <td headers="s_929_8-1 h_929_1-2 h_929_2-3 u_929_3-1">14.1</td>
+        <td headers="s_929_8-1 h_929_1-2 h_929_2-4 u_929_3-1">2.3</td>
+        <td headers="s_929_8-1 h_929_1-2 h_929_2-5 u_929_3-1">4.6</td>
+      </tr>
+      <tr class="hghlght-rw">
+        <th class="rw-s" headers="h_929_1-1" id="s_929_9-1">Canada</th>
+        <td headers="s_929_9-1 h_929_1-2 h_929_2-1 u_929_3-1">2.0</td>
+        <td headers="s_929_9-1 h_929_1-2 h_929_2-2 u_929_3-1">5.2</td>
+        <td headers="s_929_9-1 h_929_1-2 h_929_2-3 u_929_3-1">4.2</td>
+        <td headers="s_929_9-1 h_929_1-2 h_929_2-4 u_929_3-1">3.4</td>
+        <td headers="s_929_9-1 h_929_1-2 h_929_2-5 u_929_3-1">4.5</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	
+	<h2 id="a9">References</h2>
+	<p id="r1">Bartosik, I. &amp; Simonova, D. (2025). <a href="https://www.bonardeducation.com/media/beyond-the-big-four-450000-international-students-are-shifting-heres-where-theyre-going-and-why">Beyond the  Big Four: 450,000 International Students Are Shifting – Here&rsquo;s Where They're  Going and Why | BONARD</a>.</p>
+	
+	<p id="r2">Global  Affairs Canada (2019). <a href="https://www.international.gc.ca/education/assets/pdfs/ies-sei/Building-on-Success-International-Education-Strategy-2019-2024.pdf">Building on  Success: International Education Strategy 2019-2024</a>. Novembre 2019.</p>
+	
+	<p id="r3">Global Affairs Canada (2026). <a href="https://www.educanada.ca/study-plan-etudes/before-avant/permits-visas-permis.aspx?lang=eng">Study permits  and visas</a>.</p>
+	
+	<p id="r4">Government of  Canada. (2025). <a href="https://budget.canada.ca/2025/report-rapport/pdf/budget-2025.pdf">Budget 2025 -  Canada Strong</a>. November 2025.</p>
+	
+	<p id="r5">Hune-Brown, N. (2021). <a href="https://thewalrus.ca/the-shadowy-business-of-international-education/">The Shadowy  Business of International Education | The Walrus</a>.</p>
+	
+	<p id="r6"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>. (2022). <a href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-mar-03-2022/international-students.html">CIMM –  International Students – March 3, 2022 - Canada.ca</a>.</p>
+	
+	<p id="r7"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>. (2024a). <a href="https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/04/minister-miller-issues-statement-on-international-student-allocations-for-provinces-and-territories.html">Minister  Miller issues statement on international student allocations for provinces and  territories - Canada.ca</a>.</p>
+	
+	<p id="r8"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>. (2024b). <a href="https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/09/strengthening-temporary-residence-programs-for-sustainable-volumes.html">Strengthening  temporary residence programs for sustainable volumes - Canada.ca</a>.</p>
+	
+	<p id="r9"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>. (2024c). <a href="https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/11/new-international-student-program-regulations-take-effect.html">New  International Student Program regulations take effect - Canada.ca</a>.</p>
+	
+	<p id="r10"><abbr title="Immigration, Refugees and Citizenship Canada">IRCC</abbr>. (2025). <a href="https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2025-provincial-territorial-allocations-under-international-student-cap.html">2025  provincial and territorial allocations under the international student cap - Canada.ca</a>.</p>
+	
+	<p id="r11">Marwah, S.,  Omidvar, R., Yussuff, H., Woo, Y. P. (2023). <a href="https://lmic-cimt.ca/future-of-work/strengthening-the-integrity-of-canadas-international-student-program/">Strengthening the integrity  of Canada&rsquo;s international student program</a>. September 2023.</p>
+	
+	<p id="r12"><abbr title="National Association of Foreign Student Advisers">NAFSA</abbr>. (2025) <a href="https://www.nafsa.org/fall-2025-international-student-enrollment-outlook-and-economic-impact">Fall 2025  International Student Enrollment Outlook and Economic Impact | <abbr title="National Association of Foreign Student Advisers">NAFSA</abbr></a>.</p>
+	
+	<p id="r13">Radio Canada. (2026). <a href="https://www.msn.com/fr-ca/actualites/Maritimes/les-universit%C3%A9s-n-auront-pas-d-aide-f%C3%A9d%C3%A9rale-face-%C3%A0-la-baisse-des-%C3%A9tudiants-%C3%A9trangers/ar-AA1Vs9dT?ocid=BingNewsVerp">Les  universités n&rsquo;auront pas d&rsquo;aide fédérale face à la baisse des étudiants  étrangers</a>.</p>
+	
+	<p id="r14">Scott, C.,  Safdar, S., Trilokekar, R. D., &amp; El Masri, A.  (2015). <a href="https://ojs.lib.uwo.ca/index.php/cie-eci/article/view/9261">International students as &lsquo;ideal  immigrants&rsquo; in Canada: A disconnect between policy makers&rsquo; assumptions and the  lived experiences of international students</a>. <em>Comparative and  International Education</em>,&nbsp;<em>43</em>(3).</p>
+	
+	<p id="r15">Statistics  Canada. (2019). <a href="/n1/pub/11f0019m/11f0019m2019019-eng.htm">The  Postsecondary Experience and Early Labour Market Outcomes of International  Study Permit Holders</a>.</p>
+	
+	<p id="r16">Statistics  Canada. (2023). <a href="/n1/pub/36-28-0001/2023009/article/00003-eng.htm">A comparison  of postsecondary enrolment trends between domestic and international students  by field of study</a>.</p>
+	
+	<p id="r17">Statistics  Canada. (2025a). <a href="/t1/tbl1/en/tv.action?pid=3710001801&request_locale=en">Postsecondary  enrolments, by registration status, institution type, status of student in  Canada and gender</a>.</p>
+	
+	<p id="r18">Statistics  Canada. (2025b). <a href="/n1/daily-quotidien/250910/dq250910d-eng.htm">Tuition in  Canada: Modest increases and widening gaps, 2025/2026</a>.</p>
+	
+	<p id="r19">Statistics  Canada. (2025c). <a href="/n1/daily-quotidien/251210/dq251210b-eng.htm">The Daily -  Colleges report their largest recorded growth in revenue and expenditures in  more than two decades in 2023/2024</a>.</p>
+	
+	<p id="r20">Statistics  Canada. (2025d). <a href="/n1/pub/37-20-0001/372000012025003-eng.htm">Persistence  and graduation indicators of postsecondary students, 2011/2012 to 2023/2024</a>.</p>
+	
+	<p id="r21">Statistics Canada. (2025e). <a href="/t1/tbl1/en/tv.action?pid=1710000901&request_locale=en">Population estimates, quarterly</a>.</p>
+	
+	<p id="r22">Stick, M.,  Hou, F. &amp; Zhang, H. (2024). <a href="/n1/pub/36-28-0001/2024005/article/00001-eng.htm">Housing  international students: Housing suitability across municipalities</a>.</p>
+	
+	<p id="r23">Usher, A.,  Balfour, J. &amp; Jeon, J. (2025). <a href="https://higheredstrategy.com/wp-content/uploads/2025/09/SPEC-2025_web_v3.pdf">The State of Postsecondary Education  in Canada</a>. September 2025.</p>
+</div>
+
+<aside class="wb-fnote" role="note">
+	<h2 id="fn">Notes</h2>
+	<dl>
+		<dt>Footnote 1.</dt>
+		<dd id="n1">
+			<p>The United States, the United Kingdom, Canada and Australia.</p>
+			<p class="fn-rtn"><a href="#n1-refa"><span class="wb-inv">Return to note </span>1<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+
+		<dt>Footnote 2.</dt>
+		<dd id="n2">
+			<p>Refers to postsecondary educational institutions designated by  provinces and territories to host international students and to educational  institutions managed by a federal department or agency.</p>
+			<p class="fn-rtn"><a href="#n2-refa"><span class="wb-inv">Return to note </span>2<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+
+		<dt>Footnote 3.</dt>
+		<dd id="n3">
+			<p>More information on student eligibility and program eligibility is  available on this <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t2202-information-return.html" title="Designated Educational Institutions – Filing the T2202, Tuition and Enrolment Certificate and Summary">page</a> on the Canada Revenue Agency (CRA) website.</p>
+			<p class="fn-rtn"><a href="#n3-refa"><span class="wb-inv">Return to note </span>3<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+
+		<dt>Footnote 4.</dt>
+		<dd id="n4">
+			<p>These results  differ from the last <a href="/n1/daily-quotidien/251120/dq251120e-eng.htm" title="Canadian postsecondary enrolments and graduates, 2023/2024">release</a> of <abbr title="Postsecondary Student Information System">PSIS</abbr> data because certain programs below  the bachelor&rsquo;s level, such as minors or certificates, were excluded, as were students  enrolled in educational activities without being enrolled in a program (non-program)  or in certain preparatory programs or residency programs. Lastly, our results apply  only to full-time students and exclude part-time students.</p>
+			<p class="fn-rtn"><a href="#n4-refa"><span class="wb-inv">Return to note </span>4<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+
+		<dt>Footnote 5.</dt>
+		<dd id="n5">
+			<p>The new cohorts of international students prior to 2020/2021 are  not presented in Chart&nbsp;6.</p>
+			<p class="fn-rtn"><a href="#n5-refa"><span class="wb-inv">Return to note </span>5<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+
+		<dt>Footnote 6.</dt>
+		<dd id="n6">
+			<p>The <abbr title="weighted mean absolute percentage error">WMAPE</abbr> is calculated by taking the difference between the  observed value (<abbr title="Postsecondary Student Information System">PSIS</abbr> data) and the estimate divided by the sum of the observed  values. In doing so, if a region has a small population and a high error, the  formula accounts for the size of the population so that the error is not  heavily weighted. The lower the <abbr title="weighted mean absolute percentage error">WMAPE</abbr>, the more reliable the estimates.</p>
+			<p class="fn-rtn"><a href="#n6-refa"><span class="wb-inv">Return to note </span>6<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+	</dl>
+</aside>
+
+<!--
+<ul class="pager">
+	<li class="previous"> <a href="#" rel="prev">Previous</a></li>
+	<li><a href="#"><span class="fa fa-home text-primary mrgn-rght-sm"></span>Main page</a></li>
+	<li class="next"> <a href="#" rel="next">Next</a></li>
+</ul>
+-->
+
+</section>
+<div class="clearfix"></div>
+
+<!-- More info button text --> 
+<!-- More info page -->
+<section id="moreinfo" class="mfp-hide modal-dialog modal-content overlay-def">
+	<header class="modal-header">
+		<h2 class="modal-title">More information</h2>
+	</header>
+	<div class="modal-body">
+		<div class="pstn-rght-lg pstn-rght-md pstn-lft-md pstn-lft-sm pstn-lft-xs mrgn-lft-md mrgn-rght-sm">
+			<span class="label label-primary">ISSN: 2818-7628</span>
+		</div>
+		<span class="clearfix"></span>
+		<h3>Note of appreciation </h3>
+		<p>Canada owes the success of its statistical system to a long-standing partnership between Statistics Canada, the citizens of Canada, its businesses, governments and other institutions. Accurate and timely statistical information could not be produced without their continued co-operation and goodwill.</p>
+		
+		<h3>Standards of service to the public</h3>
+		<p>Statistics Canada is committed to serving its clients in a prompt, reliable and courteous manner. To this end, the Agency has developed <a href="https://www.statcan.gc.ca/eng/about/service/standards">standards of service</a> which its employees observe in serving its clients.</p>
+		
+		<h3>Copyright</h3>
+		<p>Published by authority of the Minister responsible for Statistics Canada.</p>
+		
+		<p>© His Majesty the King in Right of Canada as represented by the Minister of Industry, 2026</p>
+		<p>Use of this publication is governed by the <a href="https://www.statcan.gc.ca/eng/reference/licence">Statistics Canada Open Licence Agreement</a>.</p>
+		
+		<p>Catalogue <abbr title="number">no.</abbr> 81-595-M</p>
+		<p>Frequency: Occasional</p>
+		<p>Ottawa</p>
+		
+		<a class="btn btn-primary popup-modal-dismiss">close</a>
+	</div>
+</section>
+<!-- END More info page --> 
+
+<div class="pagedetails">
+	<dl id="wb-dtmd">
+		<dt>Date modified:&#32;</dt>
+		<dd><time property="dateModified">
+2026-05-05
+</time></dd>
+	</dl>
+</div>
+</main>
+
+<footer id="wb-info">
+	<h2 class="wb-inv">About this site</h2>
+	<div class="gc-contextual">
+		<div class="container">
+			<nav>
+				<h3>Statistics Canada</h3>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="https://www.statcan.gc.ca/en/reference/refcentre/index">Contact StatCan</a></li>
+					<li><a href="https://www.statcan.gc.ca/en/trust">Trust Centre</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav>
+				<h3>Government of Canada</h3>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+				</ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+					<li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h3 class="wb-inv">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about-canada-ca.html">About Canada.ca</a></li>
+					<li><a href="https://www.statcan.gc.ca/en/terms-conditions">Terms and conditions</a></li>
+					<li><a href="https://www.statcan.gc.ca/en/about/transparency/privacy">Privacy</a></li>
+				</ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="/wet-boew4b/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script>
+
+    modifyBreadCrum();
+    
+
+    function modifyBreadCrum(){
+        
+    let dailyEn = "n1/dai-quo/index-eng.htm";
+    let dailyFr = "n1/dai-quo/index-fra.htm";
+ 
+    let breadcrumb = document.querySelector("#wb-bc ol.breadcrumb");
+        
+    if(breadcrumb === undefined || breadcrumb === null || breadcrumb.children.length == 0){
+        return;
+    } 
+        
+    let lastListNode = breadcrumb.children[breadcrumb.children.length -1];
+    
+    if(window.location.href.indexOf("daily-quotidien") != -1 || window.location.href.indexOf("dai-quo") != -1){
+        let href = window.location.href;
+        let env = href.split("n1")[0];
+        href = href.indexOf("eng") != -1 ? env + dailyEn : env + dailyFr;
+
+        createBreadcrumAnchor(href);
+    }
+    else{
+        removeBreadcrumNotAnchor();
+    }
+
+    return;
+
+    function createBreadcrumAnchor(href){
+
+        let anchor = document.createElement("a");
+    
+        if(lastListNode.lastChild !== undefined && lastListNode.lastChild !== null){
+            if(lastListNode.lastChild.nodeName === anchor.nodeName){
+                return;
+            } 
+
+            anchor.innerHTML = lastListNode.innerHTML;
+            anchor.href = href;
+            lastListNode.innerHTML = anchor.outerHTML; 
+        }
+    }
+
+    function removeBreadcrumNotAnchor(){
+
+        let anchor = document.createElement("a");
+
+        if(lastListNode.lastChild !== undefined && lastListNode.lastChild !== null){
+            if(lastListNode.lastChild.nodeName === anchor.nodeName){
+                return;
+            } 
+        
+            breadcrumb.removeChild(lastListNode);
+        }
+
+    }
+
+    }
+
+</script>
+
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="/wet-boew4b/js/wet-boew.min.js"></script>
+<script src="/wet-boew4b/js/theme.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/wet-boew4b/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+<!-- InvitationManager -->
+<script src="/wet-boew4b/invitation-manager/Overlay.js"></script>
+<script src="/wet-boew4b/invitation-manager/InvitationManager.js"></script>
+<!-- End InvitationManager -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+
+</body>
+</html>

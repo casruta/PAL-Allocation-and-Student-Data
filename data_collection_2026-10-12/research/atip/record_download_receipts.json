@@ -1,0 +1,128 @@
+[
+  {
+    "request_number": "2A-2021-02627",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2021%2C4%2C2A-2021-02627",
+    "path": "data_collection_2026-10-12/raw/atip/record_2A-2021-02627.html",
+    "bytes": 73743,
+    "sha256": "df4ddc14a652f18d633c4b65de6546cf5cc1cd1974add373b14778ecb2cb2909",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "2A-2021-01634",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2021%2C5%2C2A-2021-01634",
+    "path": "data_collection_2026-10-12/raw/atip/record_2A-2021-01634.html",
+    "bytes": 73685,
+    "sha256": "d0d2500b4577ed8c16aaad488aa832ed05b6137bccf686a64d56d15d18096773",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "2A-2023-72482",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2024%2C4%2C2A-2023-72482",
+    "path": "data_collection_2026-10-12/raw/atip/record_2A-2023-72482.html",
+    "bytes": 73538,
+    "sha256": "a5dff6627c02af50592596db885933bd3b2a6958c0ab7c8f3483f41ae525af2a",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "2A-2024-39077",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2024%2C6%2C2A-2024-39077",
+    "path": "data_collection_2026-10-12/raw/atip/record_2A-2024-39077.html",
+    "bytes": 73451,
+    "sha256": "d80996c37f1d010ce63f95df6cd5c003e9eb47b674254792913421d860badd71",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2024-01082",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2025%2C1%2CA-2024-01082",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2024-01082.html",
+    "bytes": 74079,
+    "sha256": "282ec88896aa0d7c96b5e7aeb3bf0e7e12681b2afabf8264eb2066dc837a0d51",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2024-02010",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2025%2C2%2CA-2024-02010",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2024-02010.html",
+    "bytes": 73727,
+    "sha256": "3e13b33702fa678c3861bb32ad9c8b66e96cce715c510c7a64a8917bfcf7ded8",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2024-48121",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2025%2C3%2CA-2024-48121",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2024-48121.html",
+    "bytes": 73902,
+    "sha256": "e24feb0ab98085a5e435de46522c0a19a720bb73a2be54074402646a2c4c9d78",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2024-68363",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2025%2C4%2CA-2024-68363",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2024-68363.html",
+    "bytes": 73821,
+    "sha256": "0f02632b57071e92b81812dc3b3267327a1ccf76f4f32df78d5c8261e054a634",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2025-55557",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2025%2C9%2CA-2025-55557",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2025-55557.html",
+    "bytes": 73553,
+    "sha256": "39fb7d05453f2f460f7471b77d842024cc4a7ae49ba5b0d90a3480b05d10d954",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2025-83996",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2026%2C1%2CA-2025-83996",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2025-83996.html",
+    "bytes": 74045,
+    "sha256": "7ccd1118775930fbc7cdf9f4456d787c7ccb8741cb0dfea4c15b6ac2a607b694",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2025-84005",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2026%2C2%2CA-2025-84005",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2025-84005.html",
+    "bytes": 73898,
+    "sha256": "a32e005b393091122abc3129679949c52deacfd16393ed45a1719fef50a70877",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "1A-2025-15195",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2026%2C5%2C1A-2025-15195",
+    "path": "data_collection_2026-10-12/raw/atip/record_1A-2025-15195.html",
+    "bytes": 73666,
+    "sha256": "ba4f1a57a49987eef90718ea456da90c680053dd9fa261a9483b77009d008e16",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2026-03891",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2026%2C6%2CA-2026-03891",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2026-03891.html",
+    "bytes": 73454,
+    "sha256": "41b5a37b570d98e85b37c14fba66bdaa7869f81d08d960c6cd44214d31ab3f24",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  },
+  {
+    "request_number": "A-2026-30356",
+    "url": "https://search.open.canada.ca/ati/record/cic%2C2026%2C8%2CA-2026-30356",
+    "path": "data_collection_2026-10-12/raw/atip/record_A-2026-30356.html",
+    "bytes": 74745,
+    "sha256": "12c3752061393b0413b97ca35753e77a07a9a6c60fca3f866fe061ec7e8d91f4",
+    "collected_date_utc": "2026-10-12",
+    "status": "downloaded_summary_only"
+  }
+]

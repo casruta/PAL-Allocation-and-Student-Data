@@ -1,0 +1,75 @@
+FRESHNESS, PROVENANCE AND REMAINING GAPS
+-------------------------------------
+This is a saved research snapshot retrieved on 12 October 2026 (UTC), not a live
+feed. Retrieval dates are not observation dates. Latest coverage varies:
+  - IRCC monthly files: through July 2026 (latest year is partial); year-end
+    workbook: through 2024. Longer historical series remain in the source files.
+  - Alberta annual enrolment: through academic 2024-25.
+  - Statistics Canada observed PSIS enrolments: through 2024/25. Separate
+    modelled 2025/26 estimates and selected institutional reports are retained.
+  - PAL allocation notices: 2024-2026; eligibility and allocations can change.
+
+Source records are distributed across the collection. Start with
+source_manifest.csv (or .json) for the original collection. Later additions have
+separate records:
+  raw/degree_detail/provenance.json
+  research/pal_interpretation/baseline_raw/provenance.json
+  research/pal_interpretation/raw_timeline/download_receipts.json
+These record source locations and hashes for their respective downloads. CSV
+source columns identify supporting files, cells, tables or pages where supplied.
+No single manifest covers every later addition.
+
+No complete Alberta university-by-year table links allocated spaces, unique
+PALs issued, cancellations/replacements, submitted applications, permit decisions,
+arrivals and registrations. Degree-specific actual PAL recipients and a harmonized
+annual Alberta new-arrivals series remain unavailable in the retrieved evidence.
+Missing means unknown, not zero. The policy matrix documents plausible mechanisms;
+it does not estimate what share of a decline PAL policy caused.
+
+research/atip/priority_record_leads.csv identifies completed disclosure packages,
+including A-2025-84005 for Alberta DLI decisions. Only public summaries were
+obtained, not the released tables; requested fields may not have been supplied.
+The next useful evidence is those packages and matched institution/intake/degree
+records from Alberta's PAL portal. No requests or external messages were sent.
+data_gaps.csv records the initial gaps; analysis/README.txt and
+analysis/pal_interpretation/README.txt describe the later analysis gaps.
+
+REPRODUCTION AND VALIDATION
+---------------------------
+Use the saved sources for exact reproduction. Back up derived outputs before
+rerunning: the scripts overwrite their generated files. All paths below are
+relative to this collection folder; run commands from this folder. Python must
+have pandas, openpyxl, lxml and pypdf. Notebook execution additionally needs
+matplotlib, nbformat, nbclient, jupyter_client and ipykernel. The notebook builders
+load analysis/_dependencies; the preliminary builder creates the local kernel.
+
+For the existing snapshot, run these offline steps in order. This order was
+checked against script dependencies; the README review did not rerun the pipeline.
+Saved execution records report nine and six notebook code cells, respectively,
+with zero error outputs; they are evidence of prior runs, not a fresh-run test.
+  python scripts/extract_citizenship.py
+  python scripts/build_analysis_notebook.py
+  python scripts/build_annual_outline.py
+  python scripts/build_pal_interpretation_notebook.py
+The first notebook builder runs preliminary_analysis.py to regenerate cleaned
+tables and checks, then executes the notebook. The PAL builder runs
+build_pal_matrix.py and pal_diagnostic_calculations.py, then executes its notebook.
+They use the saved focus extracts, degree files and research evidence tables.
+For rebuilding earlier extracts, run scripts/extract_tables.py followed by
+scripts/extract_extended.py; degree extraction details are in raw/degree_detail/.
+
+Acquisition is separate: scripts/collect_sources.py and scripts/extend_collection.py
+use the network (including curl.exe on Windows). Successful existing downloads
+are skipped. Use a new dated collection for refreshed sources; these scripts are
+not a one-command reconstruction of all later manually researched evidence.
+
+Check validation results for the relevant stage, not a blanket certification:
+  collection_validation.json: earlier manifest's 59 obtained sources and one
+    unavailable source; checksum/container checks do not verify every claim.
+  raw/degree_detail/validation.json: 827 numeric API/bulk degree matches.
+  analysis/validation_checks.json: cleaning checks and retained discrepancies.
+  analysis/annual_outline_validation.json: annual overview reconciliation.
+  analysis/pal_interpretation/matrix_validation.json: matrix structure/content.
+The analysis folders also contain notebook_execution.json and independent review
+notes. These document completed checks and their limits, not proof that every
+public source was found or every causal interpretation is established.

@@ -1,0 +1,25 @@
+README review protocol
+Target: collection top-level README.txt. Supporting READMEs are evidence, not targets.
+Original: original_README.txt. Preserve each integrated candidate for comparison.
+
+Each section and the whole document receive four independent 0-10 scores:
+Accuracy: statements, counts, scope, source ownership, paths and commands match files.
+Readability: plain language, manageable length, useful ordering and no compressed text.
+Clarity: unambiguous measures, dates, limitations and next actions; no assumed knowledge.
+Formatting: consistent plain-text headings, spacing, lists, paths and scanability.
+9 means no material defect and only minor optional polish. 10 means no identified
+improvement within scope. 7-8 means useful but concrete repair needed; <=6 means
+material confusion, inaccuracy or usability failure. Scores are editorial judgments,
+not empirical reader-test measurements. A factual defect blocks accuracy >=9.
+
+Round 1: each assigned agent reads the entire original, evaluates its section,
+proposes fixes, edits only its owned section file, then scores original vs candidate.
+Round 2: rotate sections among the three agents; compare original vs integrated
+candidate, identify regressions, improve each assigned section, and rescore.
+Round 3: rotate again so every agent has reviewed every section. Challenge the
+latest section against the original, repair defects, and score all four metrics.
+Every section must reach >=9. Additional rounds are required for lower scores.
+Final: a separate agent reviews original vs final whole README and the review
+report. Verify all sections, evidence and scores; revise if any metric <9.
+Root integrates files, checks local paths and factual anchors, and records changes.
+Do not force scores upward or hide disagreement. No changes to research data.

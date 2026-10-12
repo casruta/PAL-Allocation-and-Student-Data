@@ -1,0 +1,18 @@
+[
+  {
+    "original_path": "data_collection_2026-10-12/raw/atip/ati-all.csv",
+    "archive_path": "data_collection_2026-10-12/raw/atip/ati-all.csv.gz",
+    "original_bytes": 116634003,
+    "original_sha256": "29f8c5650a83bbddc6bc0f5de537a32fbe79b8554a1e1a2bf54ebe8ebfa3b11c",
+    "archive_bytes": 26218452,
+    "archive_sha256": "e460297269465a5dc600a4c3fbd8ecc97333f20c38cda2dfead30438cb7ee776"
+  },
+  {
+    "original_path": "data_collection_2026-10-12/raw/degree_detail/37100163_international_canada_alberta_2019_latest.csv",
+    "archive_path": "data_collection_2026-10-12/raw/degree_detail/37100163_international_canada_alberta_2019_latest.csv.gz",
+    "original_bytes": 67564438,
+    "original_sha256": "5a78dc051d2a0dca340ac4f7a5edcaf2a04c333358b38d7b7ffdab286428afbe",
+    "archive_bytes": 2826227,
+    "archive_sha256": "1a464dcea51e6f2887a9f2b108e7070b85a8825882cc2a245d3251fb00774e26"
+  }
+]

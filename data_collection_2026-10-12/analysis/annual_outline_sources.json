@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "annual-alberta-students",
+      "title": "Alberta international student headcount by academic year",
+      "queries": [
+        {
+          "id": "lers-annual-total",
+          "source": {
+            "label": "Alberta LERS international headcount",
+            "files": [
+              {
+                "label": "annual_enrolment_canada_alberta.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Annual international headcount",
+                "definition": "Published unique system headcount in Alberta reporting institutions and approved programs."
+              }
+            ],
+            "filters": [
+              "Learner category: International",
+              "Status: Total",
+              "Aggregation: System total"
+            ],
+            "caveats": [
+              "Counts are annual enrolment, not PAL issuance or permits granted.",
+              "Reporting changes affect comparisons, including a 16-month Athabasca window in 2024–25."
+            ]
+          },
+          "reportingPeriod": "Academic 2019–20 through 2024–25",
+          "columns": [
+            "academic_year",
+            "alberta_lers_annual_unique_headcount"
+          ],
+          "rows": [
+            {
+              "academic_year": "2019-2020",
+              "alberta_lers_annual_unique_headcount": 28246
+            },
+            {
+              "academic_year": "2020-2021",
+              "alberta_lers_annual_unique_headcount": 27028
+            },
+            {
+              "academic_year": "2021-2022",
+              "alberta_lers_annual_unique_headcount": 29991
+            },
+            {
+              "academic_year": "2022-2023",
+              "alberta_lers_annual_unique_headcount": 37076
+            },
+            {
+              "academic_year": "2023-2024",
+              "alberta_lers_annual_unique_headcount": 48311
+            },
+            {
+              "academic_year": "2024-2025",
+              "alberta_lers_annual_unique_headcount": 50164
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
