@@ -197,7 +197,7 @@ These access failures do not establish that the information is unavailable.
 
 The largest raw ATIP CSV and the approximately 64 MiB degree-detail bulk CSV are packaged losslessly with gzip for GitHub. The restoration script recreates their original CSV files before analysis. Runtime caches and locally installed dependencies are excluded from version control. Source material retains its original terms; this repository does not assign a new blanket data license.
 
-Use the saved sources for exact reproduction. Back up derived outputs before
+Use the saved sources to reproduce the analysis from this snapshot. Dependencies are not version-locked, so output formatting may vary between environments. Back up derived outputs before
 rerunning: the scripts overwrite their generated files. The command block below starts from the repository root, installs dependencies, restores packaged sources, and enters the collection folder. Python must
 have pandas, openpyxl, lxml and pypdf. Notebook execution additionally needs
 matplotlib, nbformat, nbclient, jupyter_client and ipykernel. The notebook builders
@@ -243,3 +243,14 @@ Check validation results for the relevant stage, not a blanket certification:
 The analysis folders also contain notebook_execution.json and independent review
 notes. These document completed checks and their limits, not proof that every
 public source was found or every causal interpretation is established.
+
+## Check a downloaded copy
+
+From the repository root, run these checks with Python 3.10 or later:
+
+```bash
+python scripts/restore_large_sources.py
+python scripts/validate_repository.py
+```
+
+The checks verify compressed-source restoration, README links, all 29 cleaned CSV shapes, saved notebook execution counts, nine evidence hashes, Python syntax, and tracked-file size/cache rules. They do not refresh online sources or establish that policy changes caused the observed trends.
