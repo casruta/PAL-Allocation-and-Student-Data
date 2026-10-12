@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "alberta-pal-evidence",
+      "title": "Alberta PAL allocations and reported issuance",
+      "queries": [
+        {
+          "id": "pal-allocation",
+          "source": {
+            "label": "IRCC PAL allocations",
+            "files": [
+              {
+                "label": "pal_provincial_allocations_2024_2026.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "IRCC PAL allocations",
+                "definition": "Allocation counts planned PAL-required application spaces, not actual recipients."
+              }
+            ],
+            "filters": [
+              "Province: Alberta"
+            ],
+            "caveats": [
+              "Graduate exemptions changed between 2024, 2025 and 2026.",
+              "The 2025 graduate category combines master’s and doctoral students."
+            ]
+          },
+          "reportingPeriod": "2024–2026",
+          "columns": [
+            "year",
+            "application_spaces",
+            "graduate_application_spaces"
+          ],
+          "rows": [
+            {
+              "year": 2024,
+              "application_spaces": 40894,
+              "graduate_application_spaces": null
+            },
+            {
+              "year": 2025,
+              "application_spaces": 47338,
+              "graduate_application_spaces": 5256.0
+            },
+            {
+              "year": 2026,
+              "application_spaces": 32271,
+              "graduate_application_spaces": null
+            }
+          ]
+        },
+        {
+          "id": "pal-issued",
+          "source": {
+            "label": "Official PAL issuance disclosures",
+            "files": [
+              {
+                "label": "alberta_pal_actuals_and_evidence.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Official PAL issuance disclosures",
+                "definition": "Issuance counts letters reported by the provincial portal or institution."
+              }
+            ],
+            "filters": [
+              "Entities: Alberta and University of Lethbridge"
+            ],
+            "caveats": [
+              "Fiscal provincial issuance and calendar institutional issuance have different periods.",
+              "Letters issued do not establish submissions or approvals."
+            ]
+          },
+          "reportingPeriod": "Fiscal 2024–25 and calendar 2024",
+          "columns": [
+            "entity",
+            "period",
+            "metric",
+            "value"
+          ],
+          "rows": [
+            {
+              "entity": "Alberta",
+              "period": "Fiscal 2024-25",
+              "metric": "PALs issued by provincial portal",
+              "value": 26089.0
+            },
+            {
+              "entity": "University of Lethbridge",
+              "period": "2024 (last year in February2025 minutes)",
+              "metric": "PALs issued",
+              "value": 1784.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduate-student-context",
+      "title": "Graduate enrolment by level and Alberta institution",
+      "queries": [
+        {
+          "id": "lers-degree",
+          "source": {
+            "label": "Alberta annual headcount",
+            "files": [
+              {
+                "label": "alberta_degree_enrolment_trend.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Alberta annual headcount",
+                "definition": "Annual headcount covers international students in Alberta reporting institutions’ approved programs."
+              }
+            ],
+            "filters": [
+              "Learner category: International"
+            ],
+            "caveats": [
+              "Enrolment is not PAL or permit receipt.",
+              "Program and institution memberships overlap.",
+              "Reporting changes affect comparisons across years."
+            ]
+          },
+          "reportingPeriod": "Academic 2024–25",
+          "columns": [
+            "program_type",
+            "headcount",
+            "system_headcount"
+          ],
+          "rows": [
+            {
+              "program_type": "Bachelor's",
+              "headcount": 10794,
+              "system_headcount": 50164
+            },
+            {
+              "program_type": "Doctoral",
+              "headcount": 2875,
+              "system_headcount": 50164
+            },
+            {
+              "program_type": "Master's",
+              "headcount": 4747,
+              "system_headcount": 50164
+            }
+          ]
+        },
+        {
+          "id": "psis-degree",
+          "source": {
+            "label": "Statistics Canada PSIS",
+            "files": [
+              {
+                "label": "statcan_degree_by_institution_2024_25.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Statistics Canada PSIS",
+                "definition": "PSIS counts fall-snapshot program enrolments by ISCED equivalent level."
+              }
+            ],
+            "filters": [
+              "Status: International students",
+              "Institution type: Total",
+              "Registration status: Total",
+              "Instructional program: Total",
+              "Gender: Total",
+              "Institutions: Alberta, Calgary and Lethbridge universities"
+            ],
+            "caveats": [
+              "Program enrolments are not unique people or PAL recipients.",
+              "Counts are randomly rounded to three.",
+              "Master’s-equivalent is not MA-only; doctoral-equivalent is not PhD-only."
+            ]
+          },
+          "reportingPeriod": "Fall snapshot 2024–25",
+          "columns": [
+            "geography_and_institutions",
+            "international_standard_classification_of_education_isced",
+            "value"
+          ],
+          "rows": [
+            {
+              "geography_and_institutions": "University of Alberta, Alberta",
+              "international_standard_classification_of_education_isced": "Master's or equivalent",
+              "value": 2058
+            },
+            {
+              "geography_and_institutions": "University of Alberta, Alberta",
+              "international_standard_classification_of_education_isced": "Doctoral or equivalent",
+              "value": 1512
+            },
+            {
+              "geography_and_institutions": "University of Calgary, Alberta",
+              "international_standard_classification_of_education_isced": "Master's or equivalent",
+              "value": 2142
+            },
+            {
+              "geography_and_institutions": "University of Calgary, Alberta",
+              "international_standard_classification_of_education_isced": "Doctoral or equivalent",
+              "value": 909
+            },
+            {
+              "geography_and_institutions": "University of Lethbridge, Alberta",
+              "international_standard_classification_of_education_isced": "Master's or equivalent",
+              "value": 87
+            },
+            {
+              "geography_and_institutions": "University of Lethbridge, Alberta",
+              "international_standard_classification_of_education_isced": "Doctoral or equivalent",
+              "value": 51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "permit-profile",
+      "title": "Permit-effective holders and citizenship profile",
+      "queries": [
+        {
+          "id": "permit-totals",
+          "source": {
+            "label": "IRCC Alberta DLI totals",
+            "files": [
+              {
+                "label": "alberta_postsecondary_permit_effective_totals.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "IRCC Alberta DLI totals",
+                "definition": "Permit-effective holders are people whose study permits became effective during the stated year."
+              }
+            ],
+            "filters": [
+              "Province: Alberta",
+              "Row type: Published province total"
+            ],
+            "caveats": [
+              "This series does not isolate new approvals or current students.",
+              "Values are rounded to five."
+            ]
+          },
+          "reportingPeriod": "Calendar 2024 and 2025",
+          "columns": [
+            "year",
+            "value"
+          ],
+          "rows": [
+            {
+              "year": 2024,
+              "value": 25570
+            },
+            {
+              "year": 2025,
+              "value": 17250
+            }
+          ]
+        },
+        {
+          "id": "citizenship",
+          "source": {
+            "label": "IRCC institution-type citizenship",
+            "files": [
+              {
+                "label": "alberta_citizenship_profile_2025.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "IRCC institution-type citizenship",
+                "definition": "Citizenship share divides a rounded country count by the published institution-type total."
+              }
+            ],
+            "filters": [
+              "Province: Alberta",
+              "Citizenship: India",
+              "Institution types: University and College"
+            ],
+            "caveats": [
+              "Citizenship is not ethnicity, residence or birthplace.",
+              "College and Career College are distinct categories.",
+              "These are not degree-specific PAL recipients."
+            ]
+          },
+          "reportingPeriod": "Calendar 2025",
+          "columns": [
+            "institution_type",
+            "country_of_citizenship",
+            "value",
+            "published_type_total",
+            "share_of_type_pct"
+          ],
+          "rows": [
+            {
+              "institution_type": "College",
+              "country_of_citizenship": "India",
+              "value": 4830.0,
+              "published_type_total": 8840.0,
+              "share_of_type_pct": 54.6380090498
+            },
+            {
+              "institution_type": "University",
+              "country_of_citizenship": "India",
+              "value": 1580.0,
+              "published_type_total": 8075.0,
+              "share_of_type_pct": 19.5665634675
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

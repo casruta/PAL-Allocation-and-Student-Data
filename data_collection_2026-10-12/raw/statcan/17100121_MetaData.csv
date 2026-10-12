@@ -1,0 +1,70 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Estimates of the number of non-permanent residents by type, quarterly","17100121",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710012101",1;2;3;4;5;7;8,"CURRENT - a cube available to the public and that is current","Occasional Daily","2021-07-01","2026-07-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Non-permanent resident types",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Yukon","[60]","12","1","",,
+"1","Northwest Territories","[61]","13","1","",,
+"1","Nunavut","[62]","14","1","",,
+"2","Total, non-permanent residents","","1","","",4;5,
+"2","Total, asylum claimants, protected persons and related groups","","2","1","",4;5;8,
+"2","Asylum claimants, protected persons and related groups with work permit only","","3","2","",4;8,
+"2","Asylum claimants, protected persons and related groups with study permit only","","4","2","",4;8,
+"2","Asylum claimants, protected persons and related groups with work and study permits","","5","2","",4;8,
+"2","Asylum claimants, protected persons and related groups without work or study permits","","6","2","",4;8,
+"2","Total, permit holders and their family members","","7","1","",4;5,
+"2","Work permit holders only","","8","7","",4;5,
+"2","Study permit holders only","","9","7","",4;5,
+"2","Work and study permit holders","","10","7","",4;5,
+"2","Other","","11","7","",4;5;6,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3601","Quarterly Demographic Estimates"
+
+"Subject Code","Subject Name"
+"17","Population and demography"
+
+"Note ID",Note
+1,"The estimates of the number of non-permanent residents are final up to July 1, 2023, updated from October 1, 2023, to April 1, 2026, and preliminary from July 1, 2026."
+2,"A non-permanent resident refers to a person from another country with a usual place of residence in Canada and who has a work or study permit or who has claimed refugee status (asylum claimants, protected persons and related groups). Family members living with work or study permit holders are also included unless these family members are already Canadian citizens, landed immigrants (permanent residents), or non-permanent residents themselves."
+3,"These figures are the result of Statistics Canada's update to the estimation method used to calculate the number of non-permanent residents. Caution must be exercised when comparing this data with previously published products."
+4,"Statistics Canada collaborates closely with Immigration, Refugees and Citizenship Canada (IRCC) and other federal departments to estimate the number of non-permanent residents (NPRs) living in Canada. The demographic estimates from Statistics Canada are updated on an ongoing basis, as new or revised data become available from its partners. Caution should be exercised before comparing data on non-permanent residents from Statistics Canada's Demographic Estimates Program with temporary residents and asylum claimants from IRCC, due to the different objectives of the two data sources."
+5,"The non-permanent resident types are mutually exclusive and are derived in the following order of classification: asylum claimants, protected persons and related groups then permit holders. Consequently, there are no asylum claimants, protected persons and related groups among the permit holders types."
+6,"The non-permanent resident (NPR) type "Other" mainly refers to family members living with permit holders, unless these family members are already Canadian citizens, landed immigrants, or NPRs themselves. The NPR type "Other" also refers to other permit holders (for example, temporary resident permits, formerly known as "Minister's Permits")."
+7,"The Demographic Estimates Program of Statistics Canada is grateful for the ongoing partnership with Immigration, Refugees and Citizenship Canada, which greatly contributes to the accuracy of the estimations of immigrants and non-permanent residents."
+8,"At Statistics Canada, an asylum claimant refers to a foreign national who has made a refugee claim while in Canada on a temporary basis and whose claim is pending decision. Protected person refers to a person who has made a claim in Canada and received a positive decision. For population estimates, protected persons leave this population if they obtain permanent residence. Related groups include those who received a negative decision, or withdrew or abandoned their claim and have not yet regularized their status or departed Canada. Estimates for asylum claimants, protected persons and related groups separately are not available."
+
+"Correction ID","Correction Date","Correction Note"
+"3701","2023-09-28","On September 28, 2023, the reference periods for all quarters were corrected. This correction has no effect on the current estimates.",
+

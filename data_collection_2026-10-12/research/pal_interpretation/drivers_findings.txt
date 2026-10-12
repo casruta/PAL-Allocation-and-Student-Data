@@ -1,0 +1,39 @@
+PAL policy and underuse research, as of 2026-10-12
+Scope: 21 material events; selected timeline rather than a claim to include every operational update. Event dates distinguish effective dates, announcements and retrospective reports.
+
+Interpretation:
+A PAL allocation permits applications; it does not compel admissions, guarantee a permit, or measure arrivals. A university can issue/endorse all its letters yet experience fewer enrolments because some students do not apply, are refused, defer, or do not arrive. These are distinct stages; actual conversion needs linked same-cohort counts.
+
+Strongest Alberta-specific evidence:
+Calgary's January 22, 2025 GAPS minutes report approximately 40% fewer international applications in 2024 and attribute that decline to the visa/PAL process, linking it to inability to exhaust the allocation. This is the university's attribution, not an estimated causal effect. The source does not give an exact PAL numerator or denominator.
+https://www.ucalgary.ca/secretariat/sites/default/files/teams/1/GFC/Standing%20Committee%20Minutes/GAPS/GAPS%20Approved%20Minutes%202025-01-22.pdf
+
+Counterexample:
+Toronto's February 12, 2025 planning paper says all its 2024 allocation was used. It also says uncertainty likely reduced demand despite sufficient PALs. Thus universal university underfill would be false. The paper does not define the processing stage of “used”.
+https://governingcouncil.utoronto.ca/system/files/agenda-items/20250212_PB_03.pdf
+
+Audit-based explanation:
+OAG identifies fewer applications and lower approval yields. Financial thresholds and acceptance-letter verification did not explain the extent of the yield decline. It found unclear financial-document expectations in 23 of 51 sampled refusals. Provinces reported late allocations hampered planning. These observations do not identify causal shares of university PAL underuse. The audit excludes K-12 and uses application-received cohorts; compare neither its yields nor Alberta's forecast attainment directly with PAL utilization.
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-apr-20-2026/oag-report.html
+
+Plausible mechanisms, not demonstrated causal estimates:
+- A new prerequisite and deadlines can disrupt recruitment/application timing.
+- Higher required savings may reduce feasible demand. This cannot be presented as the established primary explanation for refusals.
+- Family work restrictions can change the economics for married applicants, especially shorter masters programs.
+- PGWP eligibility changes affect non-degree and public-private college cohorts differently from university degrees. Do not generalize a college mechanism to all universities.
+- SDS closure changes the application route for affected countries. Closure does not itself establish how many university PAL spaces went unused.
+- Housing and support capacity were stated reasons for reform; this research does not measure housing's contribution to underfill.
+- Graduate exemptions in 2024, inclusion in2025, and public-institution exemption in2026 mechanically change the PAL population. These are not direct measures of changing academic admission standards or student quality.
+
+Useful quotes:
+Calgary and Toronto quotes are in the matrix; use no more than 25 quoted words from each source across the final response. The OAG quote in the matrix is 15 words. OAG findings are not evidence that universities lowered standards.
+
+Source conflicts retained:
+1. Current financial support page labels CAD22895 as Jan1,2025–Aug31,2026. Contemporaneous IRCC QP note IRCC-2025-QP-00030 explicitly dates the change September1,2025. Matrix uses the contemporaneous date and documents the conflict; do not silently rewrite the source.
+2. March22,2024 curriculum licensing notice uses programs beginning on or after May15,2024; current PGWP eligibility page uses after May15. Matrix uses the historical announcement and warns about the exact boundary.
+3. November15,2024 regulations news release was published after the November8 effective date. Matrix uses November8 verified in the IRCC QP note.
+4. OAG source is reproduced in an April20,2026 committee briefing whose HTML metadata shows later publication/update. Matrix explicitly labels briefing date, not original report publication.
+5. 2025 allocation notice contains a national PAL-required expected-permit prose typo (316267 versus table316276). Do not use the prose number.
+6. Initial January2024 headline target approximately360000 differs from later allocation and all-cohort targets. Retain scope and planning stage instead of treating as the same metric.
+
+Audit trail: matrix rows preserve source URL, exact short quote where helpful, event-specific cohort and limitations. Source HTML snapshots/receipt are in raw_timeline if successfully downloaded. No external requests/messages sent.

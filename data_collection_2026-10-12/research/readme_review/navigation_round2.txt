@@ -1,0 +1,39 @@
+EVIDENCE/INTERPRETATION SECTION -- ROTATED ROUND 2
+Reviewer: readme_navigation agent
+Owned candidate: section_2.txt only. Read integrated README and original README.
+
+Evidence checked
+- All six annual Alberta headcounts against annual_enrolment_canada_alberta.csv.
+- Master's 4,747 and doctoral 2,875 against credential/program cleaned rows.
+- Three national and Alberta permit series counts against before/after CSV.
+- Entire 13-row utilization evidence table, including quotations and limitations.
+- Policy-event rows for January 22, 2025 and January 1, 2026.
+- Reviewed scope/definitions against the analysis and annual-outline READMEs.
+
+Comparison scores: accuracy / readability / clarity / formatting
+Original corresponding sections: 8 / 7 / 7 / 7.
+  Generally cautious definitions, but older anchor figures dominate and the
+  original does not orient readers to the later annual, degree and before/after
+  work. Compressed dates and abrupt switches between measures hinder use.
+Round 1 integrated candidate: 9 / 9 / 8 / 9.
+  Verified numbers and restrained interpretation are strong. DLI and PSIS were
+  unexplained, permit-effective was technical shorthand, university comparator
+  names could look like provincial rates, and degree eligibility could be clearer.
+Round 2 revised candidate: 9 / 9 / 9 / 9.
+  Small targeted edits resolve those ambiguities without adding speculative
+  claims or changing underlying figures. No regression found in measures/dates.
+
+Implemented changes
+1. Expand designated learning institution (DLI) and Postsecondary Student
+   Information System (PSIS); explain the permit-effective year in plain language.
+2. Identify comparator universities explicitly so institutional percentages are
+   not mistaken for province-wide utilization.
+3. Specify degree-granting master's/doctoral programs for the 2026 public-DLI
+   exemption, with the certificate/private-institution boundary from saved policy
+   evidence. This is a precision improvement, not a new legal interpretation.
+4. Remove unnecessary uppercase emphasis and fix subject/verb agreement.
+
+Checks of supported inference
+No arrival series invented; no Lethbridge ratio calculated from unmatched dates;
+no causal share assigned to PAL policy; no change to counts or research datasets.
+Scores are editorial A/B comparisons, not observed reader experiment results.

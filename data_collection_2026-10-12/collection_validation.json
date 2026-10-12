@@ -1,0 +1,309 @@
+{
+  "original_sources_obtained": 59,
+  "unavailable_sources": 1,
+  "focus_csv_files": 15,
+  "extracted_csv_files": 44,
+  "raw_bytes": 209761432,
+  "checks": [
+    {
+      "source_id": "ircc_catalogue",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_b505b9bc-d375-4525-af39-afdf25639acf",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_d3702eb4-5ef4-412f-86fd-219e6b8f5fdc",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_a26ab6fd-c51a-4cd2-8da5-77d0ac41fb81",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_b663a97c-61d4-4e17-af51-0cba01ef3a44",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_3897ef92-a491-4bab-b9c0-eb94c8b173ad",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_49417e55-61e6-42bc-a640-856b9986f02a",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_f49cfb41-2dfa-4376-b88e-32f45477c661",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_77b26dc4-d4f3-4f36-9a82-14e9660896be",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_enrolment_catalogue",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_international_enrolment",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "lethbridge_budget_2024",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "calgary_gaps_2025_01_22",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "pal_allocations_2024",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "pal_allocations_2025",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "pal_allocations_2026",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "oag_audit_2026",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_pal_process",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_dli_list",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_annual_report_2024_25",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_current_stock_arrivals",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_psis_release_2024_25",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_preliminary_2025_26",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_37100086_page",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_study_ad_hoc",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ircc_study_processing",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "pal_catalogue",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_37100086_zip",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_17100121_zip",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_17100121_page",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "lethbridge_gfc_2025_02",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "lethbridge_fees_2025_26",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "macewan_gfc_2025_02",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "lethbridge_fall_2025",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "parliament_q58_2025",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "statcan_feasibility_methods",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "athabasca_annual_2025_26",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "macewan_annual_2025_26",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "mru_annual_2025_26",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "alberta_pal_custodian",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "usask_pal_council_2025",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "manitoba_pal_senate_2025",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "mcmaster_pal_2024",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "lethbridge_definitions",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ualberta_enrolment_2024_25",
+      "status": "NOT_OBTAINED",
+      "detail": "curl: (22) The requested URL returned error: 403"
+    },
+    {
+      "source_id": "ati_bulk_summaries",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_2A-2021-02627",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_2A-2021-01634",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_2A-2023-72482",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_2A-2024-39077",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2024-01082",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2024-02010",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2024-48121",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2024-68363",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2025-55557",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2025-83996",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2025-84005",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_1A-2025-15195",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2026-03891",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    },
+    {
+      "source_id": "ati_A-2026-30356",
+      "status": "PASS",
+      "detail": "Checksum, existence and applicable container/PDF checks pass"
+    }
+  ]
+}

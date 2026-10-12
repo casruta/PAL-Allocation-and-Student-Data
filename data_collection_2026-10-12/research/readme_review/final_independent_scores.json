@@ -1,0 +1,14 @@
+{
+  "original_scores": {"accuracy": 7, "readability": 7, "clarity": 6, "formatting": 7},
+  "final_scores": {"accuracy": 9, "readability": 9, "clarity": 9, "formatting": 9},
+  "section_scores": [
+    {"section": 1, "accuracy": 9, "readability": 9, "clarity": 9, "formatting": 9},
+    {"section": 2, "accuracy": 9, "readability": 9, "clarity": 9, "formatting": 9},
+    {"section": 3, "accuracy": 9, "readability": 9, "clarity": 9, "formatting": 9}
+  ],
+  "report_scores": {"accuracy": 9, "readability": 9, "clarity": 9, "formatting": 9},
+  "improved": true,
+  "remaining_required_changes": [],
+  "comparison_is_empirical": false,
+  "readme_sha256": "6f0174384d5efc6e4ad0f39c94c08484ed3ad26513141a6cf63e23e5f8351735"
+}

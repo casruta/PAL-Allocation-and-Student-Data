@@ -1,0 +1,17 @@
+{
+  "comparison": "2023 to 2024, audit application-received cohorts",
+  "applications_change_pct": -54.17735420348397,
+  "approvals_change_pct": -67.25152729422584,
+  "approvals_change": -307131,
+  "volume_component_at_2023_yield": -247422.55891189093,
+  "yield_component_at_2024_volume": -59708.44108810904,
+  "volume_component_share_pct": 80.55929193467638,
+  "yield_component_share_pct": 19.4407080653236,
+  "reverse_order_volume_share_pct": 57.57401667364716,
+  "reverse_order_yield_share_pct": 42.42598332635282,
+  "symmetric_volume_share_pct": 69.06665430416177,
+  "symmetric_yield_share_pct": 30.933345695838213,
+  "identity": "Delta approvals = (A2024-A2023)*r2023 + A2024*(r2024-r2023)",
+  "interpretation": "Sequential accounting decomposition, volume first. Order-dependent; not a causal attribution to PALs or policy changes. Pending decisions can affect yield.",
+  "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-apr-20-2026/oag-report.html"
+}

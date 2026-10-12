@@ -1,0 +1,117 @@
+[
+  {
+    "source_id": "ircc_catalogue",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "ircc_b505b9bc-d375-4525-af39-afdf25639acf",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_d3702eb4-5ef4-412f-86fd-219e6b8f5fdc",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_a26ab6fd-c51a-4cd2-8da5-77d0ac41fb81",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_b663a97c-61d4-4e17-af51-0cba01ef3a44",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_3897ef92-a491-4bab-b9c0-eb94c8b173ad",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_49417e55-61e6-42bc-a640-856b9986f02a",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_f49cfb41-2dfa-4376-b88e-32f45477c661",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "ircc_77b26dc4-d4f3-4f36-9a82-14e9660896be",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 1 sheets"
+  },
+  {
+    "source_id": "alberta_enrolment_catalogue",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "alberta_international_enrolment",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; valid XLSX; 9 sheets"
+  },
+  {
+    "source_id": "lethbridge_budget_2024",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; 3 PDF pages"
+  },
+  {
+    "source_id": "calgary_gaps_2025_01_22",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; 7 PDF pages"
+  },
+  {
+    "source_id": "pal_allocations_2024",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "pal_allocations_2025",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "pal_allocations_2026",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "oag_audit_2026",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "alberta_pal_process",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "alberta_dli_list",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest"
+  },
+  {
+    "source_id": "alberta_annual_report_2024_25",
+    "status": "PASS",
+    "detail": "SHA-256 matches download manifest; 109 PDF pages"
+  },
+  {
+    "source_id": "pal_allocations_2024_sum",
+    "status": "SOURCE_DISCREPANCY",
+    "detail": "Published national total 552095; sum of provincial/territorial rows 552094. Originals preserved."
+  },
+  {
+    "source_id": "pal_allocations_2025_sum",
+    "status": "PASS",
+    "detail": "Published national total 550162; sum of provincial/territorial rows 550162. Originals preserved."
+  },
+  {
+    "source_id": "pal_allocations_2026_sum",
+    "status": "PASS",
+    "detail": "Published national total 309670; sum of provincial/territorial rows 309670. Originals preserved."
+  }
+]

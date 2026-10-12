@@ -1,0 +1,85 @@
+INDEPENDENT PRELIMINARY ANALYSIS REVIEW
+Review date: 2026-10-12 UTC
+Reviewer: separate analysis QA agent; read-only review except this file.
+
+RESULT: Sampled numeric findings and the central interpretation pass. No material
+numeric or cohort-label error found in the reviewed narrative. The final notebook
+and derived tables have been refreshed after the degree extract's unavailable-value
+repair; the focused follow-up checks below pass.
+
+Scope
+- Reviewed scripts/preliminary_analysis.py and scripts/build_analysis_notebook.py,
+  current cleaned/tables outputs, saved workbook/API evidence and notebook outputs.
+- Independently checked raw source cells rather than only trusting derived CSVs.
+- This is a focused review, not independent reproduction of every source download,
+  every historical cell or all newly supplied detailed PSIS dimension slices.
+
+Raw source samples: PASS
+- Alberta LERS, By Credential and Program Type, rows 221/222/223/234:
+  2024-2025 bachelor's 10,794; doctoral 2,875; master's 4,747; system 50,164.
+- IRCC DLI administrative-type workbook, FQ955/FQ956/FQ957:
+  2025 University of Alberta 3,615; Calgary 2,580; Lethbridge 500.
+- IRCC DLI institution-type/citizenship workbook, FQ4051/FQ4086/FQ4360/FQ4399:
+  2025 College China 430 and India 4,830; University China 1,550 and India 1,580.
+- Statistics Canada 37-10-0232 saved raw API responses: independently matched all
+  15 latest-year bachelor's/master's/doctoral values for Canada, Alberta, and the
+  universities of Alberta, Calgary and Lethbridge to the analysis table.
+  Master's/doctoral pairs: Canada 60,054/23,337; Alberta 4,494/2,475;
+  UAlberta 2,058/1,512; UCalgary 2,142/909; ULethbridge 87/51.
+
+Independent arithmetic: PASS
+- Alberta graduate allocation: 5,256 / 47,338 = 11.1031%.
+- National graduate allocation: 120,068 / 550,162 = 21.8241%.
+- Alberta DLI permit-effective change: 17,250 / 25,570 - 1 = -32.5381%.
+- LERS annual system change: 50,164 / 48,311 - 1 = 3.8356%.
+- Age 18-24 share: 30,301 / 50,164 = 60.4039%; age 25-34 = 25.6020%.
+- Four published gender categories sum exactly to the system total 50,164.
+
+Cleaning and interpretation: PASS WITH DOCUMENTED LIMITS
+- Sampled source columns are published annual totals, not sums of monthly counts.
+- Institution file: all 256 suppressed observations remain blank numeric values.
+- Citizenship file: all 1,314 suppressed observations remain blank; composite
+  province/type/citizenship/row-role/year keys are unique.
+- Complete calendar years and January-July 2026 have distinct period labels.
+- The known one-space discrepancy in 2024 PAL provincial totals is retained and
+  classified as a source discrepancy rather than silently adjusted.
+- The 50,606 institutional membership sum is not presented as 50,606 distinct
+  system students, and the 442 excess memberships are not called 442 people.
+- PAL allocations, issuance, submissions, expected permits, effective-year holders,
+  administrative stocks and enrolment are correctly kept separate.
+- Graduate PAL allocation is combined master's/doctoral, not an observed recipient
+  split. Graduate exemption changes make 2024-2026 populations non-equivalent.
+- Master's is not relabelled MA-only; doctoral-equivalent is not relabelled PhD-only.
+- Citizenship is not interpreted as ethnicity, birthplace or country of application.
+- Institution-type denominators and rounded/suppressed country cells prevent an
+  exact mutually exclusive country census; approximate shares are correctly labelled.
+- The wider PSIS files contain overlapping totals and selected statistics. They
+  require filters; summing entire files would be invalid. New detailed slices were
+  not exhaustively reviewed by this QA agent.
+
+Execution and visual inspection
+- Inspected the final executed notebook with nine code cells numbered 1 through 9
+  and zero error outputs; notebook_execution.json agrees.
+- Final validation file has 44 checks: 43 pass and one documented source discrepancy
+  (2024 PAL provincial allocation rows sum one below the printed national total).
+- Visually inspected both saved PNG charts: readable titles, labels and sources;
+  zero baseline; no visible clipping; permit chart describes effective-year holders;
+  degree chart explicitly says these are not PAL recipients.
+
+Degree extraction repair / follow-through
+- An earlier API-derived version represented 163 unavailable observations with
+  incomplete academic-year strings such as 2024/. Producer identified this and
+  has split unavailable observations from the 827 published numeric observations.
+- The separately preserved unavailable-observation file exists. Final refreshed
+  cleaned statcan_international_degree_institution.csv has 827 rows, no missing
+  numeric values, no malformed academic-year labels, and no duplicate
+  academic_year/coordinate keys. The incomplete labels are absent from this
+  deliverable observed-series table. The final refresh follow-through is resolved.
+- The 67 unavailable API coordinates must remain unavailable, not zero; catalogue
+  or API absence does not establish that an institution has no such students.
+
+Research conclusion limit
+The available evidence does not identify a complete Alberta university by degree
+level matrix of actual PAL recipients or study-permit approvals. The degree and
+citizenship data add useful context without filling that gap. Access-to-information
+catalogue summaries are leads; the underlying release packages are not in hand.

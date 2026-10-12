@@ -1,0 +1,32 @@
+SECTION 3 ROUND 1 REVIEW
+Reviewer: readme_repro. Original compared with section_3.txt.
+Metrics are editorial 0-10 judgments, not empirical reader-test results.
+
+Original: accuracy 6; readability 7; clarity 6; formatting 7.
+Candidate: accuracy 9; readability 9; clarity 9; formatting 9.
+
+Evidence inspected: entire original README and rubric; analysis/README.txt;
+analysis/pal_interpretation/README.txt; raw/degree_detail/README.txt;
+collection_validation.json; analysis/validation_checks.json;
+analysis/annual_outline_validation.json; analysis/notebook_execution.json;
+later provenance/receipt headers; script imports, inputs and execution code.
+
+Accuracy improvement: replaced the obsolete universal-manifest and universal-
+validation claims with stage-specific coverage. The original collection check
+covers 59 obtained sources plus one unavailable item; later degree and timeline
+archives have separate provenance. A checksum or readable container is not a
+verification of every source claim. No collection data were modified or fetched.
+
+Readability/formatting improvement: short grouped sections with consistent spaces,
+dated coverage, indented file lists and runnable command lines. Removed compressed
+date/number prose and chronological expansion detail from this segment.
+
+Clarity improvement: documented offline regeneration order, conditional dependency
+on existing degree/evidence inputs, overwrite behavior, notebook kernel creation,
+and network acquisition as a separate operation. Added actual degree-recipient
+and Alberta-arrival gaps, and avoided implying that requested ATI detail exists.
+
+Residual limitation: commands were inspected, not executed during this README-only
+review, to avoid changing derived research files. Runtime dependency portability
+has not been newly tested. Candidate makes no contrary claim. Source-specific
+scope and measure definitions belong in the other README sections.

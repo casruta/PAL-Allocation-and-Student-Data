@@ -1,0 +1,11 @@
+{
+  "analysis/cleaned_file_inventory.csv": "400f05257f967df2cd7560ddec4c3802b017ceb8d8a2cc2d6d402081275042ea",
+  "source_manifest.json": "3f54a9c337748c88346101e8e46669298b8f6394e21bd6006aec1db6832062df",
+  "analysis/validation_checks.json": "55a6ec6471c808d739383f9b259d0a1581857850b9f28c321eefa0b3c8e12657",
+  "analysis/notebook_execution.json": "1b5ff8131af8a9728f43fe55d34f4d110e5925989d843ce68e4f31b69a76178a",
+  "analysis/pal_interpretation/notebook_execution.json": "b4169b54111a86b6420762eb278dc0a69ceb833e8cc9e7129ec457c28e721e40",
+  "analysis/cleaned/annual_enrolment_canada_alberta.csv": "89a315a9a39cb698c35bde9a0a5b061ce6b627a75ecc42f69c813186eb705651",
+  "analysis/cleaned/pal_before_after_event_matrix.csv": "5955b2ae917f6d2ca6111d0d58f8d1286ce4b2ab06213cb1b85615571312443c",
+  "analysis/cleaned/pal_university_utilization_evidence.csv": "fba6909cbc16a9c846aa10d45f9c2ecb66814480d7f0cfbe669d84e57b574df2",
+  "raw/degree_detail/validation.json": "7e1729301a94fc64c5dc3f5200a1f8678d6fd63d38c611638df84c3501d06f4c"
+}

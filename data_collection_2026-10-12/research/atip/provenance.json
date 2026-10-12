@@ -1,0 +1,17 @@
+{
+  "collected_date_utc": "2026-10-12",
+  "source_name": "Completed Access to Information Request Summaries dataset",
+  "publisher": "Treasury Board of Canada Secretariat; summaries submitted by federal institutions",
+  "source_url": "https://open.canada.ca/data/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2/download/ati-all.csv",
+  "landing_url": "https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c",
+  "raw_relative_path": "raw/atip/ati-all.csv",
+  "raw_bytes": 116634003,
+  "raw_sha256": "29f8c5650a83bbddc6bc0f5de537a32fbe79b8554a1e1a2bf54ebe8ebfa3b11c",
+  "raw_rows": 204988,
+  "ircc_completed_2020_onward_rows": 7750,
+  "student_keyword_rows": 592,
+  "pal_keyword_rows": 5,
+  "priority_lead_rows": 14,
+  "filters": "owner_org=cic; completion year >=2020. Broad student and narrow PAL expressions in filter_atip.ps1. Priority IDs manually selected from summaries.",
+  "limitations": "These are request summaries, not the underlying disclosed records. Page counts are disclosure package lengths, never student or PAL counts. Completed year/month is not the data period. All disclosed/part disclosed does not establish that the requested data existed at the requested granularity. No copies requested and no contact initiated."
+}

@@ -1,0 +1,27 @@
+﻿file,rows,notes
+focus_2020_latest\statcan_psis_international_enrolments_2019_2024.csv,214,"Academic 2019/20-2024/25; fall snapshot program enrolments, not unique student headcount. Includes all Canadian provinces and institution types."
+focus_2020_latest\statcan_study_related_resident_estimates_2021_2026.csv,1176,"Usual-resident estimates. Separate study-only, work-and-study and asylum-related categories. Not institutional enrolment."
+focus_2020_latest\ircc_national_new_arrivals_annual_2024_2026.csv,3,New arrivals excluding permit extensions; 2026 January-July only.
+focus_2020_latest\ircc_national_new_student_arrivals_monthly.csv,32,New student arrivals December2023-July2026; excludes asylum claimants and extensions.
+focus_2020_latest\ircc_national_study_permit_stock_monthly.csv,32,"Monthly stock December2023-July2026; includes dual work-study holders, excludes asylum claimants/protected persons/related groups. Different scope from older year-end workbook."
+extracted\statcan_preliminary_estimates_source_table_1.csv,3,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_2.csv,5,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_3.csv,6,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_4.csv,6,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_5.csv,10,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_6.csv,3,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_7.csv,5,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_8.csv,7,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+extracted\statcan_preliminary_estimates_source_table_9.csv,7,Observed and modelled values in one source table. 2024/25 and 2025/26 are preliminary estimates in this May2026 study; observed 2024/25 PSIS later published October2026. Prairies is not Alberta.
+focus_2020_latest\ircc_year_end_permit_holders.csv,335,Focused calendar2020-latest copy; original full-history file retained.
+focus_2020_latest\ircc_permit_effective_year_province_study_level.csv,455,Focused calendar2020-latest copy; original full-history file retained.
+focus_2020_latest\ircc_alberta_institution_permit_effective_year.csv,910,Focused calendar2020-latest copy; original full-history file retained.
+focus_2020_latest\pal_provincial_allocations_2024_2026.csv,42,Focused calendar2020-latest copy; original full-history file retained.
+focus_2020_latest\alberta_enrolment_by_2_digit_cip_code.csv,253,Six complete academic years2019/20-2024/25; reporting changes apply.
+focus_2020_latest\alberta_enrolment_by_age_group.csv,42,Six complete academic years2019/20-2024/25; reporting changes apply.
+focus_2020_latest\alberta_enrolment_by_credential_and_program_type.csv,139,Six complete academic years2019/20-2024/25; reporting changes apply.
+focus_2020_latest\alberta_enrolment_by_field_of_study.csv,78,Six complete academic years2019/20-2024/25; reporting changes apply.
+focus_2020_latest\alberta_enrolment_by_gender.csv,30,Six complete academic years2019/20-2024/25; reporting changes apply.
+focus_2020_latest\alberta_enrolment_by_sector_and_institution.csv,561,Six complete academic years2019/20-2024/25; reporting changes apply.
+extracted\pal_additional_verified_evidence.csv,3,New verified institutional issuance/expected-allocation records; incompatible denominators must not be joined.
+extracted\pal_other_province_institution_evidence.csv,3,"Selected official institution examples, not province-wide or exhaustive. Definitions differ."

@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "university-pal-use",
+      "title": "What proportion of university PAL allocations was used?",
+      "queries": [
+        {
+          "id": "usage-evidence",
+          "source": {
+            "label": "University disclosures",
+            "files": [
+              {
+                "label": "pal_university_utilization_evidence.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "University disclosures",
+                "definition": "Use is retained at the stage reported by each institution: endorsement, issuance or unspecified utilization."
+              }
+            ],
+            "caveats": [
+              "These selected institutions are not a representative sample.",
+              "Calgary and Lethbridge do not have validated same-period numerical utilization rates in the retrieved sources.",
+              "Manitoba is a less-than-50% bound; Toronto is an all-used statement without counts."
+            ]
+          },
+          "reportingPeriod": "2024 activity reported in 2024–2025",
+          "columns": [
+            "entity",
+            "period",
+            "stage",
+            "numerator",
+            "denominator",
+            "display_percentage",
+            "limitation"
+          ],
+          "rows": [
+            {
+              "entity": "University of Toronto",
+              "period": "2024",
+              "stage": "PAL allocation used",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "100.0% (source-reported all allocation used)",
+              "limitation": "PDFpage11 printedreportpage6; counts and precise use stage undefined; 100%use doesnotmean100%arrivalconversion"
+            },
+            {
+              "entity": "University of Calgary",
+              "period": "2024",
+              "stage": "PAL allocation use",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "Not established",
+              "limitation": "No numerical allocation or used count given; stage of use undefined"
+            },
+            {
+              "entity": "University of Calgary",
+              "period": "2024",
+              "stage": "International applications change",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "-40.0% (approximate change reported by institution)",
+              "limitation": "Institution attributes decline to visa/PAL process; not independently estimated causal effect"
+            },
+            {
+              "entity": "University of Lethbridge",
+              "period": "2024 described as last year",
+              "stage": "PALs issued",
+              "numerator": 1784.0,
+              "denominator": null,
+              "display_percentage": "Not established",
+              "limitation": "Not confirmed same period as January22 2024-January21 2025 allocation; does not measure submissions"
+            },
+            {
+              "entity": "University of Lethbridge",
+              "period": "2024-01-22 to 2025-01-21",
+              "stage": "Application allocation",
+              "numerator": null,
+              "denominator": 2687.0,
+              "display_percentage": "Not established",
+              "limitation": "Do not divide calendar2024 issued count by this differently dated allocation to claim utilization"
+            },
+            {
+              "entity": "University of Lethbridge",
+              "period": "Fall2024 discussion",
+              "stage": "PAL submitted applications unknown",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "Not established",
+              "limitation": "307 registrations discussed are not matched denominator/numerator cohort for1784 PALs"
+            },
+            {
+              "entity": "MacEwan University",
+              "period": "2025 expected",
+              "stage": "Expected allocation",
+              "numerator": null,
+              "denominator": 1500.0,
+              "display_percentage": "Not established",
+              "limitation": "Not confirmed allocation and no issuance count"
+            },
+            {
+              "entity": "University of Saskatchewan",
+              "period": "2024 through December3",
+              "stage": "PAL endorsement",
+              "numerator": 1623.0,
+              "denominator": 2958.0,
+              "display_percentage": "54.87% (compatible allocation cohort with partial-period numerator)",
+              "limitation": "1623/2958*100; source calls approximately55% utilization; endorsement not verified IRCCsubmission; not finalyear"
+            },
+            {
+              "entity": "University of Manitoba",
+              "period": "2024",
+              "stage": "PAL use less than half",
+              "numerator": null,
+              "denominator": 7540.0,
+              "display_percentage": "<50.0% (reported bound)",
+              "limitation": "Actual rate strictly below50%; use stage undefined; do not report3770asactual"
+            },
+            {
+              "entity": "McMaster University",
+              "period": "2024 reported May2025",
+              "stage": "PAL issuance",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "90.0% (source-reported percentage)",
+              "limitation": "Absolute denominator unpublished in page; not permitsapproved"
+            },
+            {
+              "entity": "McMaster University",
+              "period": "2024 reported May2025",
+              "stage": "PAL utilization",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "70.0% (source-reported percentage with unclear denominator)",
+              "limitation": "Do not infer70%ofallocationorofissued or multiply90%by70%; definition unavailable"
+            },
+            {
+              "entity": "Alberta",
+              "period": "2024-25 fiscal year",
+              "stage": "PALs issued",
+              "numerator": 26089.0,
+              "denominator": null,
+              "display_percentage": "Not established",
+              "limitation": "Fiscalperiod not calendarallocation; allDLIs notuniversitiesonly; no percentage calculated"
+            },
+            {
+              "entity": "University of Calgary",
+              "period": "2024-12-12 process",
+              "stage": "Admission offer acceptance plus deposit before PAL",
+              "numerator": null,
+              "denominator": null,
+              "display_percentage": "Not established",
+              "limitation": "PAL recipient indicates prior university admission/acceptance at this institution but does not prove federal approval arrival or registration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-after-students",
+      "title": "Student numbers before and after PAL introduction",
+      "queries": [
+        {
+          "id": "annual-counts",
+          "source": {
+            "label": "IRCC national and Alberta series",
+            "files": [
+              {
+                "label": "pal_before_after_annual_counts.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "IRCC national and Alberta series",
+                "definition": "National counts exclude permit extensions; Alberta DLI permit-effective counts include extensions and have different scope."
+              }
+            ],
+            "caveats": [
+              "No comparable public annual Alberta new-arrivals series was located.",
+              "National initial-holder and Alberta DLI counts must not be divided to estimate Alberta’s share of arrivals.",
+              "PAL did not exist before January 22, 2024; missing allocations are not zero.",
+              "2020 was affected by pandemic travel restrictions."
+            ]
+          },
+          "reportingPeriod": "Calendar 2020–2025",
+          "columns": [
+            "year",
+            "canada_holders_excluding_extensions",
+            "alberta_postsecondary_permit_effective_holders",
+            "alberta_pal_application_allocation"
+          ],
+          "rows": [
+            {
+              "year": 2020,
+              "canada_holders_excluding_extensions": 64545,
+              "alberta_postsecondary_permit_effective_holders": 8770,
+              "alberta_pal_application_allocation": null
+            },
+            {
+              "year": 2021,
+              "canada_holders_excluding_extensions": 314180,
+              "alberta_postsecondary_permit_effective_holders": 17640,
+              "alberta_pal_application_allocation": null
+            },
+            {
+              "year": 2022,
+              "canada_holders_excluding_extensions": 395385,
+              "alberta_postsecondary_permit_effective_holders": 20305,
+              "alberta_pal_application_allocation": null
+            },
+            {
+              "year": 2023,
+              "canada_holders_excluding_extensions": 495860,
+              "alberta_postsecondary_permit_effective_holders": 29630,
+              "alberta_pal_application_allocation": null
+            },
+            {
+              "year": 2024,
+              "canada_holders_excluding_extensions": 293260,
+              "alberta_postsecondary_permit_effective_holders": 25570,
+              "alberta_pal_application_allocation": 40894.0
+            },
+            {
+              "year": 2025,
+              "canada_holders_excluding_extensions": 115460,
+              "alberta_postsecondary_permit_effective_holders": 17250,
+              "alberta_pal_application_allocation": 47338.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pal-policy-timeline",
+      "title": "Policy events and graduate allocation interpretation",
+      "queries": [
+        {
+          "id": "events",
+          "source": {
+            "label": "Official policy and institutional records",
+            "files": [
+              {
+                "label": "pal_policy_events_and_drivers.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Official policy and institutional records",
+                "definition": "The timeline distinguishes policy effective dates, announcements and institutional reports."
+              }
+            ],
+            "caveats": [
+              "Verified policy mechanisms do not establish quantified causal effects on admissions.",
+              "Master’s and doctoral PAL coverage changed in 2024, 2025 and 2026.",
+              "The financial-threshold historical-date discrepancy is retained in the detailed matrix."
+            ]
+          },
+          "reportingPeriod": "January 2024–September 2026",
+          "columns": [
+            "date",
+            "event",
+            "affected_cohort",
+            "measured_number",
+            "evidence_strength",
+            "limitations"
+          ],
+          "rows": [
+            {
+              "date": "2024-01-01",
+              "event": "Financial threshold increased; announced December 7 2023",
+              "affected_cohort": "New study permit applicants",
+              "measured_number": "CAD 20635 living expenses plus first-year tuition and travel",
+              "evidence_strength": "Verified policy; demand effect not quantified",
+              "limitations": "Pre-PAL accompanying reform; not proof of lower application demand"
+            },
+            {
+              "date": "2024-01-22",
+              "event": "PAL requirement and two-year cap introduced",
+              "affected_cohort": "Most new college and undergraduate applicants; masters/doctoral and K-12 exempt",
+              "measured_number": "Approximately 360000 initial planned new permits",
+              "evidence_strength": "Verified policy",
+              "limitations": "Initial headline was revised; no six-year PAL series exists; applications already received exempt"
+            },
+            {
+              "date": "2024-02-15",
+              "event": "Longer PGWP available for eligible shorter masters degrees",
+              "affected_cohort": "Masters graduates from programs shorter than two years",
+              "measured_number": "3-year PGWP",
+              "evidence_strength": "Verified policy; demand effect unmeasured",
+              "limitations": "Subject to all other eligibility criteria; a positive incentive alongside restrictions"
+            },
+            {
+              "date": "2024-03-01",
+              "event": "Alberta issues first PALs after February29 institutional allocations",
+              "affected_cohort": "Alberta publicly funded DLIs initially prioritized",
+              "measured_number": "First letters March1; allocations reflect2023permits with modest growth where possible",
+              "evidence_strength": "Verified Alberta annual report",
+              "limitations": "Not evidence of exact applications delayed; initially publicly funded cohort represented over95% of provincial international enrolment per report"
+            },
+            {
+              "date": "2024-03-19",
+              "event": "Initial spouse open-work-permit eligibility restricted",
+              "affected_cohort": "Spouses/common-law partners of international students",
+              "measured_number": "Eligibility limited to graduate degrees; eligible pilots; selected professional degrees",
+              "evidence_strength": "Verified IRCC retrospective policy note",
+              "limitations": "Distinct from additional16-month masters restriction effectiveJanuary21,2025; no measured causal share"
+            },
+            {
+              "date": "2024-04-05",
+              "event": "Final provincial allocations and top-ups published",
+              "affected_cohort": "2024 capped cohorts",
+              "measured_number": "Alberta 40894 application spaces and 24537 expected permits",
+              "evidence_strength": "Verified planning figures",
+              "limitations": "Not actual permits or arrivals; initial Alberta population allocation 45824 was superseded"
+            },
+            {
+              "date": "2024-05-15",
+              "event": "PGWP eligibility removed for new public-private curriculum licensing college cohorts",
+              "affected_cohort": "Students beginning affected college programs",
+              "measured_number": "Implementation accelerated from September 1 to May 15",
+              "evidence_strength": "Verified policy; university impact cannot be generalized",
+              "limitations": "Contemporaneous March22 notice uses on-or-after May15; current eligibility page uses after May15; edge-date discrepancy retained"
+            },
+            {
+              "date": "2024-09-18",
+              "event": "2025 target reduction and wider reforms announced",
+              "affected_cohort": "Study permit applicants; prospective graduate and family cohorts",
+              "measured_number": "437000 permits for 2025",
+              "evidence_strength": "Verified announcement; demand effect plausible",
+              "limitations": "Announcement date; later implementation dates govern; 437000 includes more than PAL-required new arrivals"
+            },
+            {
+              "date": "2024-11-01",
+              "event": "PGWP language and eligible-field rules take effect",
+              "affected_cohort": "Most PGWP applicants; new study applicants to college or shorter non-degree university programs",
+              "measured_number": "CLB7 university graduates; CLB5 college graduates; eligible fields for specified non-degree cohorts",
+              "evidence_strength": "Verified policy; effect on admissions unmeasured",
+              "limitations": "Bachelor/master/doctoral degrees exempt from field restriction; do not claim all university programs lose PGWP"
+            },
+            {
+              "date": "2024-11-08",
+              "event": "DLI-change permit rule and 24-hour off-campus work limit effective",
+              "affected_cohort": "Students changing schools; eligible off-campus workers; DLIs",
+              "measured_number": "24 hours/week during study periods",
+              "evidence_strength": "Verified regulations",
+              "limitations": "November15 news release is publication date; rule is not a measured PAL shortfall cause"
+            },
+            {
+              "date": "2024-11-08",
+              "event": "SDS and Nigeria Student Express closed",
+              "affected_cohort": "Applicants formerly eligible for expedited streams",
+              "measured_number": "14 SDS countries plus Nigeria scheme",
+              "evidence_strength": "Verified policy; net demand effect unmeasured",
+              "limitations": "Earlier eligible applications grandfathered; regular study permit route remains"
+            },
+            {
+              "date": "2025-01-21",
+              "event": "Family open-work-permit eligibility narrowed",
+              "affected_cohort": "Spouses of masters students in shorter programs especially",
+              "measured_number": "Masters program minimum 16 months; doctoral and specified professional programs eligible",
+              "evidence_strength": "Verified policy; demand effect plausible",
+              "limitations": "Not a ban on all student spouses; preserve eligible exceptions"
+            },
+            {
+              "date": "2025-01-22",
+              "event": "2025 PAL scope and cap legally take effect",
+              "affected_cohort": "Masters/doctoral and other in-scope applications; listed exemptions retained",
+              "measured_number": "550162 maximum in-scope applications January22–December31,2025",
+              "evidence_strength": "Verified Canada Gazette ministerial instructions",
+              "limitations": "January24notice is explanatory publication; Jan1–21transition governed by preceding cap instructions"
+            },
+            {
+              "date": "2025-01-22",
+              "event": "Calgary reports prior-year application decline and unused PALs",
+              "affected_cohort": "University of Calgary international applicants in 2024",
+              "measured_number": "Approximately 40% application decline; exact PAL use undisclosed",
+              "evidence_strength": "Institutional attribution; not causal estimate",
+              "limitations": "No numerical institutional utilization rate; meeting reports 2024; anticipated2025graduate split not final allocation"
+            },
+            {
+              "date": "2025-01-24",
+              "event": "2025 provincial allocations published; scope effective January22",
+              "affected_cohort": "Masters/doctoral; most in-Canada applicants; continuing same-DLI same-level renewals exempt",
+              "measured_number": "Alberta 47338 spaces including 5256 graduate; expected 32660 permits",
+              "evidence_strength": "Verified policy and planning figures",
+              "limitations": "Other PAL-required cohort includes more than university undergraduates; graduate spaces combine masters and doctoral"
+            },
+            {
+              "date": "2025-02-12",
+              "event": "Toronto reports all 2024 allocation used",
+              "affected_cohort": "University of Toronto international applicants",
+              "measured_number": "100% as qualitative all-used statement; counts not supplied here",
+              "evidence_strength": "Institutional report",
+              "limitations": "Meaning of used not defined at application/issuance stage; not proof every PAL led to arrival"
+            },
+            {
+              "date": "2025-09-01",
+              "event": "Living-funds threshold adjusted",
+              "affected_cohort": "Study permit applicants outside Quebec",
+              "measured_number": "CAD 22895 excluding tuition/travel",
+              "evidence_strength": "Verified contemporaneous IRCC QP note; contradictory dynamic page",
+              "limitations": "QP note gives Sept1; dynamic financial page later labels Jan1,2025. Use contemporaneous date and preserve discrepancy"
+            },
+            {
+              "date": "2025-11-25",
+              "event": "2026 allocations announced",
+              "affected_cohort": "PAL-required cohorts; all-permit planning includes exempt cohorts",
+              "measured_number": "Alberta 32271 spaces; 21582 expected PAL-required permits; Canada 408000 total permits",
+              "evidence_strength": "Verified planning figures",
+              "limitations": "Expected issuance not actual2026 utilization; 155000 new arrivals and253000 extensions are national planning split"
+            },
+            {
+              "date": "2026-01-01",
+              "event": "Public-DLI masters and doctoral students PAL-exempt again",
+              "affected_cohort": "Degree-granting masters/doctoral programs at public institutions",
+              "measured_number": "No PAL required for eligible cohort",
+              "evidence_strength": "Verified policy",
+              "limitations": "Does not apply to every graduate certificate or private institution; lower PAL counts need not mean fewer graduate admissions"
+            },
+            {
+              "date": "2026-04-20",
+              "event": "OAG findings reproduced in committee briefing",
+              "affected_cohort": "Postsecondary application cohorts through September2025",
+              "measured_number": "Lower volumes and approval yield; 23/51 sampled financial refusals had unclear expected documents",
+              "evidence_strength": "Independent audit finding",
+              "limitations": "Briefing date; not original audit release date. Audit excludes K-12 and tracks application receipt cohorts"
+            },
+            {
+              "date": "2026-09-01",
+              "event": "Latest living-funds threshold applies",
+              "affected_cohort": "Applicants outside Quebec",
+              "measured_number": "CAD 23448 for one person excluding tuition/travel",
+              "evidence_strength": "Verified current official page",
+              "limitations": "Dynamic page; no causal estimate; most collected2026student counts endJuly so predate this event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shortfall-drivers",
+      "title": "Fewer applications and lower approval yield",
+      "queries": [
+        {
+          "id": "audit-outcomes",
+          "source": {
+            "label": "Auditor General study-permit cohorts",
+            "files": [
+              {
+                "label": "audit_new_permit_outcomes.csv"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Auditor General study-permit cohorts",
+                "definition": "Approval yield is approvals divided by applications received in the audit’s post-secondary application cohorts."
+              }
+            ],
+            "caveats": [
+              "This is not university PAL utilization.",
+              "The audit excludes primary and secondary schools and follows application-received cohorts.",
+              "2025 remains partial and includes pending applications.",
+              "The audit did not establish why approval yields fell; a descriptive decomposition is not a causal attribution."
+            ]
+          },
+          "reportingPeriod": "2022–2024 and January–September 2025",
+          "columns": [
+            "year",
+            "applications_received",
+            "applications_approved",
+            "approval_yield_pct",
+            "period_scope"
+          ],
+          "rows": [
+            {
+              "year": 2022,
+              "applications_received": 624627,
+              "applications_approved": 336981,
+              "approval_yield_pct": 53.9491568568,
+              "period_scope": "Full application-received year"
+            },
+            {
+              "year": 2023,
+              "applications_received": 792200,
+              "applications_approved": 456690,
+              "approval_yield_pct": 57.648321131,
+              "period_scope": "Full application-received year"
+            },
+            {
+              "year": 2024,
+              "applications_received": 363007,
+              "applications_approved": 149559,
+              "approval_yield_pct": 41.2000319553,
+              "period_scope": "Full application-received year"
+            },
+            {
+              "year": 2025,
+              "applications_received": 134195,
+              "applications_approved": 50370,
+              "approval_yield_pct": 37.5349305116,
+              "period_scope": "Partial: as of September 2025; about 26,000 pending new applications"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Independent QA, 2026-10-12
+
+Files reviewed initially: audit_new_permit_outcomes.csv; audit_decomposition.json.
+Source: https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cimm-apr-20-2026/oag-report.html
+Source locations: Exhibit3, paragraphs7 and14-18; webverified2026-10-12.
+
+PASS: All four years' applicationsreceived/approved and two forecasts exactly matchExhibit3.2022:624627/336981;2023:792200/456690;2024:363007/149559/348900forecast;2025:134195/50370/255360forecast.2025partialasofSeptember and approximately26000pending accurately labeled. Applicationreceivedcohort and primary/secondary exclusion accurately labeled; not arrivals or PALutilization.
+PASS: Recomputed all approvalyield and forecastattainment percentages.2024yield41.2000%, forecastattainment42.8659%;2025partialyield37.5349%, forecastattainment19.7251%.
+PASS: Recomputed2023-24applicationschange-54.1774%, approvalchange-67.2515%; totaldecline307131. Sequentialvolume-first contributions -247422.5589 and -59708.4411 sum exactly to decline within floatingpoint tolerance.
+INTERPRETATION CAUTION:80.5593%volume and19.4407%yield shares depend materially on ordering. Reverseordering yields57.5740%volume/42.4260%yield. JSON explicitly saysorder-dependent andnoncausal, which is correct. Keep those qualifications prominent ifpercentages appear in narrative; components are accounting identities andcannotidentify PALcausal effects. Pendingdecisions mayaffectyield. No finaldecision-only approvalprobability estimated.
+Matrix/script review completed: scripts/build_pal_matrix.py and analysis/cleaned/pal_before_after_event_matrix.csv (29rows), pluspal_university_utilization_evidence.csv.
+PASS: All six national2020-25 counts independently matched SenateS-32 officialPDFpage4:64545;314180;395385;495860;293260;115460. Source table explicitly excludes extensions and coversallstudy levels. The matrix correctly distinguishes them from Alberta DLIcounts and doesnotlabel provincial figures asarrivals. Source: https://sencanada.ca/media/yzjh5dlm/clrk_tabling_2026-04-02_senate-question-n-32-1_downe_b_e.pdf . Note these arepreliminary December31 2025vintage estimates, roundedto5.
+PASS: Opened originalraw IRCCDLIadministrativetype workbook and checked AlbertaTotal annualcolumns2020-25:8770;17640;20305;29630;25570;17250, plusJanuary-July2026:8505. Matrix matches. Workbookpostsecondary scope preserved; annualtotals copiedrather than monthlycounts summed.
+PASS: 29rows; prePALallocationnotapplicable rather thanzero;2026partialseparate; revised2026nationalarrivalseriesnot silentlyspliced; Manitoba rate rendered<50%bound, notexact50%.
+PASS source/event samples: CalgaryJanuary22 2025disclosure correctly refers to2024underuse and~40%applicationdecline; TorontoFebruary12committee report correctly preserves all2024PALallocationused andunknown use-stage;2026OAGbriefing correctlylabels applicationreceivedcohorts andunknown approval-declinecauses. These were independently checked against primarysources in thisresearchturn.
+Minor improvements communicated: add 'all study levels' to nationalmetriclabel tohighlight K12 inclusion; addallocationURL to annualeventmatrixrows containingPALnumbers (allocationURLisalreadyinannualcounts companion). No material numericalerror found.
+Not assessed in this boundedQA: every timelineeventpolicy detail, notebookexecution/render, or all rawdownloadfreshness. Timelineagent independently verified remainingevents; root handles notebookQA.

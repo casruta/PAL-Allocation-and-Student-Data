@@ -1,0 +1,95 @@
+README IMPROVEMENT REVIEW
+12 October 2026 (UTC)
+
+Document: ../../README.txt, the collection's top-level entry point.
+Baseline: original_README.txt, preserved before editing.
+Current candidate: round3_README.txt, identical to the integrated README.
+
+OBJECTIVE AND METHOD
+The requested objective was repeated agent review, scoring, improvement and
+before/after comparison until accuracy, readability, clarity and formatting each
+reached at least 9/10, with a final independent review.
+
+Three section agents reread the original README. Each initially owned a section:
+1. Purpose, scope and navigation.
+2. Verified figures and interpretation.
+3. Coverage, provenance, gaps, reproduction and validation.
+Ownership rotated in rounds 2 and 3. Every agent therefore reviewed every section,
+compared it with the original, proposed or challenged improvements, and scored the
+revised section. A separate fourth agent performs the final independent review.
+
+This is a rubric-based editorial A/B comparison, not an empirical user experiment.
+There was no random assignment, blinded reader panel or measured reading-time
+study. Scores are judgments tied to recorded defects and checks, not statistical
+estimates. Reviewers sometimes scored the same original section differently;
+scorecard.csv preserves their individual ratings rather than hiding disagreement.
+
+RUBRIC
+Accuracy: source-backed claims, paths, counts, dates, scope and reproducibility.
+Readability: understandable prose, useful ordering and manageable density.
+Clarity: unambiguous definitions, caveats and actions for the reader.
+Formatting: consistent plain-text headings, spacing, lists and path presentation.
+A score of 9 allows minor optional polish but no material defect. A factual defect
+blocks accuracy of 9. The complete rubric and protocol are in rubric.txt.
+
+WHAT CHANGED
+Round 1 rebuilt the stale collection-stage overview around the current analysis.
+It added routes to 29 cleaned CSV files, annual institution/degree distributions,
+two executed notebooks and the PAL event matrix. It replaced universal manifest
+and validation claims with records scoped to each collection stage.
+
+Round 2 challenged each section with a different reviewer. Repairs included an
+inventory link, acronym and file-opening guidance, exact heading references,
+removal of a blanket comparability claim, and precision about degree-granting
+public-DLI graduate exemptions. Reproduction now distinguishes inspected command
+order from evidence of prior successful notebook runs.
+
+Round 3 rotated again. It corrected a substantive geography error: destination-
+based year-end stocks and DLI institution-province tables are different. It also
+clarified stocks, nonadditive headcounts, remaining access failures, and which
+notebook each saved execution count describes.
+
+Scores did not rise automatically. For example, a rotated reviewer rated the
+round 2 interpretation section 8 for accuracy and 8 for clarity because of geographic
+scope. That defect was repaired before the section was rated 9 on both measures.
+Some already-strong sections kept their scores after small refinements.
+
+RESULTS BEFORE FINAL INDEPENDENT REVIEW
+All three sections received 9/10 on each metric in their third-round reviews.
+Nine review records document the complete three-agent by three-section rotation.
+See scorecard.csv and *_round1.txt, *_round2.txt, *_round3.txt for explanations.
+
+Root checks found 43 unique referenced relative paths, all present; the collection
+contains 29 cleaned CSV files. Nine selected evidence files retain their pre-edit
+SHA-256 hashes. The reference inventory's 29 file row counts and both saved notebooks
+were also inspected by a reviewer. These checks do not prove every underlying
+research claim or all raw-source integrity; their scope is recorded explicitly.
+
+The original has 1,574 words and the third-round candidate 1,733 words. The modest
+increase adds current coverage and essential qualifications. Improvement is not
+claimed through shortening alone. The README now organizes those details by the
+questions a reader needs to answer.
+
+Files preserving the comparison:
+  original_README.txt
+  round1_README.txt / round2_README.txt / round3_README.txt
+  roundN_section_1.txt / roundN_section_2.txt / roundN_section_3.txt
+  scorecard.csv and the nine individual review records
+  latest_checks.json / evidence_hashes_before.json / check_readme.py
+
+LIMITATIONS
+The README review did not rerun the analysis pipelines or refresh online sources.
+It inspected scripts, saved results and source records. Prior execution receipts
+are correctly labelled prior evidence. The README can clarify missing PAL data,
+but cannot remove the underlying absence of matched university recipient records.
+
+FINAL INDEPENDENT ASSESSMENT
+The separate final reviewer gives GO: the revised README is materially better.
+Whole-document scores (accuracy/readability/clarity/formatting) improved from
+7/7/6/7 to 9/9/9/9. Each of the three sections independently received 9/9/9/9.
+The final report itself received 9/9/9/9. No required repair remains.
+The reviewer inspected all nine records and confirmed every agent reviewed every
+section. This remains an editorial comparison, not an empirical reader experiment.
+See final_independent_review.txt and final_independent_scores.json for evidence,
+scope, optional polish and the exact reviewed README hash. The review did not
+rerun the research pipelines or certify every underlying source observation.

@@ -1,0 +1,245 @@
+# PAL Allocation and Student Data
+
+IRCC and international students in Canada, with an Alberta focus.
+
+**Research snapshot: 12 October 2026 (UTC)**
+
+## Purpose and scope
+
+This collection brings together official source files, cleaned data and preliminary
+analysis of international students in Canada, with an Alberta focus. It covers
+student numbers, institutions and study levels; provincial attestation letter
+(PAL) allocations; and the available evidence of university PAL issuance and use.
+IRCC is Immigration, Refugees and Citizenship Canada.
+This collection does not provide a complete university PAL-use census or identify individual
+recipients. Allocations, letters, permits, arrivals and enrolments are distinct.
+
+The main window is calendar 2020 onward. The main academic series cover six
+years, 2019-20 through 2024-25. Later institutional reports and estimates are kept
+separate, and January-July 2026 administrative counts are labelled partial-year.
+Original downloads retain longer histories where available. PALs began in 2024;
+earlier PAL years are not applicable, not zero usage.
+
+## Start here: choose your question
+
+CSV files open in spreadsheet applications. GitHub also displays CSV tables and saved Jupyter notebook outputs; download notebooks to run them locally.
+
+### 1. How many students were there each year?
+
+- Start with: [Six-year Canada/Alberta overview](data_collection_2026-10-12/analysis/cleaned/annual_enrolment_canada_alberta.csv).
+- Supporting detail: [By Alberta institution](data_collection_2026-10-12/analysis/cleaned/annual_alberta_enrolment_by_institution.csv), [by study level](data_collection_2026-10-12/analysis/cleaned/annual_alberta_enrolment_by_study_level.csv), [annual and snapshot count outline](data_collection_2026-10-12/analysis/cleaned/annual_student_count_outline.csv), [definitions](data_collection_2026-10-12/analysis/cleaned/ANNUAL_OUTLINE_README.txt).
+
+### 2. What kinds of students, and at which universities?
+
+- Start with: [Executed preliminary analysis](data_collection_2026-10-12/analysis/alberta_ircc_preliminary_analysis.ipynb).
+- Supporting detail: [Degree/institution enrolments](data_collection_2026-10-12/analysis/cleaned/statcan_international_degree_institution.csv), [age/gender/degree](data_collection_2026-10-12/analysis/cleaned/37100163_international_age_gender_degree.csv), [field/degree](data_collection_2026-10-12/analysis/cleaned/37100163_international_field_degree.csv), [institution/field/degree](data_collection_2026-10-12/analysis/cleaned/37100232_international_institution_field_degree.csv).
+
+### 3. Were university PAL allocations used, and what changed?
+
+- Start with: [Executed PAL and timeline analysis](data_collection_2026-10-12/analysis/pal_allocation_admissions_and_timeline.ipynb).
+- Supporting detail: [Event matrix](data_collection_2026-10-12/analysis/cleaned/pal_before_after_event_matrix.csv), [annual before/after counts](data_collection_2026-10-12/analysis/cleaned/pal_before_after_annual_counts.csv), [university utilization evidence](data_collection_2026-10-12/analysis/cleaned/pal_university_utilization_evidence.csv), [detailed guide](data_collection_2026-10-12/analysis/pal_interpretation/README.txt).
+
+The annual overview keeps Alberta annual headcounts separate from Canada/Alberta fall program enrolments. Degree profiles describe enrolments, not identified PAL or study-permit recipients. The PAL analysis discusses possible drivers with limits on causal interpretation.
+
+## Folder guide
+
+| Location | Contents |
+|---|---|
+| [Cleaned data](data_collection_2026-10-12/analysis/cleaned/) | 29 cleaned CSVs; [inventory and row counts](data_collection_2026-10-12/analysis/cleaned_file_inventory.csv) |
+| [Analysis guide](data_collection_2026-10-12/analysis/README.txt) | Definitions and supporting files |
+| [Tables](data_collection_2026-10-12/analysis/tables/) and [figures](data_collection_2026-10-12/analysis/figures/) | Selected outputs |
+| [Main-window extracts](data_collection_2026-10-12/focus_2020_latest/) | Earlier extracts restricted to 2020 onward |
+| [Extracted tables](data_collection_2026-10-12/extracted/) | Source-derived tables, including longer histories |
+| [Raw downloads](data_collection_2026-10-12/raw/) | Original downloads; later additions also have separate archives and receipts |
+| [Research](data_collection_2026-10-12/research/) | Search coverage, access limits and supporting investigations |
+| [Access-to-information leads](data_collection_2026-10-12/research/atip/README.txt) | Completed release leads; only summaries were obtained, not underlying disclosure packages |
+
+For definitions and safe comparisons, read [Rules for interpretation](#rules-for-interpretation) before combining files. For source coverage and unresolved questions, read [Freshness, provenance and remaining gaps](#freshness-provenance-and-remaining-gaps). For rebuilding outputs and checking the evidence, read [Reproduction and validation](#reproduction-and-validation).
+
+## Verified counts and what they mean
+
+### Student enrolment
+
+Alberta's Learner and Enrolment Reporting System (LERS) reports these annual
+international headcounts in its reporting post-secondary system:
+
+| Academic year | International headcount |
+|---|---:|
+| 2019-20 | 28,246 |
+| 2020-21 | 27,028 |
+| 2021-22 | 29,991 |
+| 2022-23 | 37,076 |
+| 2023-24 | 48,311 |
+| 2024-25 | 50,164 |
+
+Source: [analysis/cleaned/annual_enrolment_canada_alberta.csv](data_collection_2026-10-12/analysis/cleaned/annual_enrolment_canada_alberta.csv). These are annual
+enrolments, not arrivals, PAL recipients or permit approvals. In 2024-25, LERS
+reports 4,747 master's and 2,875 doctoral students; see
+[analysis/cleaned/alberta_enrolment_by_credential_and_program_type.csv](data_collection_2026-10-12/analysis/cleaned/alberta_enrolment_by_credential_and_program_type.csv).
+Master's is not MA-only, and doctoral categories are not necessarily PhD-only.
+
+### Permit holders before and after PAL
+
+The national study-permit series excluding extensions reports 495,860 holders
+in 2023, 293,260 in 2024 and 115,460 in 2025. Alberta's post-secondary designated
+learning institution (DLI) series reports 29,630, 25,570 and 17,250 respectively.
+That series counts holders by the year their permit became effective and includes
+extensions. Neither series is the stock of all valid permits at year-end.
+These are different populations: do not compare them as national/provincial
+arrivals or infer PAL's causal effect. No comparable annual Alberta new-arrivals
+series was obtained. Six-year counts and exact definitions are in
+[analysis/cleaned/pal_before_after_annual_counts.csv](data_collection_2026-10-12/analysis/cleaned/pal_before_after_annual_counts.csv); dated policy changes are in
+[analysis/cleaned/pal_before_after_event_matrix.csv](data_collection_2026-10-12/analysis/cleaned/pal_before_after_event_matrix.csv).
+
+### PAL allocations and actual use
+
+Alberta's published application-space allocations are 40,894 (2024), 47,338
+(2025) and 32,271 (2026). The 2025 graduate allocation is 5,256, or 11.1%, for
+master's and doctoral applicants combined. These are planned application spaces,
+not admitted students or approved permits. Source:
+[analysis/cleaned/pal_provincial_allocations_2024_2026.csv](data_collection_2026-10-12/analysis/cleaned/pal_provincial_allocations_2024_2026.csv).
+
+Actual-use evidence remains incomplete:
+
+- Alberta: 26,089 portal-issued PALs in fiscal 2024-25, across DLIs. The annual
+    report states, "the portal issued 26,089 provincial attestation letters"
+    (physical PDF page 58). Fiscal issuance cannot be divided by calendar quotas.
+- Lethbridge: 1,784 PALs issued in 2024. Its 2,687 allocation covers January 22,
+    2024-January 21, 2025; unmatched periods prevent a verified utilization rate.
+- Calgary: reported 2024 underuse without the counts needed for a percentage.
+- Comparators: the University of Saskatchewan endorsed 54.9% of its allocation
+    by December 3, 2024; the University of Manitoba reported less than 50% used;
+    the University of Toronto reported all used. Stages and dates
+    differ, so these are disclosures, not a standardized university ranking.
+
+Quotations, dates, sources and limitations:
+[analysis/cleaned/pal_university_utilization_evidence.csv](data_collection_2026-10-12/analysis/cleaned/pal_university_utilization_evidence.csv).
+
+## Rules for interpretation
+
+1. Separate admission, PAL allocation, issuance, submission, permit approval,
+   permit effectiveness, arrival and enrolment. A person can appear at several
+   stages. Allocation does not reveal actual university or degree recipients.
+2. PAL began January 22, 2024; earlier years are not applicable, not zero.
+   Master's/doctoral applicants were generally exempt in 2024, included from
+   January 22, 2025. From January 1, 2026, students in degree-granting master's
+   and doctoral programs at public DLIs are exempt again. This exemption does
+   not extend to graduate certificates or private DLIs. Other exemptions apply.
+   Changing coverage prevents a like-for-like quota trend.
+3. LERS covers approved programs at publicly funded reporting institutions, not
+   all private colleges or K-12; Banff is excluded. Its international definition
+   includes Student Visa or Other Visa and some refugee/work-permit apprentices.
+   Published headcounts are unique at each aggregation level: 2024-25 institution
+   totals sum to 50,606, versus 50,164 unique system students. Do not sum
+   institutional totals to estimate unique system headcount.
+4. Athabasca's 2024-25 window spans 16 months; NorQuest repeats spring 2024 across
+   adjacent years; MaKami first reports in 2024-25. Check the reporting-change
+   extract before interpreting growth. Statistics Canada's Postsecondary Student
+   Information System (PSIS) instead counts fall-snapshot program enrolments,
+   rounded to three; it is not annual LERS.
+5. IRCC counts are rounded to five; suppressed cells remain blank, not zero.
+   Geography is series-specific: the year-end stock uses intended destination;
+   DLI tables use the institution's province. Neither verifies student residence
+   or attendance. A stock is a count at a date, not a count of new arrivals.
+   Use published annual totals, never sums of months. January-July 2026 is partial.
+   Do not splice older year-end and newer monthly stocks with different scopes.
+6. Source inconsistencies remain documented: 2024 allocation rows sum to 552,094
+   versus published 552,095; the 2025 expected-permit table says 316,276 versus
+   316,267 in prose. Neither approvals versus forecast nor expected permits
+   measure PAL utilization. Observed declines do not establish policy causation.
+
+## Freshness, provenance and remaining gaps
+
+This is a saved research snapshot retrieved on 12 October 2026 (UTC), not a live
+feed. Retrieval dates are not observation dates. Latest coverage varies:
+
+- IRCC monthly files: through July 2026 (latest year is partial); year-end
+    workbook: through 2024. Longer historical series remain in the source files.
+- Alberta annual enrolment: through academic 2024-25.
+- Statistics Canada observed PSIS enrolments: through 2024/25. Separate
+    modelled 2025/26 estimates and selected institutional reports are retained.
+- PAL allocation notices: 2024-2026; eligibility and allocations can change.
+
+Source records are distributed across the collection. Start with
+[source_manifest.csv](data_collection_2026-10-12/source_manifest.csv) (or .json) for the original collection. Later additions have
+separate records:
+
+- [raw/degree_detail/provenance.json](data_collection_2026-10-12/raw/degree_detail/provenance.json)
+- [research/pal_interpretation/baseline_raw/provenance.json](data_collection_2026-10-12/research/pal_interpretation/baseline_raw/provenance.json)
+- [research/pal_interpretation/raw_timeline/download_receipts.json](data_collection_2026-10-12/research/pal_interpretation/raw_timeline/download_receipts.json)
+
+These record source locations and hashes for their respective downloads. CSV
+source columns identify supporting files, cells, tables or pages where supplied.
+No single manifest covers every later addition.
+
+No complete Alberta university-by-year table links allocated spaces, unique
+PALs issued, cancellations/replacements, submitted applications, permit decisions,
+arrivals and registrations. Degree-specific actual PAL recipients and a harmonized
+annual Alberta new-arrivals series remain unavailable in the retrieved evidence.
+Missing means unknown, not zero. The policy matrix documents plausible mechanisms;
+it does not estimate what share of a decline PAL policy caused.
+
+[research/atip/priority_record_leads.csv](data_collection_2026-10-12/research/atip/priority_record_leads.csv) identifies completed disclosure packages,
+including A-2025-84005 for Alberta DLI decisions. Only public summaries were
+obtained, not the released tables; requested fields may not have been supplied.
+The next useful evidence is those packages and matched institution/intake/degree
+records from Alberta's PAL portal. No requests or external messages were sent.
+[data_gaps.csv](data_collection_2026-10-12/data_gaps.csv) records the initial gaps; [analysis/README.txt](data_collection_2026-10-12/analysis/README.txt) and
+[analysis/pal_interpretation/README.txt](data_collection_2026-10-12/analysis/pal_interpretation/README.txt) describe the later analysis gaps.
+
+Search coverage and access failures are recorded in [research/source_coverage_log.csv](data_collection_2026-10-12/research/source_coverage_log.csv)
+and [research/institution_search_log.txt](data_collection_2026-10-12/research/institution_search_log.txt). An indexed University of Alberta report
+returned HTTP 403, and Calgary's interactive dashboard could not be inspected
+without a connected browser. Their unverified figures were not added to the data.
+These access failures do not establish that the information is unavailable.
+
+## Reproduction and validation
+
+The largest raw ATIP CSV and the approximately 64 MiB degree-detail bulk CSV are packaged losslessly with gzip for GitHub. The restoration script recreates their original CSV files before analysis. Runtime caches and locally installed dependencies are excluded from version control. Source material retains its original terms; this repository does not assign a new blanket data license.
+
+Use the saved sources for exact reproduction. Back up derived outputs before
+rerunning: the scripts overwrite their generated files. The command block below starts from the repository root, installs dependencies, restores packaged sources, and enters the collection folder. Python must
+have pandas, openpyxl, lxml and pypdf. Notebook execution additionally needs
+matplotlib, nbformat, nbclient, jupyter_client and ipykernel. The notebook builders
+load `analysis/_dependencies`; the preliminary builder creates the local kernel.
+
+For the existing snapshot, run these offline steps in order. This order was
+checked against script dependencies; the README review did not rerun the pipeline.
+Saved execution records report nine preliminary-analysis and six PAL-interpretation
+notebook code cells, with zero error outputs. These are prior-run records, not a
+fresh-run test.
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/restore_large_sources.py
+cd data_collection_2026-10-12
+python scripts/extract_citizenship.py
+python scripts/build_analysis_notebook.py
+python scripts/build_annual_outline.py
+python scripts/build_pal_interpretation_notebook.py
+```
+
+The first notebook builder runs preliminary_analysis.py to regenerate cleaned
+tables and checks, then executes the notebook. The PAL builder runs
+build_pal_matrix.py and pal_diagnostic_calculations.py, then executes its notebook.
+They use the saved focus extracts, degree files and research evidence tables.
+For rebuilding earlier extracts, run [scripts/extract_tables.py](data_collection_2026-10-12/scripts/extract_tables.py) followed by
+[scripts/extract_extended.py](data_collection_2026-10-12/scripts/extract_extended.py); degree extraction details are in [raw/degree_detail/](data_collection_2026-10-12/raw/degree_detail/).
+
+Acquisition is separate: [scripts/collect_sources.py](data_collection_2026-10-12/scripts/collect_sources.py) and [scripts/extend_collection.py](data_collection_2026-10-12/scripts/extend_collection.py)
+use the network (including curl.exe on Windows). Successful existing downloads
+are skipped. Use a new dated collection for refreshed sources; these scripts are
+not a one-command reconstruction of all later manually researched evidence.
+
+Check validation results for the relevant stage, not a blanket certification:
+
+- [collection_validation.json](data_collection_2026-10-12/collection_validation.json): earlier manifest's 59 obtained sources and one
+    unavailable source; checksum/container checks do not verify every claim.
+- [raw/degree_detail/validation.json](data_collection_2026-10-12/raw/degree_detail/validation.json): 827 numeric API/bulk degree matches.
+- [analysis/validation_checks.json](data_collection_2026-10-12/analysis/validation_checks.json): cleaning checks and retained discrepancies.
+- [analysis/annual_outline_validation.json](data_collection_2026-10-12/analysis/annual_outline_validation.json): annual overview reconciliation.
+- [analysis/pal_interpretation/matrix_validation.json](data_collection_2026-10-12/analysis/pal_interpretation/matrix_validation.json): matrix structure/content.
+
+The analysis folders also contain notebook_execution.json and independent review
+notes. These document completed checks and their limits, not proof that every
+public source was found or every causal interpretation is established.

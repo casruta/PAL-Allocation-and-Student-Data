@@ -1,0 +1,66 @@
+{
+  "psis_rows": 214,
+  "psis_years": [
+    "2019/2020",
+    "2020/2021",
+    "2021/2022",
+    "2022/2023",
+    "2023/2024",
+    "2024/2025"
+  ],
+  "psis_geographies": [
+    "Alberta",
+    "British Columbia",
+    "Canada",
+    "Manitoba",
+    "New Brunswick",
+    "Newfoundland and Labrador",
+    "Nova Scotia",
+    "Ontario",
+    "Prince Edward Island",
+    "Quebec",
+    "Saskatchewan",
+    "Territories"
+  ],
+  "npr_rows": 1176,
+  "npr_periods": [
+    "2021-07-01",
+    "2021-10-01",
+    "2022-01-01",
+    "2022-04-01",
+    "2022-07-01",
+    "2022-10-01",
+    "2023-01-01",
+    "2023-04-01",
+    "2023-07-01",
+    "2023-10-01",
+    "2024-01-01",
+    "2024-04-01",
+    "2024-07-01",
+    "2024-10-01",
+    "2025-01-01",
+    "2025-04-01",
+    "2025-07-01",
+    "2025-10-01",
+    "2026-01-01",
+    "2026-04-01",
+    "2026-07-01"
+  ],
+  "npr_types": [
+    "Asylum claimants, protected persons and related groups with study permit only",
+    "Asylum claimants, protected persons and related groups with work and study permits",
+    "Study permit holders only",
+    "Work and study permit holders"
+  ],
+  "alberta_psis_2024_25": {
+    "Total, institution type": 41007,
+    "University": 19461,
+    "College": 21543
+  },
+  "checks": [
+    "PSIS Canada university266874 and college266508 match October1,2026 official release",
+    "IRCC July2026 national stock590205 matches published page",
+    "Both compressed CSV archives pass ZIP integrity test",
+    "All new PAL evidence quotes verified in original PDF pages"
+  ]
+}

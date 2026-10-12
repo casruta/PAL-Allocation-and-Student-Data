@@ -1,0 +1,78 @@
+FINAL INDEPENDENT README REVIEW
+12 October 2026 UTC | Reviewer: readme_final_judge
+
+Verdict: GO. The final README is materially better than the preserved original.
+No required repair remains. All four metrics meet 9/10 for the whole document
+and for each of its three sections. These are editorial judgments under the
+saved rubric, not empirical A/B reader-test results.
+
+Whole-document scores (accuracy / readability / clarity / formatting):
+  Original: 7 / 7 / 6 / 7
+  Final:    9 / 9 / 9 / 9
+Section scores, same metric order:
+  1. Purpose, scope and navigation: 9 / 9 / 9 / 9
+  2. Verified figures and interpretation: 9 / 9 / 9 / 9
+  3. Coverage, provenance, gaps and reproduction: 9 / 9 / 9 / 9
+
+WHY THE IMPROVEMENT IS REAL
+The original directs readers toward older extracts, calls the work a first
+collection stage, and implies a universal manifest and validation coverage.
+The final document routes annual counts, degree profiles and PAL questions to
+the current analyses. Its source ownership and validation claims now match the
+distributed records. The repaired geography rule distinguishes intended
+destination from DLI location, rather than claiming one definition for all IRCC
+data. Its comparison warnings prevent the most consequential misunderstandings:
+capacity versus recipients, unmatched utilization periods, arrivals versus
+effective permits, changing graduate exemptions, and overlapping headcounts.
+Consistent headings, aligned annual counts and question-based navigation replace
+the original's update chronology and compressed spacing. Added length serves
+these functions; brevity alone is not used as evidence of quality.
+
+INDEPENDENT EVIDENCE EXAMINED
+- Read the full original and current README, rubric, final report, scorecard,
+  and all nine individual review records.
+- Independently checked all 43 paths enumerated by the checker: none missing.
+  Counted 29 actual cleaned CSVs. The current README and round3 snapshot have
+  identical SHA-256 hashes. Inspected the inventory header and sample entries;
+  the earlier section reviewer, not this final review, checked all row counts.
+- Read the six-year annual overview, before/after annual counts and all 13
+  university-use evidence rows. The README's numerical anchors and limitations
+  match those records, including Saskatchewan's partial-year endorsement rate,
+  Manitoba's strict bound and the absent Lethbridge/Calgary rate denominators.
+- Inspected Alberta allocation rows (40,894; 47,338; 32,271), credential rows,
+  the policy matrix's January 22, 2025 effective-date evidence, validation
+  records and both saved notebook execution receipts (9/0 and 6/0 cells/errors).
+- Inspected notebook builder imports, runpy calls, kernel creation and execution
+  directories. The preliminary builder creates the kernel used by the PAL
+  builder. The README accurately calls its command order an inspection, not a
+  freshly executed pipeline test.
+- Reviewed the checker source: it checks selected paths/hashes and does not
+  certify every research claim. Both README and report preserve that boundary.
+
+ROTATION AND REPORT AUDIT
+The scorecard and individual records establish the complete rotation:
+  Navigation agent: sections 1, 2, 3 in rounds 1, 2, 3.
+  Evidence agent:   sections 2, 3, 1 in rounds 1, 2, 3.
+  Reproduction agent: sections 3, 1, 2 in rounds 1, 2, 3.
+Each record contains a comparison, proposed/implemented changes and scores.
+The report correctly describes the geography defect found in the round-2
+candidate during round 3, without pretending all interim candidates passed.
+It preserves reviewer disagreement and correctly disclaims experimental A/B
+testing. Final report quality: accuracy 9, readability 9, clarity 9, formatting 9.
+The pending final-assessment paragraph is replaced with this independent verdict.
+
+OPTIONAL POLISH, NOT A REQUIRED REPAIR
+The first paragraph's 'It does not provide' follows an expansion of IRCC. The
+overall collection context resolves its referent, but 'This collection does not
+provide' would remove that small pronoun ambiguity. It does not change the score
+or invalidate the substantive interpretation. No need to manufacture a fourth
+editing cycle solely to inflate scores.
+
+LIMITS
+No fresh network research, pipeline execution or audit of every raw observation
+was performed. Accuracy here concerns the README's faithful description of the
+saved research and its explicit limitations. The review cannot prove search
+exhaustiveness or identify missing PAL recipients. No research files changed.
+
+Reviewed README SHA-256:
+6f0174384d5efc6e4ad0f39c94c08484ed3ad26513141a6cf63e23e5f8351735

@@ -1,0 +1,9 @@
+{
+  "six_academic_years": true,
+  "annual_outline_keys_unique": true,
+  "no_missing_overview_counts": true,
+  "lers_totals_match_original": true,
+  "institution_rows_match": true,
+  "credential_rows_match": true,
+  "partial_2026_is_labelled": true
+}

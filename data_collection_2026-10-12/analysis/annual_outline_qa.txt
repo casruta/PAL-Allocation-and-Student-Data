@@ -1,0 +1,15 @@
+INDEPENDENT YEARLY OUTLINE QA
+Reviewed: 2026-10-12 UTC
+Result: PASS
+
+- All 6 LERS published system totals match the source table exactly.
+- All 12 Canada/Alberta PSIS totals match source table exactly; share denominator uses PSIS Canada only.
+- annual_alberta_enrolment_by_institution: all 151 published year/detail cells exactly match; no missing cells converted to zero.
+- annual_alberta_enrolment_by_study_level: all 109 published year/detail cells exactly match; no missing cells converted to zero.
+- All 53 outline counts independently matched corresponding source rows. Metric/geography/period keys unique and all source URLs present.
+- 2026 observations explicitly partial January-July or July31 mid-year; no full-year2026 inference. Calendar2020-2025 and academic2019-2020 through2024-2025 correctly distinguished.
+- No mixed-metric sums or invented PAL-recipient counts. Stocks, effective-year flows, PSIS program counts and LERS annual headcounts remain separate.
+- Caveats preserved: institutional/program overlap, PSIS rounding, changing LERS reporting, two permit-stock vintages and post-secondary versus all-study-level scopes.
+
+Reference LERS totals (2019-2020 through2024-2025): 28,246; 27,028; 29,991; 37,076; 48,311; 50,164.
+Scope: review against collected cleaned sources; does not independently re-audit source agencies.

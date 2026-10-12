@@ -1,0 +1,53 @@
+SECTION 3 ROTATION REVIEW - ROUND 2
+Reviewer: readme_evidence agent. Date: 2026-10-12 UTC.
+Scope: freshness, provenance, gaps, reproduction and validation. Only section_3
+and this review record were edited. Read integrated README and original README.
+
+Original scores (accuracy / readability / clarity / formatting): 7 / 8 / 7 / 8.
+Accuracy: original claims all originals passed checks, despite the failed source,
+  and omits provenance of later additions and analysis dependencies. Its older
+  download/extraction commands do not reconstruct the latest analyses.
+Readability: concise but inadequate distinctions between collection and analysis.
+Clarity: does not tell readers how to rebuild current deliverables or locate
+  later validations, and implies a broader verification scope than demonstrated.
+Formatting: recognizable headings, but execution instructions are not grouped.
+
+Round 1 section scores: 9 / 9 / 8 / 9.
+Accuracy: distributed manifests, gaps, scripts and check scope are sound.
+Readability: practical order with short coverage and validation lists.
+Clarity: command dependency inspection versus a fresh pipeline test is unstated;
+  'monthly files: January-July 2026' could imply files lack older observations.
+Formatting: consistent plain text; second acquisition path shortened ambiguously.
+
+Repairs implemented:
+- Latest monthly coverage now says through July 2026, with history retained.
+- Explicitly distinguish inspected command order from fresh execution.
+- Cite saved prior notebook execution counts (9 and 6, both zero errors), without
+  claiming the README review reran or freshly tested the pipeline.
+- Give full relative path scripts/extend_collection.py.
+
+Revised scores: 9 / 9 / 9 / 9.
+All concrete issues above were addressed. Scores are editorial comparisons,
+not an empirical A/B test. No fresh execution is claimed or needed for this
+documentation-only edit; previous execution receipts were read as bounded evidence.
+
+Evidence and verification:
+- Checked 22 named files/directories with Test-Path; all exist: three provenance
+  records, ATIP lead list, gaps, two analysis READMEs, dependencies and kernel,
+  eight extraction/build/acquisition scripts, and five validation documents.
+- Inspected build_analysis_notebook.py: first notebook cell calls
+  preliminary_analysis.py; builder creates kernel using sys.executable and local
+  dependency path. Inspected build_pal_interpretation_notebook.py: calls matrix
+  and diagnostic scripts, then uses existing local kernel.
+- Inspected build_annual_outline.py: reads cleaned data created by preliminary
+  analysis, supporting placement after initial notebook builder.
+- Inspected extract_citizenship.py imports and source; standard-library extraction.
+- Read both notebook_execution.json files: 9/0 and 6/0 code cells/errors.
+- Read collection_validation.json: 59 obtained, one unavailable, matching scope.
+- Inspected all three provenance files: URL/source and SHA-256 records exist;
+  degree provenance also has generated artifacts whose source URL is null.
+- Scope matches existing analysis and PAL interpretation guides. No claim made
+  that saved public ATI summaries contain underlying released data.
+
+Limit: no network research or re-execution, and no revalidation of all raw hashes.
+Those remain separately scoped checks in the cited evidence files.

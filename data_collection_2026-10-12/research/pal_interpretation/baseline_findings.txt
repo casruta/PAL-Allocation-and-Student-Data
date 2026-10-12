@@ -1,0 +1,58 @@
+PRE-PAL BASELINE RESEARCH — 12 October 2026
+
+Scope: Canada and Alberta, 2020–2023 before January 22, 2024 introduction of PAL; selected 2019 and 2024–2026 comparisons. This track does not estimate university utilization.
+
+NEW PRIMARY EVIDENCE
+IRCC reply to Senate question S-32, tabled April 2, 2026, PDF pages 1–4:
+https://sencanada.ca/media/yzjh5dlm/clrk_tabling_2026-04-02_senate-question-n-32-1_downe_b_e.pdf
+Downloaded original, hash, extracted text, reproducible transcription and 21 number checks are in baseline_raw/.
+
+Year | Canada holders excluding extensions | Canada new applications approved | Canada new applications received
+2019 | 243,995 | 252,920 | 425,550
+2020 | 64,545 | 110,345 | 315,760
+2021 | 314,180 | 328,070 | 556,015
+2022 | 395,385 | 411,705 | 713,770
+2023 | 495,860 | 508,865 | 914,250
+2024 | 293,260 | 263,225 | 471,675
+2025 | 115,460 | 109,375 | 262,900
+
+Interpretation: The first column excludes extensions and accompanies discussion of confirmed permits at arrival, making it more relevant to new entry than all permit-effective holders. Retain its exact source label. The data are preliminary, rounded to five, through December 2025. Approvals use decision year; receipts use application year, so dividing approvals by receipts is NOT a cohort approval rate.
+
+Supporting quote (Senate PDF p4, 24 words):
+"A study permit is confirmed and printed by the Canada Border Services Agency (CBSA) at a point of entry upon a student’s arrival in Canada."
+
+Corroborating historical arrival definition: IRCC SOCI briefing September 28, 2023:
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/soci-sept-28-2023/international-students.html
+Quote (16 words): "In 2022, approximately over 396,000 were confirmed (the permit holder arrived in Canada)."
+This older approximate figure is consistent with, but not identical to, the revised Senate 395,385.
+
+CURRENT EXPLICIT NEW-ARRIVALS DASHBOARD (separate vintage)
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/students-workers.html
+Already downloaded: 2024 292,875; 2025 114,975; January–July 2026 28,200.
+Its complete national series starts 2024; December 2023 is a monthly observation only. Do not annualize it. Do not silently splice Senate and current dashboard. Differences for 2024/2025 reflect at least separate publication vintages and potentially scope; harmonization is not proven.
+
+ALBERTA: NO COMPARABLE PUBLIC NEW-ARRIVALS SERIES FOUND
+Targeted official searches for Alberta + new student arrivals; study permits + confirmed + 2023; holders excluding extensions found no usable annual provincial new-arrival table. This is a research gap, not a statement that IRCC does not hold such data. Existing institution permit data include extensions and cannot answer how many students physically arrived.
+
+CONSISTENT BEFORE/AFTER ALBERTA CONTEXT FROM EXISTING WORKBOOKS
+Year | AB all-level permit-effective holders | AB postsecondary DLI permit-effective holders | AB December31 holders (2024 vintage)
+2020 | 12,825 | 8,770 | 27,680
+2021 | 23,740 | 17,640 | 32,440
+2022 | 28,705 | 20,305 | 43,595
+2023 | 42,225 | 29,630 | 62,890
+2024 | 39,615 | 25,570 | 71,545
+2025 | 33,730 | 17,250 | not available in this workbook
+2026 Jan–July | 18,695 | 8,505 | not available in this workbook
+Metric definitions and source URLs are retained in pre_pal_baseline.csv. All-level and postsecondary DLI series have different scope. Year-end stock is not attendance or arrivals. Do not splice old stock with revised monthly stock.
+
+The comparable Alberta all-level permit-effective count increased 47.1% in 2023 versus 2022, fell 6.2% in 2024 versus 2023, and fell 20.1% in 2025 versus 2023. The narrower Alberta postsecondary DLI count fell 41.8% from 2023 to 2025. These are descriptive changes in permit-effective holders, NOT PAL effects or university quota utilization.
+
+ENROLMENT CONTEXT
+Alberta annual reporting headcounts: 2019/20 28,246; 2020/21 27,028; 2021/22 29,991; 2022/23 37,076; 2023/24 48,311; 2024/25 50,164. Academic2023/24 overlaps PAL introduction and must not be labelled wholly pre-PAL. Academic2022/23 is the last fully pre-PAL annual period; fall2023 PSIS snapshot is also pre-PAL (Alberta37,416; Canada572,967). Existing CSV contains all years. Reporting changes (including Athabasca16months in2024/25 and NorQuest spring double-period reporting) limit simple trend attribution.
+
+IMPORTANT MISLEADING SOURCE WORDING
+2024 Annual Report to Parliament says 682,889 permit holders "entered Canada" in2023. Its five-year totals are close to permit-effective series including extensions and are NOT directly comparable with new-arrival measures. Do not use that headline as a count of first/new arrivals. Prefer exact named measures above.
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/annual-report-parliament-immigration-2024.html
+
+VALIDATION
+pre_pal_baseline.csv contains77rows:53existing annual outline rows plus21new Senate rows plus3explicit annual new-arrival rows. Every Senate value is checked against the exact PDF page by the saved script. No new Alberta arrival estimate has been fabricated. Numeric suppression and source-vintage distinctions in the original extracts remain unchanged.

@@ -1,0 +1,9 @@
+pandas
+openpyxl
+lxml
+pypdf
+matplotlib
+nbformat
+nbclient
+jupyter_client
+ipykernel

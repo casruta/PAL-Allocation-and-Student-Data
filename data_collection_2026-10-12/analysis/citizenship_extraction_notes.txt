@@ -1,0 +1,54 @@
+IRCC ALBERTA CITIZENSHIP BY INSTITUTION TYPE: EXTRACTION NOTES
+Source title: Canada - Post-Secondary Study Permit Holders By Designated Learning Institutions' (DLI) Province, DLI Institution Type, and Country of Citizenship, January 2016 - July 2026
+Source URL: https://www.ircc.canada.ca/opendata-donneesouvertes/data/EN_ODP-TR-Study-DLI_PT_Inst_type_COC.xlsx
+Source file: raw/ircc/EN_ODP-TR-Study-DLI_PT_Inst_type_COC.xlsx
+Source sheet: ODP-TR-Study-DLI_PT_Inst_type_C
+SHA-256: 458f9088d06c6c49386e6fac48a37bd71d09c0d860b0457fdc8c1fbd0b9ff65f
+Alberta block: worksheet rows 3902-4507; preceding subtotal is Saskatchewan at row 3901.
+Extracted 4242 observations, 2020-2025 calendar years and January-July 2026.
+Annual columns are the publisher's annual unique totals; months and quarters were NOT summed.
+Seven institution types: Career College, College, Flight School, Language School, Other, Theological School, University.
+University is an institution type, not a degree level. Master's and PhD recipients cannot be separated here.
+Country means citizenship, not birthplace, ethnicity, residence, or country of application.
+The metric is holders whose permits became effective; it is NOT approvals, PAL issuance, enrolment, new arrivals, or a current stock.
+Exact country spellings and raw cell strings are preserved. Suppressed -- and blank cells have blank numeric values; explicit 0 remains zero.
+The workbook says all values between 0 and 5 are --, although it also publishes explicit 0 and 5. Do not infer a precise suppression interval.
+Values are rounded to five. Country sums need not match totals. Published institution-type total is the denominator for that type.
+Do not sum totals across institution types to estimate distinct people; cross-type uniqueness is not established.
+Shares below are approximate descriptive ratios of published rounded country values to the published rounded type total.
+All source-cell values were checked. Every country was independently matched to its next following institution-type subtotal.
+All output keys are unique and each source row has seven year observations.
+
+Publisher footnotes (verbatim stored text):
+Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Dates are shown when the study permit came into effect. 
+— Data are preliminary and subject to change. 
+
+Source: IRCC, July 31, 2026
+
+2025 TOP COUNTRIES AND DENOMINATORS
+University: published total 8,075; source FQ4506.
+  India: 1,580; approx. 19.57%; source FQ4399.
+  China, People's Republic of: 1,550; approx. 19.20%; source FQ4360.
+  Nigeria: 745; approx. 9.23%; source FQ4447.
+  Iran: 550; approx. 6.81%; source FQ4401.
+  Bangladesh: 395; approx. 4.89%; source FQ4338.
+  Pakistan: 245; approx. 3.03%; source FQ4451.
+  Vietnam: 245; approx. 3.03%; source FQ4502.
+  United States of America: 205; approx. 2.54%; source FQ4498.
+  Ghana: 155; approx. 1.92%; source FQ4388.
+  Ukraine: 150; approx. 1.86%; source FQ4495.
+  Sum of numeric published country cells: 7,950; suppressed cells: 60.
+College: published total 8,840; source FQ4187.
+  India: 4,830; approx. 54.64%; source FQ4086.
+  Philippines: 1,020; approx. 11.54%; source FQ4138.
+  Nigeria: 775; approx. 8.77%; source FQ4130.
+  China, People's Republic of: 430; approx. 4.86%; source FQ4051.
+  Vietnam: 265; approx. 3.00%; source FQ4183.
+  Brazil: 190; approx. 2.15%; source FQ4041.
+  Ghana: 115; approx. 1.30%; source FQ4076.
+  Nepal: 100; approx. 1.13%; source FQ4125.
+  Kenya: 90; approx. 1.02%; source FQ4098.
+  Colombia: 65; approx. 0.74%; source FQ4052.
+  Sum of numeric published country cells: 8,720; suppressed cells: 56.
