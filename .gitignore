@@ -1,0 +1,11 @@
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+**/_dependencies/
+**/_kernels/
+**/_matplotlib/
+.venv/
+.validation/
+github-export/
+data_collection_2026-10-12/raw/atip/ati-all.csv
+data_collection_2026-10-12/raw/degree_detail/37100163_international_canada_alberta_2019_latest.csv
