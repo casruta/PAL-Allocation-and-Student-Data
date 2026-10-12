@@ -203,7 +203,7 @@ have pandas, openpyxl, lxml and pypdf. Notebook execution additionally needs
 matplotlib, nbformat, nbclient, jupyter_client and ipykernel. The notebook builders
 load `analysis/_dependencies`; the preliminary builder creates the local kernel.
 
-For the existing snapshot, run these offline steps in order. This order was
+For the existing snapshot, run the commands below in order. Installing dependencies needs network access; the analysis steps use saved sources offline. This order was
 checked against script dependencies; the README review did not rerun the pipeline.
 Saved execution records report nine preliminary-analysis and six PAL-interpretation
 notebook code cells, with zero error outputs. These are prior-run records, not a
@@ -244,9 +244,9 @@ The analysis folders also contain notebook_execution.json and independent review
 notes. These document completed checks and their limits, not proof that every
 public source was found or every causal interpretation is established.
 
-## Check a downloaded copy
+## Check a Git checkout
 
-From the repository root, run these checks with Python 3.10 or later:
+After cloning the repository or checking out the PR, run these checks from the repository root with Git and Python 3.10 or later. The validator requires Git metadata, so use a Git clone rather than a downloaded ZIP:
 
 ```bash
 python scripts/restore_large_sources.py
